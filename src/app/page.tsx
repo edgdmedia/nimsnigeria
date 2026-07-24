@@ -124,8 +124,15 @@ export default function Home() {
             </div>
             
             <div className="relative w-full h-120">
-              <Image src="/assets/photos/INGENIOUS_485.jpg" alt="NIMS 2025 delegates" fill className="object-cover rounded-xl shadow-lg" sizes="(max-width: 768px) 100vw, 50vw" />
-              <div className="absolute -bottom-6 -left-6 bg-brand text-white p-6 rounded-xl shadow-xl max-w-57.5">
+              <video 
+                src="/assets/videos/IMG_0403_web_compressed.mp4" 
+                controls 
+                className="w-full h-full object-cover rounded-xl shadow-lg"
+                poster="/assets/photos/INGENIOUS_485.jpg"
+              >
+                Your browser does not support the video tag.
+              </video>
+              <div className="absolute -bottom-6 -left-6 bg-brand text-white p-6 rounded-xl shadow-xl max-w-57.5 z-10 pointer-events-none">
                 <div className="font-display font-black text-4xl leading-none">2026</div>
                 <div className="text-sm tracking-widest uppercase mt-2 text-white/85">The vision, in execution</div>
               </div>
