@@ -16,14 +16,14 @@ export default function RegistrationPage() {
             <Image src="/assets/nims-logo.png" alt="NIMS" width={60} height={60} className="object-contain" />
           </span>
           
-          <p className="font-display font-bold text-xs tracking-[0.18em] uppercase text-[#79c088] mt-6.5 mb-3">Registration</p>
-          <h1 className="font-display font-black uppercase tracking-tight leading-none text-[52px] m-0">Registration Opens Soon</h1>
+          <p className="font-display font-bold text-xs tracking-widest uppercase text-[#79c088] mt-6.5 mb-3">Registration</p>
+          <h1 className="font-display font-black uppercase tracking-tight leading-none text-5xl m-0">Registration Opens Soon</h1>
           
-          <p className="text-[19px] leading-[1.65] text-white/85 mt-5.5">
+          <p className="text-xl leading-relaxed text-white/85 mt-5.5">
             Delegate registration for <strong>NIMS 2026</strong> will open closer to the summit. Follow our social media channels for registration information, speaker announcements, programme updates, partnership opportunities and other important event news.
           </p>
           
-          <p className="font-display font-bold text-[13px] tracking-[0.16em] uppercase text-white mt-8 mb-4">Follow NIMS</p>
+          <p className="font-display font-bold text-sm tracking-widest uppercase text-white mt-8 mb-4">Follow NIMS</p>
           
           <div className="flex gap-3.5 justify-center">
             <a href="https://linkedin.com/company/nimsnigeria" target="_blank" rel="noopener noreferrer" title="LinkedIn" className="w-13 h-13 rounded-full border border-white/30 flex items-center justify-center font-display font-bold text-white bg-white/5 hover:bg-white/10 transition-colors">in</a>

@@ -59,8 +59,8 @@ export default function GalleryPage() {
         <section className="relative overflow-hidden bg-linear-to-br from-[#16301d] via-[#204027] to-[#2b5533] pt-37.5 px-8 pb-20.5">
           <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none"></div>
           <div className="relative max-w-7xl mx-auto px-5 md:px-8">
-            <p className="font-display font-bold text-xs tracking-[0.18em] uppercase text-[#79c088] mb-3.5">Gallery</p>
-            <h1 className="font-display font-black uppercase tracking-tight leading-[0.98] text-[48px] md:text-[60px] text-white m-0">NIMS 2025 in Pictures</h1>
+            <p className="font-display font-bold text-xs tracking-widest uppercase text-[#79c088] mb-3.5">Gallery</p>
+            <h1 className="font-display font-black uppercase tracking-tight leading-none text-5xl md:text-[60px] text-white m-0">NIMS 2025 in Pictures</h1>
           </div>
         </section>
 
@@ -68,7 +68,7 @@ export default function GalleryPage() {
         <section className="pt-18 pb-22 px-5 bg-surface-alt">
           <div className="max-w-320 mx-auto px-5 md:px-8">
             <div>
-              <h2 className="font-display font-extrabold text-[34px] tracking-tight text-[#204027] m-0">NIMS 2025 in Pictures</h2>
+              <h2 className="font-display font-extrabold text-4xl tracking-tight text-[#204027] m-0">NIMS 2025 in Pictures</h2>
               <div className="w-24 h-1 bg-[#e0912a] my-3.5"></div>
               <p className="text-base text-ink-600 m-0">Highlights from the inaugural summit — State House Banquet Hall, Presidential Villa, Abuja</p>
             </div>
@@ -76,25 +76,25 @@ export default function GalleryPage() {
             <div className="flex gap-7 overflow-x-auto whitespace-nowrap mt-7 border-b border-border pb-1 no-scrollbar">
               <button 
                 onClick={() => setFilter("all")} 
-                className={`font-display font-bold text-[14px] tracking-[0.04em] uppercase py-1.5 px-0.5 border-b-2 transition-colors ${filter === "all" ? "text-accent border-accent" : "text-ink-500 border-transparent hover:text-brand"}`}
+                className={`font-display font-bold text-sm tracking-wider uppercase py-1.5 px-0.5 border-b-2 transition-colors ${filter === "all" ? "text-accent border-accent" : "text-ink-500 border-transparent hover:text-brand"}`}
               >
                 All
               </button>
               <button 
                 onClick={() => setFilter("dignitaries")} 
-                className={`font-display font-bold text-[14px] tracking-[0.04em] uppercase py-1.5 px-0.5 border-b-2 transition-colors ${filter === "dignitaries" ? "text-accent border-accent" : "text-ink-500 border-transparent hover:text-brand"}`}
+                className={`font-display font-bold text-sm tracking-wider uppercase py-1.5 px-0.5 border-b-2 transition-colors ${filter === "dignitaries" ? "text-accent border-accent" : "text-ink-500 border-transparent hover:text-brand"}`}
               >
                 Dignitaries & Guests
               </button>
               <button 
                 onClick={() => setFilter("sessions")} 
-                className={`font-display font-bold text-[14px] tracking-[0.04em] uppercase py-1.5 px-0.5 border-b-2 transition-colors ${filter === "sessions" ? "text-accent border-accent" : "text-ink-500 border-transparent hover:text-brand"}`}
+                className={`font-display font-bold text-sm tracking-wider uppercase py-1.5 px-0.5 border-b-2 transition-colors ${filter === "sessions" ? "text-accent border-accent" : "text-ink-500 border-transparent hover:text-brand"}`}
               >
                 Sessions & Awards
               </button>
               <button 
                 onClick={() => setFilter("exhibition")} 
-                className={`font-display font-bold text-[14px] tracking-[0.04em] uppercase py-1.5 px-0.5 border-b-2 transition-colors ${filter === "exhibition" ? "text-accent border-accent" : "text-ink-500 border-transparent hover:text-brand"}`}
+                className={`font-display font-bold text-sm tracking-wider uppercase py-1.5 px-0.5 border-b-2 transition-colors ${filter === "exhibition" ? "text-accent border-accent" : "text-ink-500 border-transparent hover:text-brand"}`}
               >
                 Innovation Exhibition
               </button>
@@ -113,7 +113,7 @@ export default function GalleryPage() {
                     fill 
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.06]" 
                   />
-                  <span className="absolute inset-x-0 bottom-0 pt-8 pb-3 px-4 bg-gradient-to-t from-black/70 to-transparent text-white text-[13px] font-semibold text-left">
+                  <span className="absolute inset-x-0 bottom-0 pt-8 pb-3 px-4 bg-gradient-to-t from-black/70 to-transparent text-white text-sm font-semibold text-left">
                     {img.caption}
                   </span>
                 </button>

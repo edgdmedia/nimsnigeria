@@ -23,7 +23,7 @@ export function SectionHeading({
         </p>
       )}
       <h2
-        className={`display-heading text-3xl md:text-[42px] lg:text-[56px] leading-[1.05] ${
+        className={`display-heading text-3xl md:text-[42px] lg:text-[56px] leading-tight ${
           onDark ? "text-white" : "text-ink-900"
         }`}
       >

@@ -22,7 +22,7 @@ export function SiteNav({ transparentTop = false }: { transparentTop?: boolean }
 
   const isSolid = !transparentTop || scrolled;
 
-  const baseLinkStyle = "inline-flex items-center gap-1 cursor-pointer whitespace-nowrap px-3 py-2 font-display font-semibold text-[13.5px] uppercase tracking-[0.03em] border-b-2 transition-colors";
+  const baseLinkStyle = "inline-flex items-center gap-1 cursor-pointer whitespace-nowrap px-3 py-2 font-display font-semibold text-sm uppercase tracking-wide border-b-2 transition-colors";
   
   const getLinkStyle = (path: string | string[]) => {
     const isMatch = Array.isArray(path) 
@@ -49,7 +49,7 @@ export function SiteNav({ transparentTop = false }: { transparentTop?: boolean }
     };
   }, [mobileMenuOpen]);
 
-  const mobileLinkStyle = "font-display font-bold text-[19px] text-white py-3 border-b border-white/10 hover:text-accent transition-colors block w-full";
+  const mobileLinkStyle = "font-display font-bold text-xl text-white py-3 border-b border-white/10 hover:text-accent transition-colors block w-full";
   const dropItemStyle = "block px-4 py-2 text-sm font-semibold text-ink-700 hover:text-accent hover:bg-black/5 transition-colors";
 
   return (
@@ -92,7 +92,7 @@ export function SiteNav({ transparentTop = false }: { transparentTop?: boolean }
               onMouseLeave={() => setAboutOpen(false)}
             >
               <Link href="/about" className={getLinkStyle(["/about", "/nims-2025", "/gallery"])}>
-                About <span className="text-[10px] opacity-70 ml-1">▼</span>
+                About <span className="text-xs opacity-70 ml-1">▼</span>
               </Link>
               
               {aboutOpen && (

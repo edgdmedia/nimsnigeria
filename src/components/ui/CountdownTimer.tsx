@@ -42,7 +42,7 @@ export function CountdownTimer({ label, onDark = false }: CountdownTimerProps) {
       <span className="font-display font-black text-2xl leading-none">
         {value.toString().padStart(2, "0")}
       </span>
-      <span className={`text-[10px] uppercase tracking-widest mt-1 font-semibold ${onDark ? "text-white/70" : "text-ink-500"}`}>
+      <span className={`text-xs uppercase tracking-widest mt-1 font-semibold ${onDark ? "text-white/70" : "text-ink-500"}`}>
         {unit}
       </span>
     </div>
@@ -51,7 +51,7 @@ export function CountdownTimer({ label, onDark = false }: CountdownTimerProps) {
   return (
     <div>
       {label && (
-        <div className={`text-[12px] uppercase tracking-[0.14em] font-semibold mb-3 ${onDark ? "text-accent" : "text-accent"}`}>
+        <div className={`text-xs uppercase tracking-widest font-semibold mb-3 ${onDark ? "text-accent" : "text-accent"}`}>
           {label}
         </div>
       )}

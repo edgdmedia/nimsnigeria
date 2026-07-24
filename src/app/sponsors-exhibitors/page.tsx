@@ -22,8 +22,8 @@ export default function SponsorsExhibitorsPage() {
           <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none z-10"></div>
           
           <div className="relative z-20 max-w-7xl mx-auto px-5 md:px-8">
-            <p className="font-display font-bold text-xs tracking-[0.18em] uppercase text-[#79c088] mb-3.5">Sponsors & Exhibitors</p>
-            <h1 className="font-display font-black uppercase tracking-tight leading-[0.99] text-[52px] m-0 text-white max-w-225">Partner with Nigeria's Premier Industrial Workforce Summit</h1>
+            <p className="font-display font-bold text-xs tracking-widest uppercase text-[#79c088] mb-3.5">Sponsors & Exhibitors</p>
+            <h1 className="font-display font-black uppercase tracking-tight leading-none text-5xl m-0 text-white max-w-225">Partner with Nigeria's Premier Industrial Workforce Summit</h1>
             
             <div className="flex flex-wrap gap-3 mt-6.5">
               <span className="inline-flex items-center gap-2 px-4 py-2.5 rounded-md bg-white/10 border border-white/20 text-white font-display font-bold text-sm">
@@ -58,8 +58,8 @@ export default function SponsorsExhibitorsPage() {
               ].map((item, i) => (
                 <div key={i} className="bg-surface-alt border border-border rounded-xl p-8">
                   <div className="w-11 h-1 bg-brand mb-4.5"></div>
-                  <h3 className="font-display font-extrabold text-[19px] m-0 mb-2.5 text-ink-900">{item.title}</h3>
-                  <p className="text-[15.5px] leading-[1.6] text-ink-600 m-0">{item.desc}</p>
+                  <h3 className="font-display font-extrabold text-xl m-0 mb-2.5 text-ink-900">{item.title}</h3>
+                  <p className="text-base leading-relaxed text-ink-600 m-0">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -74,7 +74,7 @@ export default function SponsorsExhibitorsPage() {
                 eyebrow="Exhibition"
                 title="Exhibition Opportunities"
               />
-              <p className="text-[17px] leading-[1.65] text-ink-800 mt-5 mb-6">
+              <p className="text-lg leading-relaxed text-ink-800 mt-5 mb-6">
                 Showcase your products, services and innovations to an audience of professionals and decision-makers actively shaping Nigeria's industrial ecosystem. Exhibitors will have the opportunity to:
               </p>
               <div className="flex flex-col gap-3">
@@ -107,7 +107,7 @@ export default function SponsorsExhibitorsPage() {
         {/* 2025 PARTNERS STRIP */}
         <section className="py-16 px-5 bg-white border-b border-border">
           <div className="max-w-7xl mx-auto text-center px-5 md:px-8">
-            <p className="font-display font-bold text-xs tracking-[0.18em] uppercase text-ink-500 mb-6.5">Trusted by our 2025 partners & exhibitors</p>
+            <p className="font-display font-bold text-xs tracking-widest uppercase text-ink-500 mb-6.5">Trusted by our 2025 partners & exhibitors</p>
             <div className="flex flex-wrap gap-12 items-center justify-center">
               <Image src="/assets/logos/sponsor-itf.png" alt="ITF" width={100} height={50} className="object-contain h-12.5 grayscale opacity-70" />
               <Image src="/assets/logos/sponsor-nsitf.png" alt="NSITF" width={100} height={50} className="object-contain h-12.5 grayscale opacity-70" />
@@ -129,18 +129,18 @@ export default function SponsorsExhibitorsPage() {
               align="center"
               onDark={true}
             />
-            <p className="text-lg leading-[1.65] text-white/85 max-w-160 mx-auto mt-5">
+            <p className="text-lg leading-relaxed text-white/85 max-w-160 mx-auto mt-5">
               Interested in partnering with NIMS 2026? Our team will be happy to discuss sponsorship opportunities, exhibition packages and customised partnership options.
             </p>
             
             <div className="flex flex-wrap gap-4 justify-center mt-9">
               <div className="bg-white/5 border border-white/10 rounded-xl p-6 md:p-8 min-w-65 text-left">
-                <div className="font-display font-bold text-xs tracking-[0.14em] uppercase text-[#79c088]">Email</div>
-                <a href="mailto:info@nimsnigeria.org" className="block text-[19px] font-bold text-white mt-2 hover:text-[#79c088] transition-colors">info@nimsnigeria.org</a>
+                <div className="font-display font-bold text-xs tracking-widest uppercase text-[#79c088]">Email</div>
+                <a href="mailto:info@nimsnigeria.org" className="block text-xl font-bold text-white mt-2 hover:text-[#79c088] transition-colors">info@nimsnigeria.org</a>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-xl p-6 md:p-8 min-w-65 text-left">
-                <div className="font-display font-bold text-xs tracking-[0.14em] uppercase text-[#79c088]">Telephone</div>
-                <div className="mt-2.5 text-white text-[15.5px] leading-[1.7]">
+                <div className="font-display font-bold text-xs tracking-widest uppercase text-[#79c088]">Telephone</div>
+                <div className="mt-2.5 text-white text-base leading-relaxed">
                   Barr. Ghani Arobo — 0806 675 2120<br/>
                   Dr. Shem Ikoojo Ayegba — 0703 209 3508<br/>
                   Dr. Bashir Taiwo — 0806 606 5909

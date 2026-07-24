@@ -28,7 +28,7 @@ export function SiteFooter() {
 
         {/* Explore Links */}
         <div>
-          <h4 className="text-[#79c088] text-[13px] uppercase tracking-[0.16em] mb-4 font-display">Explore</h4>
+          <h4 className="text-[#79c088] text-sm uppercase tracking-widest mb-4 font-display">Explore</h4>
           <div className="flex flex-col gap-3">
             <Link href="/about" className="text-white/80 hover:text-white transition-colors">About NIMS</Link>
             <Link href="/nims-2025" className="text-white/80 hover:text-white transition-colors">NIMS 2025</Link>
@@ -40,7 +40,7 @@ export function SiteFooter() {
 
         {/* Summit Info */}
         <div>
-          <h4 className="text-[#79c088] text-[13px] uppercase tracking-[0.16em] mb-4 font-display">Summit</h4>
+          <h4 className="text-[#79c088] text-sm uppercase tracking-widest mb-4 font-display">Summit</h4>
           <div className="flex flex-col gap-3 text-white/80">
             <span>15–16 October 2026</span>
             <span>State House Banquet Hall,<br/>Presidential Villa, Abuja</span>
@@ -48,7 +48,7 @@ export function SiteFooter() {
           </div>
         </div>
       </div>
-      <div className="border-t border-white/10 py-5 px-5 text-center text-white/55 text-[13px]">
+      <div className="border-t border-white/10 py-5 px-5 text-center text-white/55 text-sm">
         © 2026 National Industrial Manpower Summit. All Rights Reserved.
       </div>
     </footer>
