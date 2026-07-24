@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-green-50: #eef4ef;
+  --color-green-100: #d6e6d9;
+  --color-green-200: #afccb5;
+  --color-green-300: #82b08c;
+  --color-green-400: #569166;
+  --color-green-500: #3f7a4a;
+  --color-green-600: #37703f;
+  --color-green-700: #2b5533;
+  --color-green-800: #204027;
+  --color-green-900: #16301d;
+
+  --color-red-50: #fdecec;
+  --color-red-100: #f9caca;
+  --color-red-200: #f19a9a;
+  --color-red-300: #e86464;
+  --color-red-400: #e13c3c;
+  --color-red-500: #de2222;
+  --color-red-600: #c41c22;
+  --color-red-700: #9d151b;
+
+  --color-ink-900: #141414;
+  --color-ink-800: #1f1f1f;
+  --color-ink-700: #333333;
+  --color-ink-600: #4d4d4d;
+  --color-ink-500: #6b6b6b;
+  --color-ink-400: #9a9a9a;
+  --color-ink-300: #c6c6c6;
+  --color-ink-200: #e3e3e3;
+  --color-ink-100: #f0f1f0;
+  --color-ink-50: #f7f8f7;
+  --color-white: #ffffff;
+
+  --color-amber-400: #f2a93b;
+  --color-amber-500: #e0912a;
+
+  --color-brand: var(--color-green-600);
+  --color-brand-dark: var(--color-green-800);
+  --color-brand-deep: var(--color-green-900);
+  --color-brand-tint: var(--color-green-50);
+  --color-accent: var(--color-red-500);
+  --color-accent-dark: var(--color-red-700);
+
+  --color-text-heading: var(--color-ink-900);
+  --color-text-body: var(--color-ink-800);
+  --color-text-muted: var(--color-ink-500);
+  --color-text-subtle: var(--color-ink-400);
+  --color-text-on-brand: var(--color-white);
+  --color-text-on-dark: var(--color-white);
+  --color-text-link: var(--color-green-600);
+  --color-text-link-hover: var(--color-green-800);
+
+  --color-surface-page: var(--color-white);
+  --color-surface-alt: var(--color-ink-50);
+  --color-surface-card: var(--color-white);
+  --color-surface-brand: var(--color-green-600);
+  --color-surface-dark: var(--color-green-900);
+  --color-surface-inverse: var(--color-ink-900);
+
+  --color-border: var(--color-ink-200);
+  --color-border-strong: var(--color-ink-300);
+  --color-border-brand: var(--color-green-600);
+
+  --font-display: var(--font-display-family);
+  --font-body: var(--font-body-family);
+  --font-mono: var(--font-mono-family);
+
+  --radius-none: 0;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 18px;
+  --radius-pill: 999px;
+
+  --shadow-xs: 0 1px 2px rgba(20,20,20,.06);
+  --shadow-sm: 0 1px 3px rgba(20,20,20,.10), 0 1px 2px rgba(20,20,20,.06);
+  --shadow-md: 0 4px 12px rgba(20,20,20,.10), 0 2px 4px rgba(20,20,20,.06);
+  --shadow-lg: 0 12px 28px rgba(20,20,20,.14), 0 4px 10px rgba(20,20,20,.08);
+  --shadow-brand: 0 12px 28px rgba(43,85,51,.28);
+}
+
+@layer components {
+  .section-shell {
+    @apply px-5 py-14 md:px-6 lg:px-8 lg:py-24;
+  }
+
+  .kicker {
+    @apply text-[12px] font-bold uppercase tracking-[0.14em] text-accent;
+  }
+
+  .display-heading {
+    font-family: var(--font-display);
+    @apply font-black tracking-[-0.03em];
+  }
+}
