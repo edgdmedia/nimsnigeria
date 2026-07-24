@@ -24,19 +24,20 @@ export default function Home() {
             />
           </div>
           
-          <div className="absolute inset-0 z-10 bg-gradient-to-br from-brand-deep/90 via-brand-dark/80 to-brand/80"></div>
+          <div className="absolute inset-0 z-10 bg-linear-to-br from-brand-deep/90 via-brand-dark/80 to-brand/80"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none z-10"></div>
           
           <div className="relative z-20 max-w-7xl mx-auto px-5 md:px-8 w-full pt-16 pb-24">
-            <div className="max-w-[1000px]">
-              <h1 className="font-display font-black uppercase tracking-tight leading-[0.98] text-5xl md:text-6xl text-white">
+            <div className="max-w-250">
+              <h1 className="font-display font-black uppercase tracking-tight leading-none text-5xl md:text-6xl text-white">
                 National Industrial Manpower Summit <span className="text-accent">2026</span>
               </h1>
             </div>
             
             <div className="flex flex-col lg:grid lg:grid-cols-[1fr_1.04fr] gap-8 lg:gap-14 items-center mt-6 lg:mt-14">
               <div className="w-full">
-                <p className="text-[15px] lg:text-lg leading-relaxed text-white/90 mb-2 lg:mb-8">
-                  <span className="font-display font-bold tracking-widest text-[11px] lg:text-xs uppercase text-[#79c088] block mb-1.5 lg:mb-2">Theme</span>
+                <p className="text-base lg:text-lg leading-relaxed text-white/90 mb-2 lg:mb-8">
+                  <span className="font-display font-bold tracking-widest text-xs lg:text-xs uppercase text-[#79c088] block mb-1.5 lg:mb-2">Theme</span>
                   Unlocking Nigeria's Human Capital for Industrial Transformation: Building Skills, Driving Innovation and Creating Prosperity
                 </p>
                 
@@ -52,15 +53,15 @@ export default function Home() {
                       className="absolute inset-0 w-full h-full border-0"
                     ></iframe>
                   </div>
-                  <div className="absolute z-20 -bottom-3 -left-3 bg-accent text-white px-3 py-2 rounded-md shadow-lg font-display font-extrabold text-[10px] tracking-widest uppercase">
+                  <div className="absolute z-20 -bottom-3 -left-3 bg-accent text-white px-3 py-2 rounded-md shadow-lg font-display font-extrabold text-xs tracking-widest uppercase">
                     Relive NIMS 2025
                   </div>
                 </div>
                 
-                <div className="flex flex-col md:flex-row md:items-center gap-2.5 md:gap-4 md:px-5 md:py-4 rounded-lg md:bg-white/10 md:border md:border-white/20 text-white font-display font-bold text-[13.5px] lg:text-[14px] tracking-wide w-full">
+                <div className="flex flex-col md:flex-row md:items-center gap-2.5 md:gap-4 md:px-5 md:py-4 rounded-lg md:bg-white/10 md:border md:border-white/20 text-white font-display font-bold text-sm lg:text-[14px] tracking-wide w-full">
                   <span className="flex items-center gap-2.5 p-3 rounded-lg bg-white/10 border border-white/20 md:bg-transparent md:border-0 md:p-0 w-full md:w-auto"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#79c088] shrink-0"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg> 15–16 October 2026</span>
                   <span className="w-1.5 h-1.5 rounded-full bg-white/30 hidden md:block shrink-0"></span>
-                  <span className="flex items-start gap-2.5 p-3 rounded-lg bg-white/10 border border-white/20 md:bg-transparent md:border-0 md:p-0 w-full md:w-auto leading-[1.4]"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#79c088] shrink-0 mt-[2px] md:mt-0"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> <span>State House Banquet Hall,<br className="md:hidden"/> Presidential Villa, Abuja</span></span>
+                  <span className="flex items-start gap-2.5 p-3 rounded-lg bg-white/10 border border-white/20 md:bg-transparent md:border-0 md:p-0 w-full md:w-auto leading-snug"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#79c088] shrink-0 mt-0.5 md:mt-0"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> <span>State House Banquet Hall,<br className="md:hidden"/> Presidential Villa, Abuja</span></span>
                 </div>
                 
                 <div className="mt-8 hidden md:block">
@@ -85,7 +86,7 @@ export default function Home() {
                     className="absolute inset-0 w-full h-full border-0"
                   ></iframe>
                 </div>
-                <div className="absolute z-20 -bottom-4 -left-4 lg:-bottom-6 lg:-left-6 bg-accent text-white px-5 py-3 rounded-lg shadow-lg font-display font-extrabold text-[13px] tracking-widest uppercase">
+                <div className="absolute z-20 -bottom-4 -left-4 lg:-bottom-6 lg:-left-6 bg-accent text-white px-5 py-3 rounded-lg shadow-lg font-display font-extrabold text-sm tracking-widest uppercase">
                   Relive NIMS 2025
                 </div>
               </div>
@@ -96,14 +97,14 @@ export default function Home() {
         {/* TRUST BAR SECTION */}
         <section className="bg-surface-alt border-b border-border py-12 px-5">
           <div className="max-w-7xl mx-auto text-center">
-            <p className="font-display font-bold text-xs tracking-[0.18em] uppercase text-ink-500 m-0">Convened by</p>
-            <p className="text-base text-ink-700 max-w-[820px] mx-auto mt-3 leading-relaxed">Office of the Senior Special Assistant to the President on Industrial Training and Development, Federal Republic of Nigeria</p>
+            <p className="font-display font-bold text-xs tracking-widest uppercase text-ink-500 m-0">Convened by</p>
+            <p className="text-base text-ink-700 max-w-205 mx-auto mt-3 leading-relaxed">Office of the Senior Special Assistant to the President on Industrial Training and Development, Federal Republic of Nigeria</p>
             
             <div className="flex flex-wrap gap-12 items-center justify-center mt-8 opacity-90">
-              <Image src="/assets/logos/sponsor-itf.png" alt="ITF" width={100} height={52} className="object-contain h-[52px] grayscale opacity-75" />
-              <Image src="/assets/logos/sponsor-nsitf.png" alt="NSITF" width={100} height={52} className="object-contain h-[52px] grayscale opacity-75" />
-              <Image src="/assets/logos/sponsor-boi.png" alt="BOI" width={100} height={52} className="object-contain h-[52px] grayscale opacity-75" />
-              <Image src="/assets/logos/ggg-1.png" alt="Partner" width={100} height={52} className="object-contain h-[52px] grayscale opacity-75" />
+              <Image src="/assets/logos/sponsor-itf.png" alt="ITF" width={100} height={52} className="object-contain h-13 grayscale opacity-75" />
+              <Image src="/assets/logos/sponsor-nsitf.png" alt="NSITF" width={100} height={52} className="object-contain h-13 grayscale opacity-75" />
+              <Image src="/assets/logos/sponsor-boi.png" alt="BOI" width={100} height={52} className="object-contain h-13 grayscale opacity-75" />
+              <Image src="/assets/logos/ggg-1.png" alt="Partner" width={100} height={52} className="object-contain h-13 grayscale opacity-75" />
             </div>
           </div>
         </section>
@@ -122,11 +123,11 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="relative">
-              <Image src="/assets/photos/INGENIOUS_485.jpg" alt="NIMS 2025 delegates" width={600} height={480} className="w-full h-[480px] object-cover rounded-xl shadow-lg" />
-              <div className="absolute -bottom-6 -left-6 bg-brand text-white p-6 rounded-xl shadow-xl max-w-[230px]">
+            <div className="relative w-full h-120">
+              <Image src="/assets/photos/INGENIOUS_485.jpg" alt="NIMS 2025 delegates" fill className="object-cover rounded-xl shadow-lg" sizes="(max-width: 768px) 100vw, 50vw" />
+              <div className="absolute -bottom-6 -left-6 bg-brand text-white p-6 rounded-xl shadow-xl max-w-57.5">
                 <div className="font-display font-black text-4xl leading-none">2026</div>
-                <div className="text-[13px] tracking-widest uppercase mt-2 text-white/85">The vision, in execution</div>
+                <div className="text-sm tracking-widest uppercase mt-2 text-white/85">The vision, in execution</div>
               </div>
             </div>
           </div>
@@ -135,7 +136,7 @@ export default function Home() {
         {/* STATS SECTION */}
         <section className="section-shell bg-surface-alt">
           <div className="max-w-7xl mx-auto">
-            <div className="max-w-[820px] mx-auto text-center">
+            <div className="max-w-205 mx-auto text-center">
               <SectionHeading 
                 eyebrow="NIMS 2025 at a Glance"
                 title="Building on a Strong Foundation"
@@ -170,19 +171,19 @@ export default function Home() {
 
         {/* QUOTE BANNER */}
         <section className="relative py-32 px-8">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#10301d]/82 to-[#10301d]/86 z-10"></div>
+          <div className="absolute inset-0 bg-linear-to-br from-[#10301d]/82 to-[#10301d]/86 z-10"></div>
           <Image 
             src="/assets/photos/p368.jpg" 
             alt="Networking" 
             fill 
             className="object-cover object-center fixed z-0" 
           />
-          <div className="relative z-20 max-w-[1000px] mx-auto text-center text-white">
+          <div className="relative z-20 max-w-250 mx-auto text-center text-white">
             <div className="font-display text-8xl leading-none text-accent font-black">"</div>
-            <p className="font-display font-bold text-4xl leading-[1.28] tracking-tight m-0">
+            <p className="font-display font-bold text-4xl leading-snug tracking-tight m-0">
               We are no longer introducing the concept. We are executing the vision.
             </p>
-            <p className="mt-7 text-base tracking-[0.04em] text-white/80">
+            <p className="mt-7 text-base tracking-wider text-white/80">
               — Hon. Adamson Ayinde, Senior Special Assistant to the President on Industrial Training & Development
             </p>
           </div>
@@ -191,12 +192,12 @@ export default function Home() {
         {/* NIMS 2026 */}
         <section id="programme" className="section-shell bg-white">
           <div className="max-w-7xl mx-auto">
-            <div className="max-w-[820px]">
+            <div className="max-w-205">
               <SectionHeading 
                 eyebrow="From Dialogue to Action"
                 title="NIMS 2026"
               />
-              <p className="text-lg leading-[1.7] text-ink-800 mt-6">
+              <p className="text-lg leading-relaxed text-ink-800 mt-6">
                 This year's summit builds on the momentum of the inaugural edition with a stronger focus on implementation, collaboration and measurable impact. Under the theme <strong>"Unlocking Nigeria's Human Capital for Industrial Transformation,"</strong> NIMS 2026 will explore practical strategies for developing the workforce needed to support industrialisation, innovation and long-term economic prosperity.
               </p>
             </div>
@@ -211,8 +212,8 @@ export default function Home() {
                   <div className="w-11 h-11 rounded-lg bg-[#eef4ef] text-brand flex items-center justify-center font-display font-black text-xl">
                     {item.num}
                   </div>
-                  <h3 className="font-display font-extrabold text-[21px] mt-5 mb-2.5 text-ink-900">{item.title}</h3>
-                  <p className="text-base leading-[1.6] text-ink-600 m-0">{item.desc}</p>
+                  <h3 className="font-display font-extrabold text-xl mt-5 mb-2.5 text-ink-900">{item.title}</h3>
+                  <p className="text-base leading-relaxed text-ink-600 m-0">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -228,14 +229,14 @@ export default function Home() {
         {/* SPEAKERS COMING SOON */}
         <section id="speakers" className="section-shell bg-[#16301d] relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none"></div>
-          <div className="relative max-w-[1000px] mx-auto text-center text-white">
+          <div className="relative max-w-250 mx-auto text-center text-white">
             <SectionHeading 
               eyebrow="Speakers"
               title="Distinguished Voices, Coming Soon"
               align="center"
               onDark={true}
             />
-            <p className="text-lg leading-[1.7] text-white/85 max-w-[720px] mx-auto mt-6">
+            <p className="text-lg leading-relaxed text-white/85 max-w-180 mx-auto mt-6">
               We're curating a distinguished lineup of national and international speakers for NIMS 2026. Confirmed speakers will be announced in the lead-up to the summit. In the meantime, explore the leaders, policymakers and industry experts who contributed to the success of our inaugural summit.
             </p>
             <div className="mt-8">
@@ -247,18 +248,18 @@ export default function Home() {
         {/* PARTNER CTA */}
         <section id="partner" className="section-shell bg-white">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div className="relative">
-              <Image src="/assets/photos/p208.jpg" alt="NIMS 2025 partnership" width={600} height={440} className="w-full h-[440px] object-cover rounded-xl shadow-xl" />
+            <div className="relative w-full h-110">
+              <Image src="/assets/photos/p208.jpg" alt="NIMS 2025 partnership" fill className="object-cover rounded-xl shadow-xl" sizes="(max-width: 768px) 100vw, 50vw" />
             </div>
             <div>
               <SectionHeading 
                 eyebrow="Partnership"
                 title="Partner With NIMS"
               />
-              <p className="text-lg leading-[1.7] text-ink-800 mt-6">
+              <p className="text-lg leading-relaxed text-ink-800 mt-6">
                 NIMS provides organisations with a unique opportunity to engage directly with policymakers, industry leaders, investors, development partners and the wider industrial ecosystem.
               </p>
-              <p className="text-lg leading-[1.7] text-ink-800 mt-4">
+              <p className="text-lg leading-relaxed text-ink-800 mt-4">
                 Whether you're looking to showcase innovation, build strategic relationships or support workforce development, NIMS offers meaningful partnership opportunities with lasting national impact.
               </p>
               <div className="mt-8">
@@ -270,13 +271,13 @@ export default function Home() {
 
         {/* FOLLOW / STAY CONNECTED */}
         <section className="py-24 px-5 bg-surface-alt border-t border-border">
-          <div className="max-w-[760px] mx-auto text-center">
+          <div className="max-w-190 mx-auto text-center">
             <SectionHeading 
               eyebrow="Stay Connected"
               title="The Journey to NIMS 2026 Has Begun"
               align="center"
             />
-            <p className="text-lg leading-[1.7] text-ink-800 mt-5">
+            <p className="text-lg leading-relaxed text-ink-800 mt-5">
               Follow NIMS for speaker announcements, programme updates, partnership opportunities and the latest news as we count down to this year's summit.
             </p>
             <div className="flex gap-3.5 justify-center mt-7">

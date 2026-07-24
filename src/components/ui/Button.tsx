@@ -21,9 +21,9 @@ interface ButtonProps {
 
 export function Button({ href, children, variant = "primary", className, size = "md" }: ButtonProps) {
   const sizeClasses = {
-    sm: "px-4 py-2 text-[14px]",
-    md: "px-6 py-3 text-[15.5px]",
-    lg: "px-8 py-3.5 text-[17px]",
+    sm: "px-4 py-2 text-sm",
+    md: "px-6 py-3 text-base",
+    lg: "px-8 py-3.5 text-lg",
   };
 
   return (

@@ -38,11 +38,11 @@ export function CountdownTimer({ label, onDark = false }: CountdownTimerProps) {
   }, [targetDate]);
 
   const Item = ({ value, unit }: { value: number; unit: string }) => (
-    <div className={`flex flex-col items-center justify-center p-3 rounded-lg border ${onDark ? "bg-white/10 border-white/20 text-white" : "bg-white border-border text-ink-900 shadow-sm"} min-w-[72px]`}>
+    <div className={`flex flex-col items-center justify-center p-3 rounded-lg border ${onDark ? "bg-white/10 border-white/20 text-white" : "bg-white border-border text-ink-900 shadow-sm"} min-w-18`}>
       <span className="font-display font-black text-2xl leading-none">
         {value.toString().padStart(2, "0")}
       </span>
-      <span className={`text-[10px] uppercase tracking-widest mt-1 font-semibold ${onDark ? "text-white/70" : "text-ink-500"}`}>
+      <span className={`text-xs uppercase tracking-widest mt-1 font-semibold ${onDark ? "text-white/70" : "text-ink-500"}`}>
         {unit}
       </span>
     </div>
@@ -51,7 +51,7 @@ export function CountdownTimer({ label, onDark = false }: CountdownTimerProps) {
   return (
     <div>
       {label && (
-        <div className={`text-[12px] uppercase tracking-[0.14em] font-semibold mb-3 ${onDark ? "text-accent" : "text-accent"}`}>
+        <div className={`text-xs uppercase tracking-widest font-semibold mb-3 ${onDark ? "text-accent" : "text-accent"}`}>
           {label}
         </div>
       )}

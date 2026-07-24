@@ -18,7 +18,7 @@ export function SpeakerCard({ name, role, image }: SpeakerCardProps) {
         />
       </div>
       <figcaption className="p-5 border-t-[3px] border-accent bg-white">
-        <div className="font-display font-bold text-lg text-ink-900 leading-[1.15]">
+        <div className="font-display font-bold text-lg text-ink-900 leading-tight">
           {name}
         </div>
         {role && (

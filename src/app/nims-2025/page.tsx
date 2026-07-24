@@ -36,8 +36,8 @@ export default function Nims2025Page() {
       
       <main>
         {/* BANNER */}
-        <section className="relative overflow-hidden pt-[150px] px-8 pb-[88px]">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#10301d]/94 to-[#163c25]/78 z-10"></div>
+        <section className="relative overflow-hidden pt-37.5 px-8 pb-22">
+          <div className="absolute inset-0 bg-linear-to-br from-[#10301d]/94 to-[#163c25]/78 z-10"></div>
           <Image 
             src="/assets/photos/p189.jpg" 
             alt="The Inaugural Summit" 
@@ -48,9 +48,9 @@ export default function Nims2025Page() {
           <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none z-10"></div>
           
           <div className="relative max-w-7xl mx-auto px-5 md:px-8 z-20">
-            <p className="font-display font-bold text-xs tracking-[0.18em] uppercase text-[#79c088] mb-3.5">The Inaugural Summit</p>
-            <h1 className="font-display font-black uppercase tracking-tight leading-[0.98] text-[64px] m-0 text-white">NIMS 2025</h1>
-            <p className="text-xl text-white/90 mt-4.5 max-w-[640px]">Manpower Development: The Bridge Between Potential and Productivity</p>
+            <p className="font-display font-bold text-xs tracking-widest uppercase text-[#79c088] mb-3.5">The Inaugural Summit</p>
+            <h1 className="font-display font-black uppercase tracking-tight leading-none text-6xl m-0 text-white">NIMS 2025</h1>
+            <p className="text-xl text-white/90 mt-4.5 max-w-160">Manpower Development: The Bridge Between Potential and Productivity</p>
           </div>
         </section>
 
@@ -62,13 +62,13 @@ export default function Nims2025Page() {
                 eyebrow="Where It Began"
                 title="Nigeria's Inaugural National Industrial Manpower Summit"
               />
-              <p className="text-lg leading-[1.7] text-ink-800 mt-6">
+              <p className="text-lg leading-relaxed text-ink-800 mt-6">
                 The inaugural National Industrial Manpower Summit (NIMS) marked the beginning of a national platform dedicated to advancing industrial workforce development in Nigeria.
               </p>
-              <p className="text-lg leading-[1.7] text-ink-800 mt-4">
+              <p className="text-lg leading-relaxed text-ink-800 mt-4">
                 Convened under the Office of the Senior Special Assistant to the President on Industrial Training and Development, the summit brought together government leaders, industry stakeholders, academia, development partners and international organisations to address Nigeria's workforce challenges and explore practical solutions for industrial growth.
               </p>
-              <p className="text-lg leading-[1.7] text-ink-800 mt-4">
+              <p className="text-lg leading-relaxed text-ink-800 mt-4">
                 Beyond the conversations, NIMS 2025 established the foundation for long-term collaboration, informed national discussions on workforce development and reinforced the importance of human capital in driving industrial transformation.
               </p>
             </div>
@@ -78,7 +78,7 @@ export default function Nims2025Page() {
                 alt="NIMS 2025 plenary" 
                 width={600} 
                 height={520} 
-                className="w-full h-[520px] object-cover rounded-xl shadow-2xl" 
+                className="w-full h-130 object-cover rounded-xl shadow-2xl" 
               />
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function Nims2025Page() {
         <section className="py-24 px-5 bg-[#16301d] relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none"></div>
           <div className="relative max-w-7xl mx-auto px-5 md:px-8">
-            <div className="text-center max-w-[640px] mx-auto mb-12">
+            <div className="text-center max-w-160 mx-auto mb-12">
               <SectionHeading 
                 eyebrow="By the Numbers"
                 title="NIMS 2025 at a Glance"
@@ -108,7 +108,7 @@ export default function Nims2025Page() {
                   <div className="font-display font-black text-5xl text-white leading-none">
                     {stat.val}<span className="text-[#ff5a4d]">+</span>
                   </div>
-                  <div className="mt-2.5 font-display font-bold text-[13px] uppercase tracking-[0.1em] text-[#79c088]">
+                  <div className="mt-2.5 font-display font-bold text-sm uppercase tracking-widest text-[#79c088]">
                     {stat.label}
                   </div>
                 </div>
@@ -120,7 +120,7 @@ export default function Nims2025Page() {
         {/* SECTION 3 — HIGHLIGHTS */}
         <section className="py-24 px-5 bg-surface-alt">
           <div className="max-w-7xl mx-auto px-5 md:px-8">
-            <div className="max-w-[720px]">
+            <div className="max-w-180">
               <SectionHeading 
                 eyebrow="Highlights"
                 title="Summit Highlights"
@@ -135,10 +135,10 @@ export default function Nims2025Page() {
                 { title: "Strategic Partnerships", desc: "The summit strengthened collaboration between government, industry, academia and development partners, laying the groundwork for future workforce development initiatives.", img: "/assets/photos/p697.jpg" }
               ].map((item, i) => (
                 <div key={i} className="bg-white border border-border rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                  <Image src={item.img} alt={item.title} width={600} height={240} className="w-full h-[240px] object-cover" />
+                  <Image src={item.img} alt={item.title} width={600} height={240} className="w-full h-60 object-cover" />
                   <div className="p-7 md:p-8">
-                    <h3 className="font-display font-extrabold text-[21px] m-0 text-ink-900">{item.title}</h3>
-                    <p className="text-base leading-[1.6] text-ink-600 mt-2.5 m-0">{item.desc}</p>
+                    <h3 className="font-display font-extrabold text-xl m-0 text-ink-900">{item.title}</h3>
+                    <p className="text-base leading-relaxed text-ink-600 mt-2.5 m-0">{item.desc}</p>
                   </div>
                 </div>
               ))}
@@ -153,25 +153,25 @@ export default function Nims2025Page() {
         {/* KEYNOTE */}
         <section id="speakers" className="pt-24 pb-10 px-5 bg-white">
           <div className="max-w-7xl mx-auto px-5 md:px-8">
-            <div className="max-w-[720px]">
+            <div className="max-w-180">
               <SectionHeading 
                 eyebrow="Distinguished Voices"
                 title="NIMS 2025 Speakers"
               />
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-[0.9fr_1.1fr] gap-12 items-center mt-10 bg-gradient-to-br from-[#204027] to-[#37703f] rounded-2xl overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-[0.9fr_1.1fr] gap-12 items-center mt-10 bg-linear-to-br from-[#204027] to-[#37703f] rounded-2xl overflow-hidden">
               <Image 
                 src="/assets/speakers/tinubu.jpg" 
                 alt="President Bola Ahmed Tinubu" 
                 width={500} 
                 height={480} 
-                className="w-full h-full min-h-[380px] object-cover grayscale" 
+                className="w-full h-full min-h-95 object-cover grayscale" 
               />
               <div className="py-11 pr-12 pl-2 text-white">
-                <span className="inline-block bg-accent text-white font-display font-extrabold text-[11px] tracking-[0.14em] uppercase py-1.5 px-3 rounded">Keynote Address</span>
-                <h3 className="font-display font-black text-3xl leading-[1.1] mt-4.5 mb-1.5">His Excellency, President Bola Ahmed Tinubu, GCFR</h3>
-                <p className="text-[17px] text-white/85 m-0">President of the Federal Republic of Nigeria</p>
+                <span className="inline-block bg-accent text-white font-display font-extrabold text-xs tracking-widest uppercase py-1.5 px-3 rounded">Keynote Address</span>
+                <h3 className="font-display font-black text-3xl leading-tight mt-4.5 mb-1.5">His Excellency, President Bola Ahmed Tinubu, GCFR</h3>
+                <p className="text-lg text-white/85 m-0">President of the Federal Republic of Nigeria</p>
               </div>
             </div>
           </div>
@@ -179,9 +179,9 @@ export default function Nims2025Page() {
 
         {/* SPEAKERS CAROUSEL */}
         <section className="pt-5 pb-24 px-5 bg-white">
-          <div className="flex gap-5 overflow-x-auto md:px-8 pb-8 snap-x snap-mandatory max-w-[1400px] mx-auto no-scrollbar" style={{ scrollbarWidth: "thin", scrollbarColor: "#c6c6c6 transparent" }}>
+          <div className="flex gap-5 overflow-x-auto md:px-8 pb-8 snap-x snap-mandatory max-w-350 mx-auto no-scrollbar" style={{ scrollbarWidth: "thin", scrollbarColor: "#c6c6c6 transparent" }}>
             {speakers.map((speaker, i) => (
-              <div key={i} className="flex-none w-[260px] snap-start">
+              <div key={i} className="flex-none w-65 snap-start">
                 <SpeakerCard {...speaker} />
               </div>
             ))}
