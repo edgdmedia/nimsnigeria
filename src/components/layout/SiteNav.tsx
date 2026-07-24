@@ -50,6 +50,7 @@ export function SiteNav({ transparentTop = false }: { transparentTop?: boolean }
   }, [mobileMenuOpen]);
 
   const mobileLinkStyle = "font-display font-bold text-[19px] text-white py-3 border-b border-white/10 hover:text-accent transition-colors block w-full";
+  const dropItemStyle = "block px-4 py-2 text-sm font-semibold text-ink-700 hover:text-accent hover:bg-black/5 transition-colors";
 
   return (
     <>
