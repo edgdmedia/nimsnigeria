@@ -123,8 +123,8 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="relative">
-              <Image src="/assets/photos/INGENIOUS_485.jpg" alt="NIMS 2025 delegates" width={600} height={480} className="w-full h-120 object-cover rounded-xl shadow-lg" />
+            <div className="relative w-full h-120">
+              <Image src="/assets/photos/INGENIOUS_485.jpg" alt="NIMS 2025 delegates" fill className="object-cover rounded-xl shadow-lg" sizes="(max-width: 768px) 100vw, 50vw" />
               <div className="absolute -bottom-6 -left-6 bg-brand text-white p-6 rounded-xl shadow-xl max-w-57.5">
                 <div className="font-display font-black text-4xl leading-none">2026</div>
                 <div className="text-[13px] tracking-widest uppercase mt-2 text-white/85">The vision, in execution</div>
@@ -248,8 +248,8 @@ export default function Home() {
         {/* PARTNER CTA */}
         <section id="partner" className="section-shell bg-white">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div className="relative">
-              <Image src="/assets/photos/p208.jpg" alt="NIMS 2025 partnership" width={600} height={440} className="w-full h-110 object-cover rounded-xl shadow-xl" />
+            <div className="relative w-full h-110">
+              <Image src="/assets/photos/p208.jpg" alt="NIMS 2025 partnership" fill className="object-cover rounded-xl shadow-xl" sizes="(max-width: 768px) 100vw, 50vw" />
             </div>
             <div>
               <SectionHeading 
