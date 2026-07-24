@@ -25,6 +25,7 @@ export default function Home() {
           </div>
           
           <div className="absolute inset-0 z-10 bg-gradient-to-br from-brand-deep/90 via-brand-dark/80 to-brand/80"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none z-10"></div>
           
           <div className="relative z-20 max-w-7xl mx-auto px-5 md:px-8 w-full pt-16 pb-24">
             <div className="max-w-[1000px]">
