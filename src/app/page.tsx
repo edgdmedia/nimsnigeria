@@ -47,6 +47,10 @@ export default function Home() {
                     <video 
                       src="/assets/videos/IMG_0403_web_compressed.mp4" 
                       controls 
+                      autoPlay 
+                      muted 
+                      loop 
+                      playsInline
                       className="absolute inset-0 w-full h-full object-cover"
                     >
                       Your browser does not support the video tag.
@@ -79,6 +83,10 @@ export default function Home() {
                   <video 
                     src="/assets/videos/IMG_0403_web_compressed.mp4" 
                     controls 
+                    autoPlay 
+                    muted 
+                    loop 
+                    playsInline
                     className="absolute inset-0 w-full h-full object-cover"
                   >
                     Your browser does not support the video tag.
