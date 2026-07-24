@@ -38,7 +38,7 @@ export function CountdownTimer({ label, onDark = false }: CountdownTimerProps) {
   }, [targetDate]);
 
   const Item = ({ value, unit }: { value: number; unit: string }) => (
-    <div className={`flex flex-col items-center justify-center p-3 rounded-lg border ${onDark ? "bg-white/10 border-white/20 text-white" : "bg-white border-border text-ink-900 shadow-sm"} min-w-[72px]`}>
+    <div className={`flex flex-col items-center justify-center p-3 rounded-lg border ${onDark ? "bg-white/10 border-white/20 text-white" : "bg-white border-border text-ink-900 shadow-sm"} min-w-18`}>
       <span className="font-display font-black text-2xl leading-none">
         {value.toString().padStart(2, "0")}
       </span>

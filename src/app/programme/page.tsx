@@ -10,11 +10,11 @@ export default function ProgrammePage() {
       
       <main>
         {/* BANNER */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-[#16301d] via-[#204027] to-[#2b5533] pt-[150px] px-8 pb-[88px]">
+        <section className="relative overflow-hidden bg-linear-to-br from-[#16301d] via-[#204027] to-[#2b5533] pt-37.5 px-8 pb-22">
           <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none"></div>
           <div className="relative max-w-7xl mx-auto px-5 md:px-8">
             <p className="font-display font-bold text-xs tracking-[0.18em] uppercase text-[#79c088] mb-3">Programme</p>
-            <h1 className="font-display font-black uppercase tracking-tight leading-[0.98] text-[48px] md:text-[58px] text-white max-w-[900px] m-0">What to Expect at NIMS 2026</h1>
+            <h1 className="font-display font-black uppercase tracking-tight leading-[0.98] text-[48px] md:text-[58px] text-white max-w-225 m-0">What to Expect at NIMS 2026</h1>
             <div className="flex flex-wrap gap-3 mt-7">
               <span className="inline-flex items-center px-4 py-2.5 rounded-md bg-white/10 border border-white/20 text-white font-display font-bold text-sm">15–16 October 2026</span>
               <span className="inline-flex items-center px-4 py-2.5 rounded-md bg-white/10 border border-white/20 text-white font-display font-bold text-sm">State House Banquet Hall, Presidential Villa, Abuja</span>
@@ -24,7 +24,7 @@ export default function ProgrammePage() {
 
         {/* SECTION 1 */}
         <section className="pt-24 pb-12 px-5 bg-white">
-          <div className="max-w-[900px] mx-auto px-5 md:px-8">
+          <div className="max-w-225 mx-auto px-5 md:px-8">
             <p className="text-xl leading-[1.65] text-ink-800 m-0">
               <strong className="text-brand-dark font-semibold">The National Industrial Manpower Summit (NIMS) 2026 will take place on 15–16 October 2026 at the State House Banquet Hall, Presidential Villa, Abuja.</strong> Bringing together government, industry, academia, development partners and international stakeholders, the two-day summit will explore practical solutions to Nigeria's workforce and industrial development challenges.
             </p>
@@ -34,7 +34,7 @@ export default function ProgrammePage() {
         {/* SECTION 2 — DELIVERABLES */}
         <section className="py-16 pb-24 px-5 bg-white">
           <div className="max-w-7xl mx-auto px-5 md:px-8">
-            <div className="max-w-[720px]">
+            <div className="max-w-180">
               <SectionHeading 
                 eyebrow="Outcomes"
                 title="Expected Deliverables"
@@ -95,7 +95,7 @@ export default function ProgrammePage() {
         {/* SECTION 4 — PROGRAMME OVERVIEW */}
         <section className="py-24 px-5 bg-white">
           <div className="max-w-7xl mx-auto px-5 md:px-8">
-            <div className="max-w-[720px]">
+            <div className="max-w-180">
               <SectionHeading 
                 eyebrow="Two Days"
                 title="Programme Overview"
@@ -104,7 +104,7 @@ export default function ProgrammePage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-11">
               {/* Day 1 */}
               <div className="border border-border rounded-xl overflow-hidden shadow-sm">
-                <div className="bg-gradient-to-br from-[#204027] to-[#37703f] text-white p-7 md:p-8">
+                <div className="bg-linear-to-br from-[#204027] to-[#37703f] text-white p-7 md:p-8">
                   <div className="font-display font-black text-[13px] tracking-[0.14em] uppercase text-[#79c088]">Day 1 · Thursday 15</div>
                   <div className="font-display font-black text-2xl mt-2">Presidential Opening & National Dialogue</div>
                 </div>
@@ -130,7 +130,7 @@ export default function ProgrammePage() {
 
               {/* Day 2 */}
               <div className="border border-border rounded-xl overflow-hidden shadow-sm">
-                <div className="bg-gradient-to-br from-[#16301d] to-[#204027] text-white p-7 md:p-8">
+                <div className="bg-linear-to-br from-[#16301d] to-[#204027] text-white p-7 md:p-8">
                   <div className="font-display font-black text-[13px] tracking-[0.14em] uppercase text-[#79c088]">Day 2 · Friday 16</div>
                   <div className="font-display font-black text-2xl mt-2">Innovation, Implementation & Commitments</div>
                 </div>
@@ -159,10 +159,10 @@ export default function ProgrammePage() {
 
         {/* SECTION 5 — SCHEDULE COMING SOON */}
         <section className="pt-20 pb-24 px-5 bg-surface-alt">
-          <div className="max-w-[820px] mx-auto bg-white border border-border border-t-4 border-t-accent rounded-2xl p-10 md:p-14 text-center shadow-sm">
+          <div className="max-w-205 mx-auto bg-white border border-border border-t-4 border-t-accent rounded-2xl p-10 md:p-14 text-center shadow-sm">
             <p className="font-display font-bold text-xs tracking-[0.16em] uppercase text-brand m-0">Programme Schedule</p>
             <h3 className="font-display font-black text-3xl uppercase tracking-tight text-ink-900 mt-3.5 mb-0">Full Agenda Coming Soon</h3>
-            <p className="text-[17px] leading-[1.65] text-ink-600 max-w-[600px] mx-auto mt-4 mb-0">
+            <p className="text-[17px] leading-[1.65] text-ink-600 max-w-150 mx-auto mt-4 mb-0">
               The detailed programme — including keynote speakers, panel discussions, breakout sessions and networking events — will be announced closer to the summit. Stay connected for updates as the agenda is finalised.
             </p>
             <div className="mt-8 flex justify-center">

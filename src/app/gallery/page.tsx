@@ -56,7 +56,7 @@ export default function GalleryPage() {
       
       <main>
         {/* BANNER */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-[#16301d] via-[#204027] to-[#2b5533] pt-[150px] px-8 pb-[82px]">
+        <section className="relative overflow-hidden bg-linear-to-br from-[#16301d] via-[#204027] to-[#2b5533] pt-37.5 px-8 pb-20.5">
           <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none"></div>
           <div className="relative max-w-7xl mx-auto px-5 md:px-8">
             <p className="font-display font-bold text-xs tracking-[0.18em] uppercase text-[#79c088] mb-3.5">Gallery</p>
@@ -65,8 +65,8 @@ export default function GalleryPage() {
         </section>
 
         {/* PROSPECTUS-STYLE GRID */}
-        <section className="pt-[72px] pb-[88px] px-5 bg-surface-alt">
-          <div className="max-w-[1280px] mx-auto px-5 md:px-8">
+        <section className="pt-18 pb-22 px-5 bg-surface-alt">
+          <div className="max-w-320 mx-auto px-5 md:px-8">
             <div>
               <h2 className="font-display font-extrabold text-[34px] tracking-tight text-[#204027] m-0">NIMS 2025 in Pictures</h2>
               <div className="w-24 h-1 bg-[#e0912a] my-3.5"></div>
@@ -155,7 +155,7 @@ export default function GalleryPage() {
             </>
           )}
           
-          <div onClick={(e) => e.stopPropagation()} className="max-w-[1100px] w-full text-center">
+          <div onClick={(e) => e.stopPropagation()} className="max-w-275 w-full text-center">
             <div className="relative w-full h-[78vh] mx-auto rounded-lg overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.6)]">
               <Image 
                 src={filteredImages[currentIndex].src} 

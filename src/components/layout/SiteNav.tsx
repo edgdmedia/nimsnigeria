@@ -96,7 +96,7 @@ export function SiteNav({ transparentTop = false }: { transparentTop?: boolean }
               </Link>
               
               {aboutOpen && (
-                <div className="absolute top-full left-0 min-w-[210px] bg-white border border-border border-t-4 border-t-accent shadow-lg rounded-b-md p-2 flex flex-col pt-3">
+                <div className="absolute top-full left-0 min-w-52.5 bg-white border border-border border-t-4 border-t-accent shadow-lg rounded-b-md p-2 flex flex-col pt-3">
                   <Link href="/about" className={dropItemStyle}>About NIMS</Link>
                   <Link href="/nims-2025" className={dropItemStyle}>NIMS 2025</Link>
                   <Link href="/gallery" className={dropItemStyle}>Gallery</Link>

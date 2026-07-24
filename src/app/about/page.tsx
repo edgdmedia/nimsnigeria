@@ -11,7 +11,7 @@ export default function AboutPage() {
       
       <main>
         {/* BANNER */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-[#16301d] via-[#204027] to-[#2b5533] pt-[150px] px-8 pb-[88px]">
+        <section className="relative overflow-hidden bg-linear-to-br from-[#16301d] via-[#204027] to-[#2b5533] pt-37.5 px-8 pb-22">
           <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none"></div>
           <div className="relative max-w-7xl mx-auto px-5 md:px-8">
             <p className="font-display font-bold text-xs tracking-[0.18em] uppercase text-[#79c088] mb-3">About NIMS</p>
@@ -43,7 +43,7 @@ export default function AboutPage() {
                 alt="NIMS delegates networking" 
                 width={600} 
                 height={520} 
-                className="w-full h-[520px] object-cover rounded-xl shadow-2xl" 
+                className="w-full h-130 object-cover rounded-xl shadow-2xl" 
               />
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function AboutPage() {
 
         {/* SECTION 2 — WHY */}
         <section className="py-24 px-5 bg-surface-alt">
-          <div className="max-w-[900px] mx-auto px-5 md:px-8">
+          <div className="max-w-225 mx-auto px-5 md:px-8">
             <SectionHeading 
               eyebrow="The Challenge"
               title="Why NIMS?"
@@ -71,7 +71,7 @@ export default function AboutPage() {
         {/* SECTION 3 — VISION / MISSION */}
         <section className="py-24 px-5 bg-white">
           <div className="max-w-7xl mx-auto px-5 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-7">
-            <div className="bg-gradient-to-br from-brand-dark to-brand text-white rounded-2xl p-10 md:p-12 relative overflow-hidden">
+            <div className="bg-linear-to-br from-brand-dark to-brand text-white rounded-2xl p-10 md:p-12 relative overflow-hidden">
               <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none"></div>
               <div className="relative">
                 <div className="w-11 h-1 bg-accent mb-6"></div>
@@ -94,7 +94,7 @@ export default function AboutPage() {
         {/* SECTION 4 — WHAT NIMS DELIVERS */}
         <section className="py-24 px-5 bg-surface-alt">
           <div className="max-w-7xl mx-auto px-5 md:px-8">
-            <div className="max-w-[820px]">
+            <div className="max-w-205">
               <SectionHeading 
                 eyebrow="Impact"
                 title="What NIMS Delivers"
@@ -122,7 +122,7 @@ export default function AboutPage() {
         {/* SECTION 5 — JOURNEY */}
         <section className="py-24 px-5 bg-[#16301d] relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.10)_1.2px,transparent_1.2px)] [background-size:26px_26px] pointer-events-none"></div>
-          <div className="relative max-w-[1000px] mx-auto px-5 md:px-8">
+          <div className="relative max-w-250 mx-auto px-5 md:px-8">
             <div className="text-center">
               <SectionHeading 
                 eyebrow="Timeline"
@@ -151,7 +151,7 @@ export default function AboutPage() {
         {/* SECTION 6 — EXPLORE */}
         <section className="py-24 px-5 bg-white">
           <div className="max-w-7xl mx-auto px-5 md:px-8">
-            <div className="text-center max-w-[700px] mx-auto">
+            <div className="text-center max-w-175 mx-auto">
               <SectionHeading 
                 eyebrow="Keep Exploring"
                 title="Explore NIMS"
