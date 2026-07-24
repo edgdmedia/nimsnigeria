@@ -46,6 +46,7 @@ export default function Home() {
                   <div className="relative z-10 rounded-xl overflow-hidden shadow-2xl border-2 border-white/90 bg-black aspect-video">
                     <video 
                       src="/assets/videos/IMG_0403_web_compressed.mp4" 
+                      poster="/assets/photos/p414.jpg"
                       controls 
                       autoPlay 
                       muted 
@@ -82,6 +83,7 @@ export default function Home() {
                 <div className="relative z-10 rounded-xl overflow-hidden shadow-2xl border-4 border-white/90 bg-black aspect-video">
                   <video 
                     src="/assets/videos/IMG_0403_web_compressed.mp4" 
+                    poster="/assets/photos/p414.jpg"
                     controls 
                     autoPlay 
                     muted 
