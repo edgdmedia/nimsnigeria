@@ -44,14 +44,13 @@ export default function Home() {
                 {/* Video - Mobile Only (inserted between Theme and Date/Venue) */}
                 <div className="relative mt-5 mb-5 lg:hidden">
                   <div className="relative z-10 rounded-xl overflow-hidden shadow-2xl border-2 border-white/90 bg-black aspect-video">
-                    <iframe 
-                      src="https://www.youtube.com/embed/xnuup7rmxMA?autoplay=1&mute=1&loop=1&playlist=xnuup7rmxMA&controls=1&modestbranding=1&rel=0" 
-                      title="NIMS 2025 recap" 
-                      frameBorder="0" 
-                      allow="autoplay; encrypted-media; picture-in-picture" 
-                      allowFullScreen 
-                      className="absolute inset-0 w-full h-full border-0"
-                    ></iframe>
+                    <video 
+                      src="/assets/videos/IMG_0403_web_compressed.mp4" 
+                      controls 
+                      className="absolute inset-0 w-full h-full object-cover"
+                    >
+                      Your browser does not support the video tag.
+                    </video>
                   </div>
                   <div className="absolute z-20 -bottom-3 -left-3 bg-accent text-white px-3 py-2 rounded-md shadow-lg font-display font-extrabold text-xs tracking-widest uppercase">
                     Relive NIMS 2025
@@ -77,14 +76,13 @@ export default function Home() {
               <div className="relative mt-8 lg:mt-0 hidden lg:block">
                 <div className="absolute -inset-4 border border-white/20 rounded-2xl z-0 hidden lg:block"></div>
                 <div className="relative z-10 rounded-xl overflow-hidden shadow-2xl border-4 border-white/90 bg-black aspect-video">
-                  <iframe 
-                    src="https://www.youtube.com/embed/xnuup7rmxMA?autoplay=1&mute=1&loop=1&playlist=xnuup7rmxMA&controls=1&modestbranding=1&rel=0" 
-                    title="NIMS 2025 recap" 
-                    frameBorder="0" 
-                    allow="autoplay; encrypted-media; picture-in-picture" 
-                    allowFullScreen 
-                    className="absolute inset-0 w-full h-full border-0"
-                  ></iframe>
+                  <video 
+                    src="/assets/videos/IMG_0403_web_compressed.mp4" 
+                    controls 
+                    className="absolute inset-0 w-full h-full object-cover"
+                  >
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
                 <div className="absolute z-20 -bottom-4 -left-4 lg:-bottom-6 lg:-left-6 bg-accent text-white px-5 py-3 rounded-lg shadow-lg font-display font-extrabold text-sm tracking-widest uppercase">
                   Relive NIMS 2025
@@ -124,15 +122,8 @@ export default function Home() {
             </div>
             
             <div className="relative w-full h-120">
-              <video 
-                src="/assets/videos/IMG_0403_web_compressed.mp4" 
-                controls 
-                className="w-full h-full object-cover rounded-xl shadow-lg"
-                poster="/assets/photos/INGENIOUS_485.jpg"
-              >
-                Your browser does not support the video tag.
-              </video>
-              <div className="absolute -bottom-6 -left-6 bg-brand text-white p-6 rounded-xl shadow-xl max-w-57.5 z-10 pointer-events-none">
+              <Image src="/assets/photos/INGENIOUS_485.jpg" alt="NIMS 2025 delegates" fill className="object-cover rounded-xl shadow-lg" sizes="(max-width: 768px) 100vw, 50vw" />
+              <div className="absolute -bottom-6 -left-6 bg-brand text-white p-6 rounded-xl shadow-xl max-w-57.5">
                 <div className="font-display font-black text-4xl leading-none">2026</div>
                 <div className="text-sm tracking-widest uppercase mt-2 text-white/85">The vision, in execution</div>
               </div>
