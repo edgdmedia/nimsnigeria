@@ -186,7 +186,7 @@ export default function HomePage() {
                 </div>
             </div>
 
-            <a className="bg-primary text-white font-sans font-medium text-sm md:text-base rounded-[10px] px-8 py-3 hover:bg-green-700 transition inline-block shadow-md hover:shadow-lg" href="./nims-2025.html">
+            <a className="bg-primary text-white font-sans font-medium text-sm md:text-base rounded-[10px] px-8 py-3 hover:bg-green-700 transition inline-block shadow-md hover:shadow-lg" href="/nims-2025">
                 NIMS 2025 Highlights
             </a>
         </div>
