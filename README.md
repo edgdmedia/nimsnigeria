@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## NIMS Website
+
+Official website codebase for the NIMS event site, built with Next.js 16, React 19, and OpenNext for Cloudflare deployment.
+
+## Stack
+
+- Next.js 16
+- React 19
+- Tailwind CSS 4
+- OpenNext for Cloudflare
+- Wrangler
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start local development:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+App runs at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev
+npm run build
+npm run start
+npm run lint
+npm run build:cloudflare
+npm run dev:cloudflare
+npm run preview
+npm run deploy
+npm run upload
+npm run cf-typegen
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `src/app` - App Router pages
+- `src/components` - shared UI and layout components
+- `src/data` - page data for speakers, gallery, and programme content
+- `public/images` - site images and event assets
+- `public/videos` - video assets
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is configured for Cloudflare deployment through OpenNext.
 
-## Deploy on Vercel
+Build for Cloudflare:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build:cloudflare
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Preview locally:
+
+```bash
+npm run preview
+```
+
+Deploy:
+
+```bash
+npm run deploy
+```
+
+## Notes
+
+- Playwright MCP artifacts are ignored via `.gitignore`.
+- `development` and `main` currently point to the same remote commit.
