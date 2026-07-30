@@ -54,7 +54,7 @@ export default function NIMS2025Page() {
                     <span className="font-sans text-gray-600 font-medium">Delegates</span>
                 </div>
                 <div className="bg-white rounded-[20px] p-6 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.1)] border border-gray-50 flex flex-col items-center justify-center hover:-translate-y-1 transition-transform">
-                    <span className="font-heading font-bold text-4xl md:text-5xl text-primary mb-2"><CountUp end={120} suffix="+" /></span>
+                    <span className="font-heading font-bold text-4xl md:text-5xl text-primary mb-2"><CountUp end={30} suffix="+" /></span>
                     <span className="font-sans text-gray-600 font-medium">Speakers</span>
                 </div>
                 <div className="bg-white rounded-[20px] p-6 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.1)] border border-gray-50 flex flex-col items-center justify-center hover:-translate-y-1 transition-transform">

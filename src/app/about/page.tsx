@@ -45,7 +45,7 @@ export default function AboutPage() {
             {/*  Left Side: Image  */}
             <div className="w-full md:w-[45%] flex justify-center">
                 <div className="w-full h-100 md:h-125 rounded-2xl overflow-hidden shadow-lg border-4 border-white">
-                    <img src="/images/photos/INGENIOUS_461.webp" alt="Why NIMS" className="w-full h-full object-cover object-center" />
+                    <img src="/images/photos/INGENIOUS_461copy.webp" alt="Why NIMS" className="w-full h-full object-cover object-center" />
                 </div>
             </div>
 
