@@ -134,7 +134,7 @@ export default function ProgrammePage() {
     </section>
 
     {/*  Section 4: Programme Overview (Table)  */}
-    <section className="w-full bg-white py-16 md:py-24">
+    <section className="hidden w-full bg-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-5">
             <div className="text-center mb-16">
                 <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-4">Programme Overview</h2>
