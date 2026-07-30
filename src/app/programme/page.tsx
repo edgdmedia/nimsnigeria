@@ -141,23 +141,101 @@ export default function ProgrammePage() {
                 <div className="w-24 h-1 bg-secondary mx-auto"></div>
             </div>
             
-            <div className="overflow-hidden rounded-xl border border-gray-200 shadow-sm">
-                <table className="w-full text-left border-collapse block md:table">
-                    <thead className="block md:table-header-group">
-                        <tr className="block md:table-row bg-gray-50 text-gray-900 border-b border-gray-200">
-                            <th className="block md:table-cell p-6 font-heading font-bold text-xl w-full md:w-1/2 border-b md:border-b-0 md:border-r border-gray-200">
+            <div className="overflow-hidden rounded-xl border border-gray-200 shadow-sm md:hidden">
+                <div className="border-b border-gray-200 bg-gray-50 p-6 text-gray-900">
+                    <span className="text-secondary block mb-1 text-sm uppercase tracking-wider">Day 1</span>
+                    <h3 className="font-heading font-bold text-xl">Thursday 15</h3>
+                </div>
+                <div className="bg-white p-6">
+                    <div className="mb-8">
+                        <h4 className="font-bold text-primary mb-4 text-lg">Presidential Opening & National Dialogue</h4>
+                        <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded text-sm font-semibold mb-4">MORNING</span>
+                        <ul className="space-y-4 font-sans text-gray-700">
+                            <li className="pl-4 border-l-2 border-secondary">
+                                <strong className="block text-gray-900">Presidential Opening Ceremony</strong>
+                                His Excellency, President Bola Ahmed Tinubu, GCFR
+                            </li>
+                            <li className="pl-4 border-l-2 border-secondary">
+                                <strong className="block text-gray-900">Presidential Keynote Address</strong>
+                                "Unlocking Nigeria's Human Capital for Industrial Transformation"
+                            </li>
+                            <li className="pl-4 border-l-2 border-secondary">
+                                <strong className="block text-gray-900">Industry Keynote — Aliko Dangote</strong>
+                                "Building a World-Class Industrial Workforce"
+                            </li>
+                            <li className="pl-4 border-l-2 border-secondary font-semibold">Official Opening</li>
+                            <li className="pl-4 border-l-2 border-secondary font-semibold">Industrial Innovation & Technology Exhibition</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <span className="inline-block bg-gray-100 text-gray-800 px-3 py-1 rounded text-sm font-semibold mb-4">AFTERNOON</span>
+                        <ul className="space-y-4 font-sans text-gray-700">
+                            <li className="pl-4 border-l-2 border-gray-300">Technical Paper I: Reimagining Nigeria's Industrial Workforce Development System</li>
+                            <li className="pl-4 border-l-2 border-gray-300">Technical Paper II: AI, Advanced Manufacturing & Future Technologies</li>
+                            <li className="pl-4 border-l-2 border-gray-300">Executive Plenary Panel: The State of Nigeria's Industrial Workforce</li>
+                            <li className="pl-4 border-l-2 border-gray-300">Exhibition Tour & Industrial Innovation Showcase</li>
+                            <li className="pl-4 border-l-2 border-gray-300 font-semibold text-primary mt-6">Networking Reception</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="border-y border-gray-200 bg-gray-50 p-6 text-gray-900">
+                    <span className="text-secondary block mb-1 text-sm uppercase tracking-wider">Day 2</span>
+                    <h3 className="font-heading font-bold text-xl">Friday 16</h3>
+                </div>
+                <div className="bg-white p-6">
+                    <div className="mb-8">
+                        <h4 className="font-bold text-primary mb-4 text-lg">Innovation, Implementation & Commitments</h4>
+                        <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded text-sm font-semibold mb-4">MORNING</span>
+                        <ul className="space-y-4 font-sans text-gray-700">
+                            <li className="pl-4 border-l-2 border-secondary">
+                                <strong className="block text-gray-900">Technology & Innovation Keynote — Ridwan Olalere, CEO LemFi</strong>
+                                "Preparing Nigeria's Workforce for the Global Digital Economy"
+                            </li>
+                            <li className="pl-4 border-l-2 border-secondary">
+                                <strong className="block text-gray-900">Entrepreneurship & Human Capital Keynote — Tony Elumelu, CFR</strong>
+                                "From Skills to Prosperity: Building Entrepreneurs & Industries"
+                            </li>
+                            <li className="pl-4 border-l-2 border-secondary">Technical Paper III: From Skills to Industrial Prosperity</li>
+                            <li className="pl-4 border-l-2 border-secondary">
+                                <strong className="block text-gray-900">Strategic Roundtable Discussions</strong>
+                                Four parallel sessions on the summit sub-themes
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <span className="inline-block bg-gray-100 text-gray-800 px-3 py-1 rounded text-sm font-semibold mb-4">AFTERNOON</span>
+                        <ul className="space-y-4 font-sans text-gray-700">
+                            <li className="pl-4 border-l-2 border-gray-300">Presentation of Roundtable Reports</li>
+                            <li className="pl-4 border-l-2 border-gray-300">National Policy Dialogue & Investment Matchmaking</li>
+                            <li className="pl-4 border-l-2 border-gray-300">Partnership & Collaboration Signing Ceremony</li>
+                            <li className="pl-4 border-l-2 border-gray-300">Presentation of Summit Outcomes</li>
+                            <li className="pl-4 border-l-2 border-gray-300">Adoption of NIMS 2026 Communiqué</li>
+                            <li className="pl-4 border-l-2 border-gray-300 font-semibold text-primary mt-6">Gala Night & Awards Ceremony</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div className="hidden overflow-hidden rounded-xl border border-gray-200 shadow-sm md:block">
+                <table className="w-full text-left border-collapse md:table">
+                    <thead className="md:table-header-group">
+                        <tr className="md:table-row bg-gray-50 text-gray-900 border-b border-gray-200">
+                            <th className="md:table-cell p-6 font-heading font-bold text-xl w-1/2 border-r border-gray-200">
                                 <span className="text-secondary block mb-1 text-sm uppercase tracking-wider">Day 1</span>
                                 Thursday 15
                             </th>
-                            <th className="block md:table-cell p-6 font-heading font-bold text-xl w-full md:w-1/2">
+                            <th className="md:table-cell p-6 font-heading font-bold text-xl w-1/2">
                                 <span className="text-secondary block mb-1 text-sm uppercase tracking-wider">Day 2</span>
                                 Friday 16
                             </th>
                         </tr>
                     </thead>
-                    <tbody className="block md:table-row-group align-top">
-                        <tr className="block md:table-row">
-                            <td className="block md:table-cell p-6 border-b md:border-b-0 md:border-r border-gray-200 bg-white">
+                    <tbody className="md:table-row-group align-top">
+                        <tr className="md:table-row">
+                            <td className="md:table-cell p-6 border-r border-gray-200 bg-white align-top">
                                 <div className="mb-8">
                                     <h4 className="font-bold text-primary mb-4 text-lg">Presidential Opening & National Dialogue</h4>
                                     <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded text-sm font-semibold mb-4">MORNING</span>
@@ -178,7 +256,7 @@ export default function ProgrammePage() {
                                         <li className="pl-4 border-l-2 border-secondary font-semibold">Industrial Innovation & Technology Exhibition</li>
                                     </ul>
                                 </div>
-                                
+
                                 <div>
                                     <span className="inline-block bg-gray-100 text-gray-800 px-3 py-1 rounded text-sm font-semibold mb-4">AFTERNOON</span>
                                     <ul className="space-y-4 font-sans text-gray-700">
@@ -190,7 +268,7 @@ export default function ProgrammePage() {
                                     </ul>
                                 </div>
                             </td>
-                            <td className="block md:table-cell p-6 bg-white w-full md:w-1/2">
+                            <td className="md:table-cell p-6 bg-white w-1/2 align-top">
                                 <div className="mb-8">
                                     <h4 className="font-bold text-primary mb-4 text-lg">Innovation, Implementation & Commitments</h4>
                                     <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded text-sm font-semibold mb-4">MORNING</span>
@@ -210,7 +288,7 @@ export default function ProgrammePage() {
                                         </li>
                                     </ul>
                                 </div>
-                                
+
                                 <div>
                                     <span className="inline-block bg-gray-100 text-gray-800 px-3 py-1 rounded text-sm font-semibold mb-4">AFTERNOON</span>
                                     <ul className="space-y-4 font-sans text-gray-700">
