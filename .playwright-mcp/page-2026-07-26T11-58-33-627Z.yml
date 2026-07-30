@@ -1,0 +1,115 @@
+- generic [active] [ref=f10e1]:
+  - link "Skip to content" [ref=f10e2]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=f10e5]:
+      - generic [ref=f10e6]:
+        - link [ref=f10e8]:
+          - /url: https://www.nimsnigeria.org
+        - heading [level=6] [ref=f10e10]:
+          - link "NIMS 2025" [ref=f10e11]:
+            - /url: https://www.nimsnigeria.org
+      - navigation "Menu" [ref=f10e14]:
+        - list [ref=f10e15]:
+          - listitem [ref=f10e16]:
+            - link "About" [ref=f10e17]:
+              - /url: ./about.html
+          - listitem [ref=f10e18]:
+            - link "Speakers" [ref=f10e19]:
+              - /url: ./speakers.html
+          - listitem [ref=f10e20]:
+            - link "Schedule" [ref=f10e21]:
+              - /url: ./schedule.html
+          - listitem [ref=f10e22]:
+            - link "Exhibitors" [ref=f10e23]:
+              - /url: ./exhibitors.html
+          - listitem [ref=f10e24]:
+            - link "Sponsors" [ref=f10e25]:
+              - /url: ./sponsors.html
+          - listitem [ref=f10e26]:
+            - link "FAQs" [ref=f10e27]:
+              - /url: ./faqs.html
+      - link "Register" [ref=f10e30]:
+        - /url: ./register.html
+  - main [ref=f10e34]:
+    - generic [ref=f10e36]:
+      - generic [ref=f10e38]:
+        - heading "Meet the Speakers of NIMS 2025" [level=1] [ref=f10e40]
+        - link [ref=f10e43]:
+          - /url: "#content-sec"
+      - generic [ref=f10e47]:
+        - generic [ref=f10e49]:
+          - paragraph [ref=f10e50]:
+            - generic [ref=f10e51]: T
+            - text: he summit serves as a vital platform that brings together a diverse and influential array of voices from various sectors, including government, industry, academia, and international development. These key stakeholders are all dedicated to collaborating and contributing to the ongoing efforts to shape the future of Nigeria’s industrial workforce, ensuring it remains robust and responsive to the demands of a rapidly evolving global economy.
+          - paragraph [ref=f10e53]: His Excellency, President Bola Ahmed Tinubu (GCFR), is set to inaugurate NIMS 2025 with a landmark address that will emphasize the critical importance of manpower development. He intends to highlight this initiative as a national priority, aiming to galvanize support and action from all sectors of society to ensure the sustainable growth of Nigeria’s workforce.
+        - generic [ref=f10e54]:
+          - heading "Keynote Speaker" [level=3] [ref=f10e56]
+          - heading "His Excellency, President Bola Ahmed Tinubu (GCFR)" [level=6] [ref=f10e62]
+          - paragraph [ref=f10e64]: The President of the Federal Republic of Nigeria
+  - contentinfo [ref=f10e67]:
+    - generic [ref=f10e69]:
+      - generic [ref=f10e70]:
+        - generic [ref=f10e71]:
+          - link [ref=f10e73]:
+            - /url: https://www.nimsnigeria.org
+          - heading "National Industrial Manpower Summit, 2025" [level=6] [ref=f10e75]
+        - generic [ref=f10e76]: "Powered by:"
+      - generic [ref=f10e81]:
+        - heading "Contact" [level=5] [ref=f10e83]
+        - list [ref=f10e85]:
+          - listitem [ref=f10e86]:
+            - link "info@nimsnigeria.org" [ref=f10e87]:
+              - /url: mailto:info@nimsnigeria.org
+          - listitem [ref=f10e92]:
+            - link "+234 806 6752 120" [ref=f10e93]:
+              - /url: tel:+2348066752120
+          - listitem [ref=f10e98]:
+            - link "+234 703 2093 508" [ref=f10e99]:
+              - /url: tel:+2347032093508
+          - listitem [ref=f10e104]:
+            - link "+234 806 6065 909" [ref=f10e105]:
+              - /url: tel:+2348066065909
+      - generic [ref=f10e110]:
+        - heading "Links" [level=5] [ref=f10e112]
+        - navigation "Menu" [ref=f10e114]:
+          - list [ref=f10e115]:
+            - listitem [ref=f10e116]:
+              - link "About" [ref=f10e117]:
+                - /url: ./about.html
+            - listitem [ref=f10e118]:
+              - link "Speakers" [ref=f10e119]:
+                - /url: ./speakers.html
+            - listitem [ref=f10e120]:
+              - link "Schedule" [ref=f10e121]:
+                - /url: ./schedule.html
+            - listitem [ref=f10e122]:
+              - link "Exhibitors" [ref=f10e123]:
+                - /url: ./exhibitors.html
+            - listitem [ref=f10e124]:
+              - link "Sponsors" [ref=f10e125]:
+                - /url: ./sponsors.html
+            - listitem [ref=f10e126]:
+              - link "FAQs" [ref=f10e127]:
+                - /url: ./faqs.html
+      - generic [ref=f10e128]:
+        - heading "Register to attend:" [level=6] [ref=f10e130]
+        - link "Register Now" [ref=f10e132]:
+          - /url: ./register.html
+        - heading "Follow on Social Media:" [level=6] [ref=f10e136]
+        - list [ref=f10e138]:
+          - listitem [ref=f10e139]:
+            - link "Linkedin" [ref=f10e140] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/nimsnigeria
+          - listitem [ref=f10e144]:
+            - link "Instagram" [ref=f10e145] [cursor=pointer]:
+              - /url: https://www.instagram.com/nimsnigeria
+          - listitem [ref=f10e149]:
+            - link "Facebook" [ref=f10e150] [cursor=pointer]:
+              - /url: https://www.facebook.com/nimsnigeria
+          - listitem [ref=f10e154]:
+            - link "X-twitter" [ref=f10e155] [cursor=pointer]:
+              - /url: https://x.com/nimsnigeria
+        - paragraph [ref=f10e160]: © 2025 National Industrial Manpower Summit, All Rights Reserved
+  - generic [ref=f10e161]: desktop
+  - generic [ref=f10e162]: desktop

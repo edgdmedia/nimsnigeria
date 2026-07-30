@@ -1,0 +1,150 @@
+- generic [active] [ref=f8e1]:
+  - link "Skip to content" [ref=f8e2]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=f8e5]:
+      - generic [ref=f8e6]:
+        - link [ref=f8e8]:
+          - /url: https://www.nimsnigeria.org
+        - heading [level=6] [ref=f8e10]:
+          - link "NIMS 2026" [ref=f8e11]:
+            - /url: https://www.nimsnigeria.org
+      - navigation "Menu" [ref=f8e14]:
+        - list [ref=f8e15]:
+          - listitem [ref=f8e16]:
+            - link "About" [ref=f8e17]:
+              - /url: https://www.nimsnigeria.org/about/
+          - listitem [ref=f8e18]:
+            - link "Speakers" [ref=f8e19]:
+              - /url: https://www.nimsnigeria.org/speakers/
+          - listitem [ref=f8e20]:
+            - link "Schedule" [ref=f8e21]:
+              - /url: https://www.nimsnigeria.org/schedule/
+          - listitem [ref=f8e22]:
+            - link "Exhibitors" [ref=f8e23]:
+              - /url: https://www.nimsnigeria.org/exhibitors/
+          - listitem [ref=f8e24]:
+            - link "Sponsors" [ref=f8e25]:
+              - /url: https://www.nimsnigeria.org/sponsors/
+          - listitem [ref=f8e26]:
+            - link "FAQs" [ref=f8e27]:
+              - /url: https://www.nimsnigeria.org/faqs/
+      - link "Register" [ref=f8e30]:
+        - /url: /register
+  - main [ref=f8e34]:
+    - generic [ref=f8e36]:
+      - generic [ref=f8e39]:
+        - heading "NATIONAL INDUSTRIAL MANPOWER SUMMIT" [level=1] [ref=f8e41]
+        - heading "NIMS 2026" [level=1] [ref=f8e43]
+        - heading "Theme" [level=6] [ref=f8e46]
+        - 'heading "Unlocking Nigeria''s Human Capital for Industrial Transformation: Building Skills, Driving Innovation and Creating Prosperity" [level=4] [ref=f8e51]'
+        - generic [ref=f8e52]: "Powered by:"
+      - generic [ref=f8e59]:
+        - generic [ref=f8e60]:
+          - list [ref=f8e62]:
+            - listitem [ref=f8e63]:
+              - generic [ref=f8e67]: 15th – 16th October 2026
+            - listitem [ref=f8e68]:
+              - generic [ref=f8e72]: State House Banquet Hall, Presidential Villa, Abuja
+          - generic [ref=f8e73]:
+            - link "Become a Partner" [ref=f8e75]:
+              - /url: "#"
+            - link "Learn About NIMS" [ref=f8e79]:
+              - /url: "#"
+        - generic [ref=f8e84]:
+          - generic [ref=f8e85]: Days
+          - generic [ref=f8e87]: Hours
+          - generic [ref=f8e89]: Minutes
+          - generic [ref=f8e91]: Seconds
+      - generic [ref=f8e95]:
+        - paragraph [ref=f8e97]: NIMS is a Presidential initiative dedicated to developing the skilled workforce needed to power Nigeria’s industrial future. It brings together policymakers, business leaders, educators, investors and development partners to tackle the country’s most pressing workforce challenges and create practical solutions that support industrial growth.
+        - link "Learn About NIMS" [ref=f8e99]:
+          - /url: https://nimsnigeria.org/about/
+      - generic [ref=f8e110]:
+        - heading "Presidential Keynote Address" [level=4] [ref=f8e112]
+        - generic [ref=f8e113]: His Excellency, President Bola Ahmed Tinubu (GCFR), will open NIMS 2025 with a landmark address on manpower development as a national priority.
+        - heading "His Excellency, President Bola Ahmed Tinubu (GCFR)" [level=6] [ref=f8e118]
+        - paragraph [ref=f8e120]: The President of the Federal Republic of Nigeria
+      - generic [ref=f8e122]:
+        - heading "Meet the Leaders Shaping Nigeria’s Industrial Future" [level=2] [ref=f8e124]
+        - heading "From trailblazing entrepreneurs to global policy experts, NIMS 2025 brings together a powerhouse lineup of speakers." [level=5] [ref=f8e129]
+        - generic [ref=f8e130]:
+          - generic [ref=f8e134]:
+            - button "Previous" [ref=f8e135] [cursor=pointer]
+            - button "Next" [ref=f8e170] [cursor=pointer]
+          - link "Full Speaker Lineup" [ref=f8e174]:
+            - /url: /speakers
+      - generic [ref=f8e179]:
+        - heading "Be Part of Nigeria’s Industrial Future" [level=3] [ref=f8e181]
+        - heading "Registration is open to all public, private, and international stakeholders. Accreditation starts Day 1 at Eagle Square, Abuja. Shuttle buses will run daily." [level=6] [ref=f8e186]
+        - link "Register" [ref=f8e188]:
+          - /url: /register
+      - generic [ref=f8e199]:
+        - heading "For sponsorship and exhibition info:" [level=5] [ref=f8e201]
+        - link "Contact Us" [ref=f8e203]:
+          - /url: https://nimsnigeria.org/sponsors/
+  - contentinfo [ref=f8e206]:
+    - generic [ref=f8e208]:
+      - generic [ref=f8e209]:
+        - generic [ref=f8e210]:
+          - link [ref=f8e212]:
+            - /url: https://www.nimsnigeria.org
+          - heading "National Industrial Manpower Summit, 2025" [level=6] [ref=f8e214]
+        - generic [ref=f8e215]: "Powered by:"
+      - generic [ref=f8e220]:
+        - heading "Contact" [level=5] [ref=f8e222]
+        - list [ref=f8e224]:
+          - listitem [ref=f8e225]:
+            - link "info@nimsnigeria.org" [ref=f8e226]:
+              - /url: mailto:info@nimsnigeria.org
+          - listitem [ref=f8e231]:
+            - link "+234 806 6752 120" [ref=f8e232]:
+              - /url: tel:+2348066752120
+          - listitem [ref=f8e237]:
+            - link "+234 703 2093 508" [ref=f8e238]:
+              - /url: tel:+2347032093508
+          - listitem [ref=f8e243]:
+            - link "+234 806 6065 909" [ref=f8e244]:
+              - /url: tel:+2348066065909
+      - generic [ref=f8e249]:
+        - heading "Links" [level=5] [ref=f8e251]
+        - navigation "Menu" [ref=f8e253]:
+          - list [ref=f8e254]:
+            - listitem [ref=f8e255]:
+              - link "About" [ref=f8e256]:
+                - /url: https://www.nimsnigeria.org/about/
+            - listitem [ref=f8e257]:
+              - link "Speakers" [ref=f8e258]:
+                - /url: https://www.nimsnigeria.org/speakers/
+            - listitem [ref=f8e259]:
+              - link "Schedule" [ref=f8e260]:
+                - /url: https://www.nimsnigeria.org/schedule/
+            - listitem [ref=f8e261]:
+              - link "Exhibitors" [ref=f8e262]:
+                - /url: https://www.nimsnigeria.org/exhibitors/
+            - listitem [ref=f8e263]:
+              - link "Sponsors" [ref=f8e264]:
+                - /url: https://www.nimsnigeria.org/sponsors/
+            - listitem [ref=f8e265]:
+              - link "FAQs" [ref=f8e266]:
+                - /url: https://www.nimsnigeria.org/faqs/
+      - generic [ref=f8e267]:
+        - heading "Register to attend:" [level=6] [ref=f8e269]
+        - link "Register Now" [ref=f8e271]:
+          - /url: /register
+        - heading "Follow on Social Media:" [level=6] [ref=f8e275]
+        - list [ref=f8e277]:
+          - listitem [ref=f8e278]:
+            - link "Linkedin" [ref=f8e279] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/nimsnigeria
+          - listitem [ref=f8e283]:
+            - link "Instagram" [ref=f8e284] [cursor=pointer]:
+              - /url: https://www.instagram.com/nimsnigeria
+          - listitem [ref=f8e288]:
+            - link "Facebook" [ref=f8e289] [cursor=pointer]:
+              - /url: https://www.facebook.com/nimsnigeria
+          - listitem [ref=f8e293]:
+            - link "X-twitter" [ref=f8e294] [cursor=pointer]:
+              - /url: https://x.com/nimsnigeria
+        - paragraph [ref=f8e299]: © 2025 National Industrial Manpower Summit, All Rights Reserved
+  - generic [ref=f8e300]: desktop

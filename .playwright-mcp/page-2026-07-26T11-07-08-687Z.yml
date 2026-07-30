@@ -1,0 +1,179 @@
+- generic [active] [ref=f5e1]:
+  - link "Skip to content" [ref=f5e2]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=f5e5]:
+      - generic [ref=f5e6]:
+        - link [ref=f5e8]:
+          - /url: https://www.nimsnigeria.org
+        - heading [level=6] [ref=f5e10]:
+          - link "NIMS 2025" [ref=f5e11]:
+            - /url: https://www.nimsnigeria.org
+      - navigation "Menu" [ref=f5e14]:
+        - list [ref=f5e15]:
+          - listitem [ref=f5e16]:
+            - link "About" [ref=f5e17]:
+              - /url: /about/
+          - listitem [ref=f5e18]:
+            - link "Speakers" [ref=f5e19]:
+              - /url: /speakers/
+          - listitem [ref=f5e20]:
+            - link "Schedule" [ref=f5e21]:
+              - /url: /schedule/
+          - listitem [ref=f5e22]:
+            - link "Exhibitors" [ref=f5e23]:
+              - /url: /exhibitors/
+          - listitem [ref=f5e24]:
+            - link "Sponsors" [ref=f5e25]:
+              - /url: /sponsors/
+          - listitem [ref=f5e26]:
+            - link "FAQs" [ref=f5e27]:
+              - /url: /faqs/
+      - link "Register" [ref=f5e30]:
+        - /url: /register
+  - main [ref=f5e34]:
+    - generic [ref=f5e36]:
+      - generic [ref=f5e37]:
+        - generic [ref=f5e39]:
+          - group "1 / 5"
+          - group "2 / 5"
+          - group "3 / 5"
+          - group "4 / 5"
+          - group "5 / 5"
+          - group "1 / 5"
+          - group "2 / 5"
+          - group "3 / 5"
+          - group "4 / 5"
+          - group "5 / 5" [ref=f5e40]
+          - group "1 / 5"
+          - group "2 / 5"
+          - group "3 / 5"
+          - group "4 / 5"
+          - group "5 / 5"
+        - generic [ref=f5e43]:
+          - heading "NATIONAL INDUSTRIAL MANPOWER SUMMIT" [level=1] [ref=f5e45]
+          - heading "NIMS 2025" [level=1] [ref=f5e47]
+          - heading "Theme" [level=6] [ref=f5e50]
+          - 'heading "Manpower Development: The Bridge Between Potential and Productivity" [level=4] [ref=f5e55]'
+          - generic [ref=f5e56]: "Powered by:"
+      - generic [ref=f5e63]:
+        - generic [ref=f5e64]:
+          - list [ref=f5e66]:
+            - listitem [ref=f5e67]:
+              - generic [ref=f5e71]: 12th – 14th August 2025
+            - listitem [ref=f5e72]:
+              - generic [ref=f5e76]: 9:00 AM Daily (WAT)
+            - listitem [ref=f5e77]:
+              - generic [ref=f5e81]: State House Banquet Hall, Presidential Villa, Abuja
+          - link "Register" [ref=f5e83]:
+            - /url: "#"
+        - generic [ref=f5e88]:
+          - generic [ref=f5e89]:
+            - generic [ref=f5e90]: "00"
+            - generic [ref=f5e91]: Days
+          - generic [ref=f5e92]:
+            - generic [ref=f5e93]: "00"
+            - generic [ref=f5e94]: Hours
+          - generic [ref=f5e95]:
+            - generic [ref=f5e96]: "00"
+            - generic [ref=f5e97]: Minutes
+          - generic [ref=f5e98]:
+            - generic [ref=f5e99]: "00"
+            - generic [ref=f5e100]: Seconds
+      - generic [ref=f5e103]:
+        - generic [ref=f5e104]:
+          - paragraph [ref=f5e105]:
+            - generic [ref=f5e106]: "N"
+            - text: igeria is on the cusp of industrial transformation. But we can’t build globally competitive industries without the right people, skills, and strategies.
+          - paragraph [ref=f5e108]: That’s where NIMS 2025 comes in. This summit brings together government, industry, academia, and global experts to close the skills gap and prepare Nigeria’s workforce for modern industry.
+        - link "Read More" [ref=f5e110]:
+          - /url: /about/
+      - generic [ref=f5e119]:
+        - heading "Presidential Keynote Address" [level=4] [ref=f5e121]
+        - generic [ref=f5e122]: His Excellency, President Bola Ahmed Tinubu (GCFR), will open NIMS 2025 with a landmark address on manpower development as a national priority.
+        - heading "His Excellency, President Bola Ahmed Tinubu (GCFR)" [level=6] [ref=f5e127]
+        - paragraph [ref=f5e129]: The President of the Federal Republic of Nigeria
+      - generic [ref=f5e131]:
+        - heading "Meet the Leaders Shaping Nigeria’s Industrial Future" [level=2] [ref=f5e133]
+        - heading "From trailblazing entrepreneurs to global policy experts, NIMS 2025 brings together a powerhouse lineup of speakers." [level=5] [ref=f5e138]
+        - generic [ref=f5e139]:
+          - generic [ref=f5e143]:
+            - button "Previous" [ref=f5e144] [cursor=pointer]
+            - button "Next" [ref=f5e179] [cursor=pointer]
+          - link "Full Speaker Lineup" [ref=f5e183]:
+            - /url: /speakers
+      - generic [ref=f5e188]:
+        - heading "Be Part of Nigeria’s Industrial Future" [level=3] [ref=f5e190]
+        - heading "Registration is open to all public, private, and international stakeholders. Accreditation starts Day 1 at Eagle Square, Abuja. Shuttle buses will run daily." [level=6] [ref=f5e195]
+        - link "Register" [ref=f5e197]:
+          - /url: /register
+      - generic [ref=f5e216]:
+        - heading "For sponsorship and exhibition info:" [level=5] [ref=f5e218]
+        - link "Contact Us" [ref=f5e220]:
+          - /url: /sponsors/
+  - contentinfo [ref=f5e223]:
+    - generic [ref=f5e225]:
+      - generic [ref=f5e226]:
+        - generic [ref=f5e227]:
+          - link [ref=f5e229]:
+            - /url: https://www.nimsnigeria.org
+          - heading "National Industrial Manpower Summit, 2025" [level=6] [ref=f5e231]
+        - generic [ref=f5e232]: "Powered by:"
+      - generic [ref=f5e237]:
+        - heading "Contact" [level=5] [ref=f5e239]
+        - list [ref=f5e241]:
+          - listitem [ref=f5e242]:
+            - link "info@nimsnigeria.org" [ref=f5e243]:
+              - /url: mailto:info@nimsnigeria.org
+          - listitem [ref=f5e248]:
+            - link "+234 806 6752 120" [ref=f5e249]:
+              - /url: tel:+2348066752120
+          - listitem [ref=f5e254]:
+            - link "+234 703 2093 508" [ref=f5e255]:
+              - /url: tel:+2347032093508
+          - listitem [ref=f5e260]:
+            - link "+234 806 6065 909" [ref=f5e261]:
+              - /url: tel:+2348066065909
+      - generic [ref=f5e266]:
+        - heading "Links" [level=5] [ref=f5e268]
+        - navigation "Menu" [ref=f5e270]:
+          - list [ref=f5e271]:
+            - listitem [ref=f5e272]:
+              - link "About" [ref=f5e273]:
+                - /url: /about/
+            - listitem [ref=f5e274]:
+              - link "Speakers" [ref=f5e275]:
+                - /url: /speakers/
+            - listitem [ref=f5e276]:
+              - link "Schedule" [ref=f5e277]:
+                - /url: /schedule/
+            - listitem [ref=f5e278]:
+              - link "Exhibitors" [ref=f5e279]:
+                - /url: /exhibitors/
+            - listitem [ref=f5e280]:
+              - link "Sponsors" [ref=f5e281]:
+                - /url: /sponsors/
+            - listitem [ref=f5e282]:
+              - link "FAQs" [ref=f5e283]:
+                - /url: /faqs/
+      - generic [ref=f5e284]:
+        - heading "Register to attend:" [level=6] [ref=f5e286]
+        - link "Register Now" [ref=f5e288]:
+          - /url: /register
+        - heading "Follow on Social Media:" [level=6] [ref=f5e292]
+        - list [ref=f5e294]:
+          - listitem [ref=f5e295]:
+            - link "Linkedin" [ref=f5e296] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/nimsnigeria
+          - listitem [ref=f5e300]:
+            - link "Instagram" [ref=f5e301] [cursor=pointer]:
+              - /url: https://www.instagram.com/nimsnigeria
+          - listitem [ref=f5e305]:
+            - link "Facebook" [ref=f5e306] [cursor=pointer]:
+              - /url: https://www.facebook.com/nimsnigeria
+          - listitem [ref=f5e310]:
+            - link "X-twitter" [ref=f5e311] [cursor=pointer]:
+              - /url: https://x.com/nimsnigeria
+        - paragraph [ref=f5e316]: © 2025 National Industrial Manpower Summit, All Rights Reserved
+  - generic [ref=f5e317]: desktop
+  - generic [ref=f5e318]: desktop

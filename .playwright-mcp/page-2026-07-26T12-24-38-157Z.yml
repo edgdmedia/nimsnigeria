@@ -1,0 +1,140 @@
+- generic [active] [ref=f12e1]:
+  - link "Skip to content" [ref=f12e2]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=f12e5]:
+      - generic [ref=f12e6]:
+        - link [ref=f12e8]:
+          - /url: https://www.nimsnigeria.org
+        - heading [level=6] [ref=f12e10]:
+          - link "NIMS 2025" [ref=f12e11]:
+            - /url: https://www.nimsnigeria.org
+      - navigation "Menu" [ref=f12e14]:
+        - list [ref=f12e15]:
+          - listitem [ref=f12e16]:
+            - link "About" [ref=f12e17]:
+              - /url: ./about.html
+          - listitem [ref=f12e18]:
+            - link "Speakers" [ref=f12e19]:
+              - /url: ./speakers.html
+          - listitem [ref=f12e20]:
+            - link "Schedule" [ref=f12e21]:
+              - /url: ./schedule.html
+          - listitem [ref=f12e22]:
+            - link "Exhibitors" [ref=f12e23]:
+              - /url: ./exhibitors.html
+          - listitem [ref=f12e24]:
+            - link "Sponsors" [ref=f12e25]:
+              - /url: ./sponsors.html
+          - listitem [ref=f12e26]:
+            - link "FAQs" [ref=f12e27]:
+              - /url: ./faqs.html
+      - link "Register" [ref=f12e30]:
+        - /url: ./register.html
+  - main [ref=f12e34]:
+    - generic [ref=f12e36]:
+      - generic [ref=f12e38]:
+        - heading "Meet Our Exhibitors" [level=1] [ref=f12e40]
+        - link [ref=f12e43]:
+          - /url: "#content-sec"
+      - generic [ref=f12e48]:
+        - paragraph [ref=f12e49]:
+          - generic [ref=f12e50]: "N"
+          - text: IMS 2025 features a curated Exhibition Hub showcasing innovations, tools, and solutions driving industrial development in Nigeria and beyond.
+        - paragraph [ref=f12e52]: Our current exhibitors represent leading voices in workforce development, vocational training, automation, and manufacturing. Their displays will provide delegates with an opportunity to interact directly with solutions that are shaping the future of skills and productivity.
+      - generic [ref=f12e54]:
+        - generic [ref=f12e58]:
+          - heading "Interested in Exhibiting at NIMS 2025?" [level=4] [ref=f12e60]
+          - generic [ref=f12e61]:
+            - paragraph [ref=f12e62]: We’re inviting forward-thinking companies, training institutions, and solution providers to exhibit at NIMS 2025. This is a unique chance to connect directly with federal ministries, industry leaders, TVET institutions, investors, development partners, and global media.
+            - paragraph [ref=f12e63]: We’re especially keen to showcase innovators in industrial equipment, vocational training, workforce tracking, apprenticeship platforms, and ESG solutions.
+            - paragraph [ref=f12e64]: As an exhibitor, you’ll gain prime visibility in the Dome Pavilion, face-to-face access to presidential and ministerial delegations, curated networking, and live media exposure to over 1,000 high-impact attendees.
+        - generic [ref=f12e65]:
+          - heading [level=5] [ref=f12e67]:
+            - text: Reach out to us before 15th July 2025 at
+            - link "info@nimsnigeria.org" [ref=f12e68]:
+              - /url: info@nimsnigeria.org
+            - text: to learn more about sponsorship opportunities.
+          - paragraph [ref=f12e70]:
+            - strong [ref=f12e71]: Or call
+            - strong [ref=f12e72]:
+              - text: Barr. Ghani Arobo (
+              - link "0806 675 2120" [ref=f12e73]:
+                - /url: tel:+2348066752120
+              - text: )
+            - strong [ref=f12e74]:
+              - text: Dr. Shem Ikoojo Ayegba (
+              - link "0703 209 3508" [ref=f12e75]:
+                - /url: tel:+2347032093508
+              - text: )
+            - strong [ref=f12e76]:
+              - text: Dr. Bashir Taiwo (
+              - link "0806 606 5909" [ref=f12e77]:
+                - /url: tel:+2348066065909
+              - text: )
+  - contentinfo [ref=f12e91]:
+    - generic [ref=f12e93]:
+      - generic [ref=f12e94]:
+        - generic [ref=f12e95]:
+          - link [ref=f12e97]:
+            - /url: https://www.nimsnigeria.org
+          - heading "National Industrial Manpower Summit, 2025" [level=6] [ref=f12e99]
+        - generic [ref=f12e100]: "Powered by:"
+      - generic [ref=f12e105]:
+        - heading "Contact" [level=5] [ref=f12e107]
+        - list [ref=f12e109]:
+          - listitem [ref=f12e110]:
+            - link "info@nimsnigeria.org" [ref=f12e111]:
+              - /url: mailto:info@nimsnigeria.org
+          - listitem [ref=f12e116]:
+            - link "+234 806 6752 120" [ref=f12e117]:
+              - /url: tel:+2348066752120
+          - listitem [ref=f12e122]:
+            - link "+234 703 2093 508" [ref=f12e123]:
+              - /url: tel:+2347032093508
+          - listitem [ref=f12e128]:
+            - link "+234 806 6065 909" [ref=f12e129]:
+              - /url: tel:+2348066065909
+      - generic [ref=f12e134]:
+        - heading "Links" [level=5] [ref=f12e136]
+        - navigation "Menu" [ref=f12e138]:
+          - list [ref=f12e139]:
+            - listitem [ref=f12e140]:
+              - link "About" [ref=f12e141]:
+                - /url: ./about.html
+            - listitem [ref=f12e142]:
+              - link "Speakers" [ref=f12e143]:
+                - /url: ./speakers.html
+            - listitem [ref=f12e144]:
+              - link "Schedule" [ref=f12e145]:
+                - /url: ./schedule.html
+            - listitem [ref=f12e146]:
+              - link "Exhibitors" [ref=f12e147]:
+                - /url: ./exhibitors.html
+            - listitem [ref=f12e148]:
+              - link "Sponsors" [ref=f12e149]:
+                - /url: ./sponsors.html
+            - listitem [ref=f12e150]:
+              - link "FAQs" [ref=f12e151]:
+                - /url: ./faqs.html
+      - generic [ref=f12e152]:
+        - heading "Register to attend:" [level=6] [ref=f12e154]
+        - link "Register Now" [ref=f12e156]:
+          - /url: ./register.html
+        - heading "Follow on Social Media:" [level=6] [ref=f12e160]
+        - list [ref=f12e162]:
+          - listitem [ref=f12e163]:
+            - link "Linkedin" [ref=f12e164] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/nimsnigeria
+          - listitem [ref=f12e168]:
+            - link "Instagram" [ref=f12e169] [cursor=pointer]:
+              - /url: https://www.instagram.com/nimsnigeria
+          - listitem [ref=f12e173]:
+            - link "Facebook" [ref=f12e174] [cursor=pointer]:
+              - /url: https://www.facebook.com/nimsnigeria
+          - listitem [ref=f12e178]:
+            - link "X-twitter" [ref=f12e179] [cursor=pointer]:
+              - /url: https://x.com/nimsnigeria
+        - paragraph [ref=f12e184]: © 2025 National Industrial Manpower Summit, All Rights Reserved
+  - generic [ref=f12e185]: desktop
+  - generic [ref=f12e186]: desktop

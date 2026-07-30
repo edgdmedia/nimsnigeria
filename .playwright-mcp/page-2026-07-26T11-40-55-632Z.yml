@@ -1,0 +1,122 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - link [ref=f1e8]:
+          - /url: https://www.nimsnigeria.org
+        - heading [level=6] [ref=f1e10]:
+          - link "NIMS 2025" [ref=f1e11]:
+            - /url: https://www.nimsnigeria.org
+      - navigation "Menu" [ref=f1e14]:
+        - list [ref=f1e15]:
+          - listitem [ref=f1e16]:
+            - link "About" [ref=f1e17]:
+              - /url: https://www.nimsnigeria.org/about/
+          - listitem [ref=f1e18]:
+            - link "Speakers" [ref=f1e19]:
+              - /url: https://www.nimsnigeria.org/speakers/
+          - listitem [ref=f1e20]:
+            - link "Schedule" [ref=f1e21]:
+              - /url: https://www.nimsnigeria.org/schedule/
+          - listitem [ref=f1e22]:
+            - link "Exhibitors" [ref=f1e23]:
+              - /url: https://www.nimsnigeria.org/exhibitors/
+          - listitem [ref=f1e24]:
+            - link "Sponsors" [ref=f1e25]:
+              - /url: https://www.nimsnigeria.org/sponsors/
+          - listitem [ref=f1e26]:
+            - link "FAQs" [ref=f1e27]:
+              - /url: https://www.nimsnigeria.org/faqs/
+      - link "Register" [ref=f1e30]:
+        - /url: /register
+  - main [ref=f1e34]:
+    - generic [ref=f1e36]:
+      - generic [ref=f1e38]:
+        - heading "What to Expect at NIMS 2025" [level=1] [ref=f1e40]
+        - link [ref=f1e43]:
+          - /url: "#content-sec"
+      - generic [ref=f1e48]:
+        - paragraph [ref=f1e49]:
+          - generic [ref=f1e50]: "N"
+          - text: IMS 2025 is a strategic gathering of decision-makers, innovators, and global partners, coming together to produce real outcomes for Nigeria’s industrial future.
+        - paragraph [ref=f1e52]: The summit will be hosted over three days at the State House Banquet Hall, Presidential Villa, Abuja. The programme includes high-level plenaries, deep-dive technical sessions, exhibitions, and curated networking experiences.
+      - generic [ref=f1e54]:
+        - heading "Programme Overview" [level=3] [ref=f1e59]
+        - generic [ref=f1e60]:
+          - generic [ref=f1e61]:
+            - heading "Day 1 – Opening Plenary" [level=6] [ref=f1e63]
+            - heading "9:00AM – 5:00PM (WAT)" [level=6] [ref=f1e65]
+          - generic [ref=f1e66]:
+            - heading "Vision, Commitment, and Industrial Leadership" [level=5] [ref=f1e68]
+            - list [ref=f1e70]:
+              - listitem [ref=f1e71]: Presidential Keynote Address and Welcome
+              - listitem [ref=f1e72]: High-level panel discussions
+              - listitem [ref=f1e73]: Opening of the Industrial Exhibition Hub
+              - listitem [ref=f1e74]: VIP networking and press engagement
+  - contentinfo [ref=f1e75]:
+    - generic [ref=f1e77]:
+      - generic [ref=f1e78]:
+        - generic [ref=f1e79]:
+          - link [ref=f1e81]:
+            - /url: https://www.nimsnigeria.org
+          - heading "National Industrial Manpower Summit, 2025" [level=6] [ref=f1e83]
+        - generic [ref=f1e84]: "Powered by:"
+      - generic [ref=f1e89]:
+        - heading "Contact" [level=5] [ref=f1e91]
+        - list [ref=f1e93]:
+          - listitem [ref=f1e94]:
+            - link "info@nimsnigeria.org" [ref=f1e95]:
+              - /url: mailto:info@nimsnigeria.org
+          - listitem [ref=f1e100]:
+            - link "+234 806 6752 120" [ref=f1e101]:
+              - /url: tel:+2348066752120
+          - listitem [ref=f1e106]:
+            - link "+234 703 2093 508" [ref=f1e107]:
+              - /url: tel:+2347032093508
+          - listitem [ref=f1e112]:
+            - link "+234 806 6065 909" [ref=f1e113]:
+              - /url: tel:+2348066065909
+      - generic [ref=f1e118]:
+        - heading "Links" [level=5] [ref=f1e120]
+        - navigation "Menu" [ref=f1e122]:
+          - list [ref=f1e123]:
+            - listitem [ref=f1e124]:
+              - link "About" [ref=f1e125]:
+                - /url: https://www.nimsnigeria.org/about/
+            - listitem [ref=f1e126]:
+              - link "Speakers" [ref=f1e127]:
+                - /url: https://www.nimsnigeria.org/speakers/
+            - listitem [ref=f1e128]:
+              - link "Schedule" [ref=f1e129]:
+                - /url: https://www.nimsnigeria.org/schedule/
+            - listitem [ref=f1e130]:
+              - link "Exhibitors" [ref=f1e131]:
+                - /url: https://www.nimsnigeria.org/exhibitors/
+            - listitem [ref=f1e132]:
+              - link "Sponsors" [ref=f1e133]:
+                - /url: https://www.nimsnigeria.org/sponsors/
+            - listitem [ref=f1e134]:
+              - link "FAQs" [ref=f1e135]:
+                - /url: https://www.nimsnigeria.org/faqs/
+      - generic [ref=f1e136]:
+        - heading "Register to attend:" [level=6] [ref=f1e138]
+        - link "Register Now" [ref=f1e140]:
+          - /url: /register
+        - heading "Follow on Social Media:" [level=6] [ref=f1e144]
+        - list [ref=f1e146]:
+          - listitem [ref=f1e147]:
+            - link "Linkedin" [ref=f1e148] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/nimsnigeria
+          - listitem [ref=f1e152]:
+            - link "Instagram" [ref=f1e153] [cursor=pointer]:
+              - /url: https://www.instagram.com/nimsnigeria
+          - listitem [ref=f1e157]:
+            - link "Facebook" [ref=f1e158] [cursor=pointer]:
+              - /url: https://www.facebook.com/nimsnigeria
+          - listitem [ref=f1e162]:
+            - link "X-twitter" [ref=f1e163] [cursor=pointer]:
+              - /url: https://x.com/nimsnigeria
+        - paragraph [ref=f1e168]: © 2025 National Industrial Manpower Summit, All Rights Reserved
+  - generic [ref=f1e169]: desktop

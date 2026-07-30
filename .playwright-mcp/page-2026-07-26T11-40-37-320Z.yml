@@ -1,0 +1,184 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e8]:
+          - /url: https://www.nimsnigeria.org
+        - heading [level=6] [ref=e10]:
+          - link "NIMS 2025" [ref=e11]:
+            - /url: https://www.nimsnigeria.org
+      - navigation "Menu" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "About" [ref=e17]:
+              - /url: /about/
+          - listitem [ref=e18]:
+            - link "Speakers" [ref=e19]:
+              - /url: /speakers/
+          - listitem [ref=e20]:
+            - link "Schedule" [ref=e21]:
+              - /url: /schedule/
+          - listitem [ref=e22]:
+            - link "Exhibitors" [ref=e23]:
+              - /url: /exhibitors/
+          - listitem [ref=e24]:
+            - link "Sponsors" [ref=e25]:
+              - /url: /sponsors/
+          - listitem [ref=e26]:
+            - link "FAQs" [ref=e27]:
+              - /url: /faqs/
+      - link "Register" [ref=e30]:
+        - /url: /register
+  - main [ref=e34]:
+    - generic [ref=e36]:
+      - generic [ref=e38]:
+        - heading [level=6] [ref=e40]:
+          - link "NIMS 2025" [ref=e41]:
+            - /url: https://www.nimsnigeria.org
+        - heading "About the Summit" [level=1] [ref=e43]
+        - link [ref=e46]:
+          - /url: "#content-sec"
+      - generic [ref=e50]:
+        - heading "A Presidential Initiative for Industrial Growth" [level=4] [ref=e52]
+        - generic [ref=e53]:
+          - paragraph [ref=e54]:
+            - generic [ref=e55]: "N"
+            - text: IMS 2025 is a strategic, high-level event established under the Office of the Senior Special Assistant to the President on Industrial Training & Development.
+          - paragraph [ref=e57]: The summit responds directly to the national need for a stronger, more competitive industrial workforce. It is backed by Nigeria’s top leadership and aligns with the country’s long-term economic transformation goals.
+          - paragraph [ref=e58]: The summit convenes government, business, academia, and global partners to accelerate change in how Nigeria builds, trains, and deploys industrial talent.
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - heading "Our Mission" [level=4] [ref=e64]
+          - heading "To bridge the gap between potential and productivity by reshaping how Nigeria develops, supports, and sustains its industrial manpower." [level=4] [ref=e69]
+        - generic [ref=e71]:
+          - paragraph [ref=e72]: "The summit’s mission is to:"
+          - list [ref=e73]:
+            - listitem [ref=e74]: Identify and address sector-specific skill gaps
+            - listitem [ref=e75]: Design new frameworks for apprenticeship and vocational training
+            - listitem [ref=e76]: Build stronger ties between education, government, and industry
+            - listitem [ref=e77]: Set policy direction for a long-term workforce strategy
+            - listitem [ref=e78]: Position Nigeria as a regional leader in industrial skills development
+      - generic [ref=e80]:
+        - generic [ref=e84]:
+          - heading "Why This Summit Now?" [level=4] [ref=e195]
+          - generic [ref=e85]:
+            - paragraph [ref=e86]:
+              - generic [ref=e87]: "N"
+              - text: igeria stands at a critical juncture in its economic development journey. Despite being Africa’s largest economy and most populous nation, our manufacturing capacity and industrial growth remain limited.
+            - paragraph [ref=e89]:
+              - strong [ref=e90]: Why?
+              - text: Because of a persistent manpower challenge. The workforce isn’t keeping pace with industry’s needs. There’s a widening gap between the skills our people have and the skills our industries demand.
+            - paragraph [ref=e91]: This gap holds back productivity, job creation, global competitiveness, and inclusive economic progress.
+            - paragraph [ref=e92]: NIMS 2025 is a bold, strategic response. It will set a new direction for Nigeria’s industrial workforce, grounded in data, driven by collaboration, and backed by presidential leadership.
+          - heading "We are launching a national shift with NIMS 2025. The future of Nigeria’s industrial strength depends on the quality of its people. We’re designing outcomes that build industries, create jobs, and make Nigeria’s economy work for everyone." [level=6] [ref=e203]
+        - generic [ref=e95]:
+          - heading "Hon. Adamson Ayinde" [level=4] [ref=e210]
+          - paragraph [ref=e212]: Senior Special Assistant to the President on Industrial Training & Development
+      - generic [ref=e213]:
+        - heading "Planning Committee" [level=3] [ref=e215]
+        - generic [ref=e221]:
+          - generic [ref=e225]:
+            - img "Bare. Abdulghani Aroboe" [ref=e227]
+            - heading "Barr. Abdulghani Arobo" [level=6] [ref=e232]
+            - paragraph [ref=e234]: Chairman
+          - generic [ref=e238]:
+            - img "Dr Shem Ikoojo Ayegba" [ref=e240]
+            - heading "Dr Shem Ikoojo Ayegba" [level=6] [ref=e245]
+            - paragraph [ref=e247]: Co-Chairman
+          - generic [ref=e251]:
+            - img "Dr. Bashir Taiwo CNA,ACA," [ref=e253]
+            - heading "Dr. Bashir Taiwo" [level=6] [ref=e258]
+            - paragraph [ref=e260]: Secretary
+        - generic [ref=e266]:
+          - generic [ref=e270]:
+            - heading "Hajjia Tawakalitu Yusuf" [level=6] [ref=e275]
+            - paragraph [ref=e277]: Member
+          - generic [ref=e281]:
+            - heading "Mr James Abimbola" [level=6] [ref=e286]
+            - paragraph [ref=e288]: Member
+          - generic [ref=e292]:
+            - heading "Barr. Adetutu Adekoya" [level=6] [ref=e297]
+            - paragraph [ref=e299]: Member
+          - generic [ref=e303]:
+            - heading "Chief Babatunde Oloto" [level=6] [ref=e308]
+            - paragraph [ref=e310]: Member
+          - generic [ref=e314]:
+            - heading "Mr Alakija Kayode" [level=6] [ref=e319]
+            - paragraph [ref=e321]: Member
+          - generic [ref=e325]:
+            - heading "Mr CelsusPaul Ekweme" [level=6] [ref=e330]
+            - paragraph [ref=e332]: Member
+          - generic [ref=e336]:
+            - heading "Mr. Donald Ekanem" [level=6] [ref=e341]
+            - paragraph [ref=e343]: Member
+          - generic [ref=e347]:
+            - heading "Mrs Aderonke Akinluyi" [level=6] [ref=e352]
+            - paragraph [ref=e354]: Member
+  - contentinfo [ref=e98]:
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - link [ref=e104]:
+            - /url: https://www.nimsnigeria.org
+          - heading "National Industrial Manpower Summit, 2025" [level=6] [ref=e106]
+        - generic [ref=e107]: "Powered by:"
+      - generic [ref=e112]:
+        - heading "Contact" [level=5] [ref=e114]
+        - list [ref=e116]:
+          - listitem [ref=e117]:
+            - link "info@nimsnigeria.org" [ref=e118]:
+              - /url: mailto:info@nimsnigeria.org
+          - listitem [ref=e123]:
+            - link "+234 806 6752 120" [ref=e124]:
+              - /url: tel:+2348066752120
+          - listitem [ref=e129]:
+            - link "+234 703 2093 508" [ref=e130]:
+              - /url: tel:+2347032093508
+          - listitem [ref=e135]:
+            - link "+234 806 6065 909" [ref=e136]:
+              - /url: tel:+2348066065909
+      - generic [ref=e141]:
+        - heading "Links" [level=5] [ref=e143]
+        - navigation "Menu" [ref=e145]:
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "About" [ref=e148]:
+                - /url: /about/
+            - listitem [ref=e149]:
+              - link "Speakers" [ref=e150]:
+                - /url: /speakers/
+            - listitem [ref=e151]:
+              - link "Schedule" [ref=e152]:
+                - /url: /schedule/
+            - listitem [ref=e153]:
+              - link "Exhibitors" [ref=e154]:
+                - /url: /exhibitors/
+            - listitem [ref=e155]:
+              - link "Sponsors" [ref=e156]:
+                - /url: /sponsors/
+            - listitem [ref=e157]:
+              - link "FAQs" [ref=e158]:
+                - /url: /faqs/
+      - generic [ref=e159]:
+        - heading "Register to attend:" [level=6] [ref=e161]
+        - link "Register Now" [ref=e163]:
+          - /url: /register
+        - heading "Follow on Social Media:" [level=6] [ref=e167]
+        - list [ref=e169]:
+          - listitem [ref=e170]:
+            - link "Linkedin" [ref=e171] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/nimsnigeria
+          - listitem [ref=e175]:
+            - link "Instagram" [ref=e176] [cursor=pointer]:
+              - /url: https://www.instagram.com/nimsnigeria
+          - listitem [ref=e180]:
+            - link "Facebook" [ref=e181] [cursor=pointer]:
+              - /url: https://www.facebook.com/nimsnigeria
+          - listitem [ref=e185]:
+            - link "X-twitter" [ref=e186] [cursor=pointer]:
+              - /url: https://x.com/nimsnigeria
+        - paragraph [ref=e191]: © 2025 National Industrial Manpower Summit, All Rights Reserved
+  - generic [ref=e192]: desktop
+  - generic [ref=e193]: desktop

@@ -1,0 +1,228 @@
+- generic [active] [ref=f19e1]:
+  - link "Skip to content" [ref=f19e2]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=f19e5]:
+      - generic [ref=f19e6]:
+        - link [ref=f19e8]:
+          - /url: https://www.nimsnigeria.org
+        - heading [level=6] [ref=f19e10]:
+          - link "NIMS 2025" [ref=f19e11]:
+            - /url: https://www.nimsnigeria.org
+      - navigation "Menu" [ref=f19e14]:
+        - list [ref=f19e15]:
+          - listitem [ref=f19e16]:
+            - link "About" [ref=f19e17]:
+              - /url: ./about.html
+          - listitem [ref=f19e18]:
+            - link "Speakers" [ref=f19e19]:
+              - /url: ./speakers.html
+          - listitem [ref=f19e20]:
+            - link "Schedule" [ref=f19e21]:
+              - /url: ./schedule.html
+          - listitem [ref=f19e22]:
+            - link "Exhibitors" [ref=f19e23]:
+              - /url: ./exhibitors.html
+          - listitem [ref=f19e24]:
+            - link "Sponsors" [ref=f19e25]:
+              - /url: ./sponsors.html
+          - listitem [ref=f19e26]:
+            - link "FAQs" [ref=f19e27]:
+              - /url: ./faqs.html
+      - link "Register" [ref=f19e30]:
+        - /url: ./register.html
+  - main [ref=f19e34]:
+    - generic [ref=f19e36]:
+      - generic [ref=f19e38]:
+        - heading [level=6] [ref=f19e40]:
+          - link "NIMS 2025" [ref=f19e41]:
+            - /url: https://www.nimsnigeria.org
+        - heading "Frequently Asked Questions" [level=1] [ref=f19e43]
+        - link [ref=f19e46]:
+          - /url: "#content-sec"
+      - generic [ref=f19e50]:
+        - generic "Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys" [ref=f19e53]:
+          - group [ref=f19e54]:
+            - heading "Where is NIMS 2025 taking place?" [level=6] [ref=f19e57]
+            - region "Where is NIMS 2025 taking place? The summit will be held at the State House Banquet Hall, Presidential Villa, Abuja, Nigeria." [ref=f19e65]:
+              - paragraph [ref=f19e67]: The summit will be held at the State House Banquet Hall, Presidential Villa, Abuja, Nigeria.
+          - group [ref=f19e68]:
+            - heading "What are the event dates?" [level=6] [ref=f19e71]
+            - region "What are the event dates? NIMS 2025 runs from Monday 12 August to Wednesday 14 August 2025. Daily sessions begin at 9:00AM (WAT)." [ref=f19e79]:
+              - paragraph [ref=f19e81]: NIMS 2025 runs from Monday 12 August to Wednesday 14 August 2025. Daily sessions begin at 9:00AM (WAT).
+          - group [ref=f19e82]:
+            - heading "How do I register to attend?" [level=6] [ref=f19e85]
+            - 'region "How do I register to attend? You can register online via the official link: Register Accreditation begins Day 1 at Eagle Square, Abuja." [ref=f19e93]':
+              - paragraph [ref=f19e95]:
+                - text: "You can register online via the official link:"
+                - link "Register" [ref=f19e96]:
+                  - /url: ./register.html
+                - text: Accreditation begins Day 1 at Eagle Square, Abuja.
+          - group [ref=f19e97]:
+            - heading "Who should attend NIMS 2025?" [level=6] [ref=f19e100]
+            - 'region "Who should attend NIMS 2025? The summit is open to: Government officials and policymakers Industrial leaders and manufacturers Academic institutions and training bodies Entrepreneurs and innovators in workforce development International development partners" [ref=f19e108]':
+              - generic [ref=f19e109]:
+                - paragraph [ref=f19e110]: "The summit is open to:"
+                - list [ref=f19e111]:
+                  - listitem [ref=f19e112]: Government officials and policymakers
+                  - listitem [ref=f19e113]: Industrial leaders and manufacturers
+                  - listitem [ref=f19e114]: Academic institutions and training bodies
+                  - listitem [ref=f19e115]: Entrepreneurs and innovators in workforce development
+                  - listitem [ref=f19e116]: International development partners
+          - group [ref=f19e117]:
+            - heading "Can I attend the summit virtually?" [level=6] [ref=f19e120]
+            - region "Can I attend the summit virtually? Yes. Key sessions will be livestreamed for registered virtual attendees. You’ll receive a viewing link and schedule closer to the event." [ref=f19e128]:
+              - paragraph [ref=f19e130]: Yes. Key sessions will be livestreamed for registered virtual attendees.You’ll receive a viewing link and schedule closer to the event.
+          - group [ref=f19e131]:
+            - heading "Do I need to pay to attend?" [level=6] [ref=f19e134]
+            - region "Do I need to pay to attend? Participation is free, but registration is required. Priority will be given to pre-accredited delegates." [ref=f19e142]:
+              - paragraph [ref=f19e144]: Participation is free, but registration is required. Priority will be given to pre-accredited delegates.
+          - group [ref=f19e145]:
+            - heading "Will I need special access to enter the State House?" [level=6] [ref=f19e148]
+            - region "Will I need special access to enter the State House? Yes. Access to the Presidential Villa requires pre-accreditation. Once registered, you’ll receive details on how to collect your delegate badge and security clearance ahead of the event." [ref=f19e156]:
+              - paragraph [ref=f19e158]: Yes. Access to the Presidential Villa requires pre-accreditation.Once registered, you’ll receive details on how to collect your delegate badge and security clearance ahead of the event.
+          - group [ref=f19e159]:
+            - heading "Can international delegates attend NIMS 2025?" [level=6] [ref=f19e162]
+            - region "Can international delegates attend NIMS 2025? Yes. International participants are welcome and encouraged. Please register early to secure your accreditation and ensure all travel documents (visa, yellow card, etc.) are arranged in advance. You may email info@nimsnigeria.org if you require a formal invitation letter." [ref=f19e170]:
+              - paragraph [ref=f19e172]:
+                - text: Yes. International participants are welcome and encouraged.Please register early to secure your accreditation and ensure all travel documents (visa, yellow card, etc.) are arranged in advance.You may email
+                - link "info@nimsnigeria.org" [ref=f19e173]:
+                  - /url: mailto:info@nimsnigeria.org
+                - text: if you require a formal invitation letter.
+          - group [ref=f19e174]:
+            - heading "Are there recommended hotels or accommodation options nearby?" [level=6] [ref=f19e177]
+            - region "Are there recommended hotels or accommodation options nearby? Yes. A list of recommended partner hotels within Abuja will be provided to registered delegates by email." [ref=f19e185]:
+              - paragraph [ref=f19e187]: Yes. A list of recommended partner hotels within Abuja will be provided to registered delegates by email.
+          - group [ref=f19e188]:
+            - heading "Can I sponsor NIMS 2025?" [level=6] [ref=f19e191]
+            - region "Can I sponsor NIMS 2025? Yes. Sponsorship packages are available for organisations aligned with workforce, skills, or industrial transformation. Email info@nimsnigeria.org for details." [ref=f19e199]:
+              - paragraph [ref=f19e201]:
+                - text: Yes. Sponsorship packages are available for organisations aligned with workforce, skills, or industrial transformation.Email
+                - link "info@nimsnigeria.org" [ref=f19e202]:
+                  - /url: mailto:info@nimsnigeria.org
+                - text: for details.
+          - group [ref=f19e203]:
+            - heading "How can I exhibit at the summit?" [level=6] [ref=f19e206]
+            - region "How can I exhibit at the summit? To book an exhibitor space, email info@nimsnigeria.org or fill out the form below to chat with our team." [ref=f19e214]:
+              - paragraph [ref=f19e216]: To book an exhibitor space, email info@nimsnigeria.org or fill out the form below to chat with our team.
+          - group [ref=f19e217]:
+            - heading "What does an exhibitor booth include?" [level=6] [ref=f19e220]
+            - 'region "What does an exhibitor booth include? What does an exhibitor booth include? Each exhibitor booth comes with: Branded table and backdrop area Power access Delegate passes for up to 3 team members Opportunity to join the live exhibition showcase Custom options may be available upon request." [ref=f19e228]':
+              - generic [ref=f19e229]:
+                - paragraph [ref=f19e230]: "What does an exhibitor booth include?Each exhibitor booth comes with:"
+                - list [ref=f19e231]:
+                  - listitem [ref=f19e232]: Branded table and backdrop area
+                  - listitem [ref=f19e233]: Power access
+                  - listitem [ref=f19e234]: Delegate passes for up to 3 team members
+                  - listitem [ref=f19e235]: Opportunity to join the live exhibition showcase
+                - paragraph [ref=f19e236]: Custom options may be available upon request.
+          - group [ref=f19e237]:
+            - heading "Will media and press be present?" [level=6] [ref=f19e240]
+            - region "Will media and press be present? Yes. Accredited media outlets will be covering the event. Press passes are available by request via info@nimsnigeria.org." [ref=f19e248]:
+              - paragraph [ref=f19e250]: Yes. Accredited media outlets will be covering the event.Press passes are available by request via info@nimsnigeria.org.
+          - group [ref=f19e251]:
+            - heading "What are the security arrangements?" [level=6] [ref=f19e254]
+            - region "What are the security arrangements? The summit is managed under strict security protocols in collaboration with federal agencies. Delegates must wear visible ID badges at all times. Bags and vehicles may be screened on arrival." [ref=f19e262]:
+              - paragraph [ref=f19e264]: The summit is managed under strict security protocols in collaboration with federal agencies.Delegates must wear visible ID badges at all times. Bags and vehicles may be screened on arrival.
+          - group [ref=f19e265]:
+            - heading "Will there be medical and health services on site?" [level=6] [ref=f19e268]
+            - region "Will there be medical and health services on site? Yes. Medical response teams and health & safety officers will be on standby throughout the 3-day event." [ref=f19e276]:
+              - paragraph [ref=f19e278]: Yes. Medical response teams and health & safety officers will be on standby throughout the 3-day event.
+        - generic [ref=f19e279]:
+          - heading "Still have questions?" [level=3] [ref=f19e281]
+          - heading "We’re here to help." [level=5] [ref=f19e286]
+          - list [ref=f19e288]:
+            - listitem [ref=f19e289]:
+              - link "info@nimsnigeria.org" [ref=f19e290]:
+                - /url: mailto:info@nimsnigeria.org
+            - listitem [ref=f19e295]:
+              - link "Barr. Ghani Arobo (0806 675 2120)" [ref=f19e296]:
+                - /url: tel:+2348066752120
+            - listitem [ref=f19e301]:
+              - link "Dr Shem Ikoojo Ayegba (0703 209 3508)" [ref=f19e302]:
+                - /url: tel:+2347032093508
+            - listitem [ref=f19e307]:
+              - link "Dr. Bashir Taiwo (0806 606 5909)" [ref=f19e308]:
+                - /url: tel:+2348066065909
+          - heading "Or send us a message below" [level=5] [ref=f19e314]
+          - form "New Form" [ref=f19e319]:
+            - generic [ref=f19e320]:
+              - generic [ref=f19e321]:
+                - generic [ref=f19e322] [cursor=pointer]: Name
+                - textbox "Name" [ref=f19e323]
+              - generic [ref=f19e324]:
+                - generic [ref=f19e325] [cursor=pointer]: Phone
+                - generic [ref=f19e326]:
+                  - combobox "Selected country" [ref=f19e328]:
+                    - generic [ref=f19e329]: Nigeria +234
+                  - textbox "Phone" [ref=f19e333]
+              - generic [ref=f19e334]:
+                - generic [ref=f19e335] [cursor=pointer]: Message
+                - textbox "Message" [ref=f19e336]
+              - button "Send" [ref=f19e338] [cursor=pointer]
+  - contentinfo [ref=f19e341]:
+    - generic [ref=f19e343]:
+      - generic [ref=f19e344]:
+        - generic [ref=f19e345]:
+          - link [ref=f19e347]:
+            - /url: https://www.nimsnigeria.org
+          - heading "National Industrial Manpower Summit, 2025" [level=6] [ref=f19e349]
+        - generic [ref=f19e350]: "Powered by:"
+      - generic [ref=f19e355]:
+        - heading "Contact" [level=5] [ref=f19e357]
+        - list [ref=f19e359]:
+          - listitem [ref=f19e360]:
+            - link "info@nimsnigeria.org" [ref=f19e361]:
+              - /url: mailto:info@nimsnigeria.org
+          - listitem [ref=f19e366]:
+            - link "+234 806 6752 120" [ref=f19e367]:
+              - /url: tel:+2348066752120
+          - listitem [ref=f19e372]:
+            - link "+234 703 2093 508" [ref=f19e373]:
+              - /url: tel:+2347032093508
+          - listitem [ref=f19e378]:
+            - link "+234 806 6065 909" [ref=f19e379]:
+              - /url: tel:+2348066065909
+      - generic [ref=f19e384]:
+        - heading "Links" [level=5] [ref=f19e386]
+        - navigation "Menu" [ref=f19e388]:
+          - list [ref=f19e389]:
+            - listitem [ref=f19e390]:
+              - link "About" [ref=f19e391]:
+                - /url: ./about.html
+            - listitem [ref=f19e392]:
+              - link "Speakers" [ref=f19e393]:
+                - /url: ./speakers.html
+            - listitem [ref=f19e394]:
+              - link "Schedule" [ref=f19e395]:
+                - /url: ./schedule.html
+            - listitem [ref=f19e396]:
+              - link "Exhibitors" [ref=f19e397]:
+                - /url: ./exhibitors.html
+            - listitem [ref=f19e398]:
+              - link "Sponsors" [ref=f19e399]:
+                - /url: ./sponsors.html
+            - listitem [ref=f19e400]:
+              - link "FAQs" [ref=f19e401]:
+                - /url: ./faqs.html
+      - generic [ref=f19e402]:
+        - heading "Register to attend:" [level=6] [ref=f19e404]
+        - link "Register Now" [ref=f19e406]:
+          - /url: ./register.html
+        - heading "Follow on Social Media:" [level=6] [ref=f19e410]
+        - list [ref=f19e412]:
+          - listitem [ref=f19e413]:
+            - link "Linkedin" [ref=f19e414] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/nimsnigeria
+          - listitem [ref=f19e418]:
+            - link "Instagram" [ref=f19e419] [cursor=pointer]:
+              - /url: https://www.instagram.com/nimsnigeria
+          - listitem [ref=f19e423]:
+            - link "Facebook" [ref=f19e424] [cursor=pointer]:
+              - /url: https://www.facebook.com/nimsnigeria
+          - listitem [ref=f19e428]:
+            - link "X-twitter" [ref=f19e429] [cursor=pointer]:
+              - /url: https://x.com/nimsnigeria
+        - paragraph [ref=f19e434]: © 2025 National Industrial Manpower Summit, All Rights Reserved
+  - generic [ref=f19e435]: desktop
+  - generic [ref=f19e436]: desktop

@@ -1,0 +1,43 @@
+[     679ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://127.0.0.1:4174/assets/js/global/jquery-migrate-min__ver-3-4-1.js:1
+[     980ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/js/pages/home/js/nav-menu.3afa8f5eb1fef7c22561.bundle.min.js:0
+[     994ms] TypeError: undefined is not an object (evaluating '_[b].slick[c]')
+    at unknown (http://127.0.0.1:4174/assets/js/pages/home/slick-min__ver-1-8-1.js:1:43843)
+    at t (http://127.0.0.1:4174/assets/js/pages/home/frontend__ver-3-8-8-2.js:1:2848)
+    at widgetListingGrid (http://127.0.0.1:4174/assets/js/pages/home/frontend__ver-3-8-8-2.js:1:11902)
+    at _runHook (http://127.0.0.1:4174/assets/js/pages/home/frontend-min__ver-4-1-4.js:1:15076)
+    at doAction (http://127.0.0.1:4174/assets/js/pages/home/frontend-min__ver-4-1-4.js:1:15681)
+    at unknown (http://127.0.0.1:4174/assets/js/pages/home/frontend-min__ver-4-1-4.js:1:19808)
+[    1008ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/js/pages/home/js/off-canvas.82d118980fb5aa03c82b.bundle.min.js:0
+[    1008ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/js/pages/home/js/countdown.05b148ca20af32fc8e9f.bundle.min.js:0
+[    1048ms] ChunkLoadError: Loading chunk 334 failed.
+(error: http://127.0.0.1:4174/assets/js/pages/home/js/nav-menu.3afa8f5eb1fef7c22561.bundle.min.js)
+[    1048ms] ChunkLoadError: Loading chunk 579 failed.
+(error: http://127.0.0.1:4174/assets/js/pages/home/js/off-canvas.82d118980fb5aa03c82b.bundle.min.js)
+[    1048ms] ChunkLoadError: Loading chunk 416 failed.
+(error: http://127.0.0.1:4174/assets/js/pages/home/js/countdown.05b148ca20af32fc8e9f.bundle.min.js)
+[   15311ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/css/global/fadeinup-min__ver-4-1-4.css:0
+[   15336ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ http://127.0.0.1:4174/assets/js/global/jquery-migrate-min__ver-3-4-1.js:1
+[   15423ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/images/global/logi-150x150.png:0
+[   15430ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/js/pages/about/jquery-smartmenus-min__ver-1-2-1.js:0
+[   15430ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/js/pages/about/jquery-sticky-min__ver-4-1-2.js:0
+[   15480ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/images/pages/about/civil-engineering-pa6hvqgpaqfw6mgb.jpg:0
+[   15480ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/images/pages/about/background-1-scaled.jpg:0
+[   15480ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/images/pages/about/pexels-thomas-parker-1272388137-24246926-scaled.jpg:0
+[   15536ms] TypeError: this.$element.sticky is not a function. (In 'this.$element.sticky(this.currentConfig)', 'this.$element.sticky' is undefined)
+    at activate (http://127.0.0.1:4174/assets/js/pages/about/frontend-min__ver-4-1-2.js:2:22017)
+    at run (http://127.0.0.1:4174/assets/js/pages/about/frontend-min__ver-4-1-2.js:2:22330)
+    at onInit (http://127.0.0.1:4174/assets/js/pages/about/frontend-min__ver-4-1-2.js:2:23127)
+    at unknown (http://127.0.0.1:4174/assets/js/pages/about/frontend-modules-min__ver-4-1-4.js:1:3215)
+    at Module (http://127.0.0.1:4174/assets/js/pages/about/frontend-modules-min__ver-4-1-4.js:1:3499)
+    at child (http://127.0.0.1:4174/assets/js/pages/about/frontend-modules-min__ver-4-1-4.js:1:3762)
+    at unknown (http://127.0.0.1:4174/assets/js/pages/about/frontend-min__ver-4-1-4.js:1:18791)
+    at unknown (http://127.0.0.1:4174/assets/js/pages/about/frontend-min__ver-4-1-4.js:1:18405)
+    at _runHook (http://127.0.0.1:4174/assets/js/pages/about/frontend-min__ver-4-1-4.js:1:15076)
+    at doAction (http://127.0.0.1:4174/assets/js/pages/about/frontend-min__ver-4-1-4.js:1:15681)
+    at unknown (http://127.0.0.1:4174/assets/js/pages/about/frontend-min__ver-4-1-4.js:1:19690)
+[   15561ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/js/pages/about/js/nav-menu.3afa8f5eb1fef7c22561.bundle.min.js:0
+[   15561ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4174/assets/js/pages/about/js/off-canvas.82d118980fb5aa03c82b.bundle.min.js:0
+[   15564ms] ChunkLoadError: Loading chunk 334 failed.
+(error: http://127.0.0.1:4174/assets/js/pages/about/js/nav-menu.3afa8f5eb1fef7c22561.bundle.min.js)
+[   15564ms] ChunkLoadError: Loading chunk 579 failed.
+(error: http://127.0.0.1:4174/assets/js/pages/about/js/off-canvas.82d118980fb5aa03c82b.bundle.min.js)

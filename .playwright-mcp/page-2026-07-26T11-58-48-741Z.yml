@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e8]:
+          - /url: https://www.nimsnigeria.org
+        - heading [level=6] [ref=e10]:
+          - link "NIMS 2025" [ref=e11]:
+            - /url: https://www.nimsnigeria.org
+      - navigation "Menu" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "About" [ref=e17]:
+              - /url: ./about.html
+          - listitem [ref=e18]:
+            - link "Speakers" [ref=e19]:
+              - /url: ./speakers.html
+          - listitem [ref=e20]:
+            - link "Schedule" [ref=e21]:
+              - /url: ./schedule.html
+          - listitem [ref=e22]:
+            - link "Exhibitors" [ref=e23]:
+              - /url: ./exhibitors.html
+          - listitem [ref=e24]:
+            - link "Sponsors" [ref=e25]:
+              - /url: ./sponsors.html
+          - listitem [ref=e26]:
+            - link "FAQs" [ref=e27]:
+              - /url: ./faqs.html
+      - link "Register" [ref=e30]:
+        - /url: ./register.html
+  - main [ref=e34]:
+    - heading "Newsletter" [level=1] [ref=e36]
+    - paragraph [ref=e38]: "[newsletter]"
+  - contentinfo [ref=e39]:
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - link [ref=e45]:
+            - /url: https://www.nimsnigeria.org
+          - heading "National Industrial Manpower Summit, 2025" [level=6] [ref=e47]
+        - generic [ref=e48]: "Powered by:"
+      - generic [ref=e53]:
+        - heading "Contact" [level=5] [ref=e55]
+        - list [ref=e57]:
+          - listitem [ref=e58]:
+            - link "info@nimsnigeria.org" [ref=e59]:
+              - /url: mailto:info@nimsnigeria.org
+          - listitem [ref=e64]:
+            - link "+234 806 6752 120" [ref=e65]:
+              - /url: tel:+2348066752120
+          - listitem [ref=e70]:
+            - link "+234 703 2093 508" [ref=e71]:
+              - /url: tel:+2347032093508
+          - listitem [ref=e76]:
+            - link "+234 806 6065 909" [ref=e77]:
+              - /url: tel:+2348066065909
+      - generic [ref=e82]:
+        - heading "Links" [level=5] [ref=e84]
+        - navigation "Menu" [ref=e86]:
+          - list [ref=e87]:
+            - listitem [ref=e88]:
+              - link "About" [ref=e89]:
+                - /url: ./about.html
+            - listitem [ref=e90]:
+              - link "Speakers" [ref=e91]:
+                - /url: ./speakers.html
+            - listitem [ref=e92]:
+              - link "Schedule" [ref=e93]:
+                - /url: ./schedule.html
+            - listitem [ref=e94]:
+              - link "Exhibitors" [ref=e95]:
+                - /url: ./exhibitors.html
+            - listitem [ref=e96]:
+              - link "Sponsors" [ref=e97]:
+                - /url: ./sponsors.html
+            - listitem [ref=e98]:
+              - link "FAQs" [ref=e99]:
+                - /url: ./faqs.html
+      - generic [ref=e100]:
+        - heading "Register to attend:" [level=6] [ref=e102]
+        - link "Register Now" [ref=e104]:
+          - /url: ./register.html
+        - heading "Follow on Social Media:" [level=6] [ref=e108]
+        - list [ref=e110]:
+          - listitem [ref=e111]:
+            - link "Linkedin" [ref=e112] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/nimsnigeria
+          - listitem [ref=e116]:
+            - link "Instagram" [ref=e117] [cursor=pointer]:
+              - /url: https://www.instagram.com/nimsnigeria
+          - listitem [ref=e121]:
+            - link "Facebook" [ref=e122] [cursor=pointer]:
+              - /url: https://www.facebook.com/nimsnigeria
+          - listitem [ref=e126]:
+            - link "X-twitter" [ref=e127] [cursor=pointer]:
+              - /url: https://x.com/nimsnigeria
+        - paragraph [ref=e132]: © 2025 National Industrial Manpower Summit, All Rights Reserved
+  - generic [ref=e133]: desktop
+  - generic [ref=e134]: desktop
