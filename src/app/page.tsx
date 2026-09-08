@@ -272,8 +272,8 @@ export default function HomePage() {
             <p className="font-sans text-lg text-gray-700 mb-10 leading-relaxed">
                 The lineup will continue to evolve as additional speakers are confirmed.
             </p>
-            <a className="bg-primary text-white font-sans font-medium text-sm md:text-base rounded-[10px] px-8 py-3 hover:bg-green-700 transition shadow-md inline-block" href="/nims-2025">
-                View NIMS 2025 Speakers
+            <a className="bg-primary text-white font-sans font-medium text-sm md:text-base rounded-[10px] px-8 py-3 hover:bg-green-700 transition shadow-md inline-block" href="/speakers">
+                View NIMS 2026 Speakers
             </a>
         </div>
     </div>
