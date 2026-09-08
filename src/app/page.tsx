@@ -2,6 +2,8 @@ import { Countdown } from "@/components/Countdown";
 import { HeroSlideshow } from "@/components/layout/hero-slideshow";
 import { CountUp } from "@/components/CountUp";
 import { BackgroundVideo } from "@/components/BackgroundVideo";
+import { SpeakerCarousel } from "@/components/SpeakerCarousel";
+import { speakers2026 } from "@/data/speakers";
 
 export default function HomePage() {
   return (
@@ -242,7 +244,7 @@ export default function HomePage() {
 
             <div className="bg-white rounded-xl p-6 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.1)] border border-gray-100 border-l-4 border-l-primary">
                 <h6 className="font-heading font-semibold text-xl text-gray-900 mb-2">Policy Recommendations</h6>
-                <p className="font-sans text-gray-600">Actionable recommendations to inform workforce development, TVET reform and industrial skills policy.</p>
+                <p className="font-sans text-gray-600">Actionable recommendations to inform workforce development, Technical & Vocational Education Training (TVET) reform and industrial skills policy.</p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.1)] border border-gray-100 border-l-4 border-l-primary">
@@ -253,7 +255,7 @@ export default function HomePage() {
             <p className="font-sans text-gray-500 italic mt-2">… and more</p>
         </div>
     </div>
-    {/*  Speaker Coming Soon Section  */}
+    {/*  Speakers Section  */}
     <div className="bg-primary/5 flex flex-col md:flex-row px-8 py-16 md:py-24 md:px-12.5 gap-12  mx-auto w-full items-center">
         {/*  Left Col (Image)  */}
         <div className="w-full md:w-[45%] flex justify-center">
@@ -262,70 +264,27 @@ export default function HomePage() {
 
         {/*  Right Col (Content)  */}
         <div className="w-full md:w-[55%] flex flex-col justify-center text-center md:text-left items-center md:items-start">
-            <h2 className="font-heading font-semibold text-3xl md:text-4xl text-gray-900 mb-6">Distinguished Voices, Coming Soon</h2>
+            <h2 className="font-heading font-semibold text-3xl md:text-4xl text-gray-900 mb-6">Distinguished Voices at NIMS 2026</h2>
             <div className="w-37.5 border-t-2 border-primary mb-6"></div>
             <p className="font-sans text-lg text-gray-700 mb-4 leading-relaxed">
-                We're curating a distinguished lineup of national and international speakers for NIMS 2026. Confirmed speakers will be announced in the lead-up to the summit.
+                Meet the leaders, policymakers and industry experts contributing to the National Industrial Manpower Summit 2026.
             </p>
             <p className="font-sans text-lg text-gray-700 mb-10 leading-relaxed">
-                In the meantime, explore the leaders, policymakers and industry experts who contributed to the success of our inaugural summit.
+                The lineup will continue to evolve as additional speakers are confirmed.
             </p>
-            <a className="bg-primary text-white font-sans font-medium text-sm md:text-base rounded-[10px] px-8 py-3 hover:bg-green-700 transition shadow-md inline-block" href="./speakers.html">
+            <a className="bg-primary text-white font-sans font-medium text-sm md:text-base rounded-[10px] px-8 py-3 hover:bg-green-700 transition shadow-md inline-block" href="/nims-2025">
                 View NIMS 2025 Speakers
             </a>
         </div>
     </div>
 
-    {/*  Meet the Leaders Section (Hidden per client request)  */}
-    <div className="hidden flex-col py-12 md:py-12.5 px-5 md:px-12.5 max-w-7xl mx-auto w-full items-center bg-gray-50">
+    {/*  Meet the Leaders Section  */}
+    <div className="flex flex-col py-12 md:py-12.5 px-5 md:px-12.5 max-w-7xl mx-auto w-full items-center bg-gray-50">
         <h2 className="text-center font-heading font-semibold text-3xl md:text-4xl text-gray-900 mb-6">Meet the Leaders Shaping Nigeria’s Industrial Future</h2>
         <div className="w-71.5 border-t border-black mb-6"></div>
-        <h5 className="text-center font-sans text-lg md:text-xl text-gray-800 mb-12">From trailblazing entrepreneurs to global policy experts, NIMS 2025 brings together a powerhouse lineup of speakers.</h5>
+        <h5 className="text-center font-sans text-lg md:text-xl text-gray-800 mb-12">NIMS 2026 brings together a distinguished lineup of national leaders, policymakers and industry experts.</h5>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 w-full">
-            {/*  Speaker 1  */}
-            <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/abba-abubakar-aliyu.png" alt="Abba Abubakar Aliyu" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
-                <div className="w-31.5 border-t border-black my-4"></div>
-                <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Abba Abubakar Aliyu</h6>
-                <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">MD/CEO, Rural Electrification Agency (REA)</p>
-            </div>
-            {/*  Speaker 2  */}
-            <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/wale.png" alt="Wale Tinubu, CON" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
-                <div className="w-31.5 border-t border-black my-4"></div>
-                <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Wale Tinubu, CON</h6>
-                <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">Group Chief Executive, Oando PLC</p>
-            </div>
-            {/*  Speaker 3  */}
-            <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/6.png" alt="Mr. Roosevelt Ogbonna FCA, CFA" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
-                <div className="w-31.5 border-t border-black my-4"></div>
-                <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Mr. Roosevelt Ogbonna FCA, CFA</h6>
-                <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">MD/CEO, Access Bank Plc.</p>
-            </div>
-            {/*  Speaker 4  */}
-            <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/zaaa.png" alt="Dr. Zacch Adedeji" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
-                <div className="w-31.5 border-t border-black my-4"></div>
-                <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Dr. Zacch Adedeji</h6>
-                <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">Executive Chairman, Federal Inland Revenue Service(FIRS)</p>
-            </div>
-            {/*  Speaker 5  */}
-            <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/9.png" alt="Amb Nura Abba Rimi" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
-                <div className="w-31.5 border-t border-black my-4"></div>
-                <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Amb Nura Abba Rimi</h6>
-                <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">Permanent Secretary, Federal Ministry of Industry, Trade and Investment, Federal Republic of Nigeria.</p>
-            </div>
-            {/*  Speaker 6  */}
-            <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/bambam.png" alt="Bamanga Usman Jada" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
-                <div className="w-31.5 border-t border-black my-4"></div>
-                <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Bamanga Usman Jada</h6>
-                <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">Managing Director and Chief Executive, Oil and Gas Free Zones Authority Nigeria</p>
-            </div>
-        </div>
+        <SpeakerCarousel speakers={speakers2026} />
     </div>
     {/*  Partner With NIMS Section  */}
     <div className="relative flex flex-col py-20 px-5 md:px-12.5 max-w-7xl mx-auto w-full items-center text-center rounded-[20px] overflow-hidden my-12">
