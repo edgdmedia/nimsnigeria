@@ -52,7 +52,7 @@ export const galleryData: GalleryItem[] = [
   { src: "INGENIOUS_560.webp",  caption: "Dignitaries at the inaugural summit",                    category: "dignitaries" },
   { src: "INGENIOUS_561.webp",  caption: "Panel Discussion",                                       category: "keynote" },
   { src: "INGENIOUS_566.webp",  caption: "Award Ceremony",                                        category: "awards" },
-  { src: "INGENIOUS_572.webp",  caption: "Award Ceremony",                                        category: "awards" },
+  { src: "INGENIOUS_571.webp",  caption: "Award Ceremony",                                        category: "awards" },
   { src: "INGENIOUS_573.webp",  caption: "Delegates Networking",                                   category: "dignitaries" },
   { src: "INGENIOUS_574.webp",  caption: "Award Ceremony",                                        category: "awards" },
   { src: "INGENIOUS_575.webp",  caption: "Award Ceremony",                                        category: "awards" },
