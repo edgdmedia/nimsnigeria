@@ -6,11 +6,11 @@ export default function ProgrammePage() {
       {/*  Main Content Area  */}
   <main className="grow">
     {/*  Banner Section  */}
-    <PageBanner 
-      title="What to Expect at NIMS 2026" 
+    <PageBanner
+      title="What to Expect at NIMS 2026"
       bgImage="/images/photos/INGENIOUS_700.webp"
     />
-    
+
     {/*  Section 1: Intro  */}
     <section id="intro-sec" className="w-full bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-5 text-center">
@@ -28,7 +28,7 @@ export default function ProgrammePage() {
                 <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-4">Expected Deliverables</h2>
                 <div className="w-24 h-1 bg-secondary mx-auto"></div>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {/*  Card 1  */}
                 <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100">
@@ -111,7 +111,7 @@ export default function ProgrammePage() {
                 </div>
                 <div className="flex items-start gap-3 bg-white/10 p-4 rounded-lg border border-white/20">
                     <svg className="w-6 h-6 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                    <span className="font-sans text-lg">TVET and Skills Development Organisations</span>
+                    <span className="font-sans text-lg">Technical & Vocational Education Training (TVET) and Skills Development Organisations</span>
                 </div>
                 <div className="flex items-start gap-3 bg-white/10 p-4 rounded-lg border border-white/20">
                     <svg className="w-6 h-6 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -140,80 +140,54 @@ export default function ProgrammePage() {
                 <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-4">Programme Overview</h2>
                 <div className="w-24 h-1 bg-secondary mx-auto"></div>
             </div>
-            
+
             <div className="overflow-hidden rounded-xl border border-gray-200 shadow-sm md:hidden">
                 <div className="border-b border-gray-200 bg-gray-50 p-6 text-gray-900">
                     <span className="text-secondary block mb-1 text-sm uppercase tracking-wider">Day 1</span>
-                    <h3 className="font-heading font-bold text-xl">Thursday 15</h3>
+                    <h3 className="font-heading font-bold text-xl">Thursday 15th</h3>
                 </div>
                 <div className="bg-white p-6">
                     <div className="mb-8">
                         <h4 className="font-bold text-primary mb-4 text-lg">Presidential Opening & National Dialogue</h4>
                         <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded text-sm font-semibold mb-4">MORNING</span>
                         <ul className="space-y-4 font-sans text-gray-700">
-                            <li className="pl-4 border-l-2 border-secondary">
-                                <strong className="block text-gray-900">Presidential Opening Ceremony</strong>
-                                His Excellency, President Bola Ahmed Tinubu, GCFR
-                            </li>
-                            <li className="pl-4 border-l-2 border-secondary">
-                                <strong className="block text-gray-900">Presidential Keynote Address</strong>
-                                "Unlocking Nigeria's Human Capital for Industrial Transformation"
-                            </li>
-                            <li className="pl-4 border-l-2 border-secondary">
-                                <strong className="block text-gray-900">Industry Keynote — Aliko Dangote</strong>
-                                "Building a World-Class Industrial Workforce"
-                            </li>
-                            <li className="pl-4 border-l-2 border-secondary font-semibold">Official Opening</li>
-                            <li className="pl-4 border-l-2 border-secondary font-semibold">Industrial Innovation & Technology Exhibition</li>
+                            <li className="pl-4 border-l-2 border-secondary font-semibold">Presidential Opening Ceremony & Keynote Address</li>
+                            <li className="pl-4 border-l-2 border-secondary font-semibold">Industry Keynote</li>
+                            <li className="pl-4 border-l-2 border-secondary font-semibold">Technical Papers I & II</li>
                         </ul>
                     </div>
 
                     <div>
                         <span className="inline-block bg-gray-100 text-gray-800 px-3 py-1 rounded text-sm font-semibold mb-4">AFTERNOON</span>
                         <ul className="space-y-4 font-sans text-gray-700">
-                            <li className="pl-4 border-l-2 border-gray-300">Technical Paper I: Reimagining Nigeria's Industrial Workforce Development System</li>
-                            <li className="pl-4 border-l-2 border-gray-300">Technical Paper II: AI, Advanced Manufacturing & Future Technologies</li>
-                            <li className="pl-4 border-l-2 border-gray-300">Executive Plenary Panel: The State of Nigeria's Industrial Workforce</li>
-                            <li className="pl-4 border-l-2 border-gray-300">Exhibition Tour & Industrial Innovation Showcase</li>
-                            <li className="pl-4 border-l-2 border-gray-300 font-semibold text-primary mt-6">Networking Reception</li>
+                            <li className="pl-4 border-l-2 border-gray-300">Executive Plenary Session</li>
+                            <li className="pl-4 border-l-2 border-gray-300">Exhibition Opening</li>
+                            <li className="pl-4 border-l-2 border-gray-300 font-semibold text-primary mt-6">Networking & Reception</li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="border-y border-gray-200 bg-gray-50 p-6 text-gray-900">
                     <span className="text-secondary block mb-1 text-sm uppercase tracking-wider">Day 2</span>
-                    <h3 className="font-heading font-bold text-xl">Friday 16</h3>
+                    <h3 className="font-heading font-bold text-xl">Friday 16th</h3>
                 </div>
                 <div className="bg-white p-6">
                     <div className="mb-8">
                         <h4 className="font-bold text-primary mb-4 text-lg">Innovation, Implementation & Commitments</h4>
                         <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded text-sm font-semibold mb-4">MORNING</span>
                         <ul className="space-y-4 font-sans text-gray-700">
-                            <li className="pl-4 border-l-2 border-secondary">
-                                <strong className="block text-gray-900">Technology & Innovation Keynote — Ridwan Olalere, CEO LemFi</strong>
-                                "Preparing Nigeria's Workforce for the Global Digital Economy"
-                            </li>
-                            <li className="pl-4 border-l-2 border-secondary">
-                                <strong className="block text-gray-900">Entrepreneurship & Human Capital Keynote — Tony Elumelu, CFR</strong>
-                                "From Skills to Prosperity: Building Entrepreneurs & Industries"
-                            </li>
-                            <li className="pl-4 border-l-2 border-secondary">Technical Paper III: From Skills to Industrial Prosperity</li>
-                            <li className="pl-4 border-l-2 border-secondary">
-                                <strong className="block text-gray-900">Strategic Roundtable Discussions</strong>
-                                Four parallel sessions on the summit sub-themes
-                            </li>
+                            <li className="pl-4 border-l-2 border-secondary font-semibold">Technology Keynote</li>
+                            <li className="pl-4 border-l-2 border-secondary font-semibold">Entrepreneurship Keynote</li>
+                            <li className="pl-4 border-l-2 border-secondary font-semibold">Technical Paper III & Strategic Roundtables</li>
                         </ul>
                     </div>
 
                     <div>
                         <span className="inline-block bg-gray-100 text-gray-800 px-3 py-1 rounded text-sm font-semibold mb-4">AFTERNOON</span>
                         <ul className="space-y-4 font-sans text-gray-700">
-                            <li className="pl-4 border-l-2 border-gray-300">Presentation of Roundtable Reports</li>
-                            <li className="pl-4 border-l-2 border-gray-300">National Policy Dialogue & Investment Matchmaking</li>
-                            <li className="pl-4 border-l-2 border-gray-300">Partnership & Collaboration Signing Ceremony</li>
-                            <li className="pl-4 border-l-2 border-gray-300">Presentation of Summit Outcomes</li>
-                            <li className="pl-4 border-l-2 border-gray-300">Adoption of NIMS 2026 Communiqué</li>
-                            <li className="pl-4 border-l-2 border-gray-300 font-semibold text-primary mt-6">Gala Night & Awards Ceremony</li>
+                            <li className="pl-4 border-l-2 border-gray-300">Policy Dialogues & Partnership Signings</li>
+                            <li className="pl-4 border-l-2 border-gray-300">Communique Adoption</li>
+                            <li className="pl-4 border-l-2 border-gray-300 font-semibold text-primary mt-6">Gala Night Awards</li>
                         </ul>
                     </div>
                 </div>
@@ -225,11 +199,11 @@ export default function ProgrammePage() {
                         <tr className="md:table-row bg-gray-50 text-gray-900 border-b border-gray-200">
                             <th className="md:table-cell p-6 font-heading font-bold text-xl w-1/2 border-r border-gray-200">
                                 <span className="text-secondary block mb-1 text-sm uppercase tracking-wider">Day 1</span>
-                                Thursday 15
+                                Thursday 15th
                             </th>
                             <th className="md:table-cell p-6 font-heading font-bold text-xl w-1/2">
                                 <span className="text-secondary block mb-1 text-sm uppercase tracking-wider">Day 2</span>
-                                Friday 16
+                                Friday 16th
                             </th>
                         </tr>
                     </thead>
@@ -240,31 +214,18 @@ export default function ProgrammePage() {
                                     <h4 className="font-bold text-primary mb-4 text-lg">Presidential Opening & National Dialogue</h4>
                                     <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded text-sm font-semibold mb-4">MORNING</span>
                                     <ul className="space-y-4 font-sans text-gray-700">
-                                        <li className="pl-4 border-l-2 border-secondary">
-                                            <strong className="block text-gray-900">Presidential Opening Ceremony</strong>
-                                            His Excellency, President Bola Ahmed Tinubu, GCFR
-                                        </li>
-                                        <li className="pl-4 border-l-2 border-secondary">
-                                            <strong className="block text-gray-900">Presidential Keynote Address</strong>
-                                            "Unlocking Nigeria's Human Capital for Industrial Transformation"
-                                        </li>
-                                        <li className="pl-4 border-l-2 border-secondary">
-                                            <strong className="block text-gray-900">Industry Keynote — Aliko Dangote</strong>
-                                            "Building a World-Class Industrial Workforce"
-                                        </li>
-                                        <li className="pl-4 border-l-2 border-secondary font-semibold">Official Opening</li>
-                                        <li className="pl-4 border-l-2 border-secondary font-semibold">Industrial Innovation & Technology Exhibition</li>
+                                        <li className="pl-4 border-l-2 border-secondary font-semibold">Presidential Opening Ceremony & Keynote Address</li>
+                                        <li className="pl-4 border-l-2 border-secondary font-semibold">Industry Keynote</li>
+                                        <li className="pl-4 border-l-2 border-secondary font-semibold">Technical Papers I & II</li>
                                     </ul>
                                 </div>
 
                                 <div>
                                     <span className="inline-block bg-gray-100 text-gray-800 px-3 py-1 rounded text-sm font-semibold mb-4">AFTERNOON</span>
                                     <ul className="space-y-4 font-sans text-gray-700">
-                                        <li className="pl-4 border-l-2 border-gray-300">Technical Paper I: Reimagining Nigeria's Industrial Workforce Development System</li>
-                                        <li className="pl-4 border-l-2 border-gray-300">Technical Paper II: AI, Advanced Manufacturing & Future Technologies</li>
-                                        <li className="pl-4 border-l-2 border-gray-300">Executive Plenary Panel: The State of Nigeria's Industrial Workforce</li>
-                                        <li className="pl-4 border-l-2 border-gray-300">Exhibition Tour & Industrial Innovation Showcase</li>
-                                        <li className="pl-4 border-l-2 border-gray-300 font-semibold text-primary mt-6">Networking Reception</li>
+                                        <li className="pl-4 border-l-2 border-gray-300">Executive Plenary Session</li>
+                                        <li className="pl-4 border-l-2 border-gray-300">Exhibition Opening</li>
+                                        <li className="pl-4 border-l-2 border-gray-300 font-semibold text-primary mt-6">Networking & Reception</li>
                                     </ul>
                                 </div>
                             </td>
@@ -273,31 +234,18 @@ export default function ProgrammePage() {
                                     <h4 className="font-bold text-primary mb-4 text-lg">Innovation, Implementation & Commitments</h4>
                                     <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded text-sm font-semibold mb-4">MORNING</span>
                                     <ul className="space-y-4 font-sans text-gray-700">
-                                        <li className="pl-4 border-l-2 border-secondary">
-                                            <strong className="block text-gray-900">Technology & Innovation Keynote — Ridwan Olalere, CEO LemFi</strong>
-                                            "Preparing Nigeria's Workforce for the Global Digital Economy"
-                                        </li>
-                                        <li className="pl-4 border-l-2 border-secondary">
-                                            <strong className="block text-gray-900">Entrepreneurship & Human Capital Keynote — Tony Elumelu, CFR</strong>
-                                            "From Skills to Prosperity: Building Entrepreneurs & Industries"
-                                        </li>
-                                        <li className="pl-4 border-l-2 border-secondary">Technical Paper III: From Skills to Industrial Prosperity</li>
-                                        <li className="pl-4 border-l-2 border-secondary">
-                                            <strong className="block text-gray-900">Strategic Roundtable Discussions</strong>
-                                            Four parallel sessions on the summit sub-themes
-                                        </li>
+                                        <li className="pl-4 border-l-2 border-secondary font-semibold">Technology Keynote</li>
+                                        <li className="pl-4 border-l-2 border-secondary font-semibold">Entrepreneurship Keynote</li>
+                                        <li className="pl-4 border-l-2 border-secondary font-semibold">Technical Paper III & Strategic Roundtables</li>
                                     </ul>
                                 </div>
 
                                 <div>
                                     <span className="inline-block bg-gray-100 text-gray-800 px-3 py-1 rounded text-sm font-semibold mb-4">AFTERNOON</span>
                                     <ul className="space-y-4 font-sans text-gray-700">
-                                        <li className="pl-4 border-l-2 border-gray-300">Presentation of Roundtable Reports</li>
-                                        <li className="pl-4 border-l-2 border-gray-300">National Policy Dialogue & Investment Matchmaking</li>
-                                        <li className="pl-4 border-l-2 border-gray-300">Partnership & Collaboration Signing Ceremony</li>
-                                        <li className="pl-4 border-l-2 border-gray-300">Presentation of Summit Outcomes</li>
-                                        <li className="pl-4 border-l-2 border-gray-300">Adoption of NIMS 2026 Communiqué</li>
-                                        <li className="pl-4 border-l-2 border-gray-300 font-semibold text-primary mt-6">Gala Night & Awards Ceremony</li>
+                                        <li className="pl-4 border-l-2 border-gray-300">Policy Dialogues & Partnership Signings</li>
+                                        <li className="pl-4 border-l-2 border-gray-300">Communique Adoption</li>
+                                        <li className="pl-4 border-l-2 border-gray-300 font-semibold text-primary mt-6">Gala Night Awards</li>
                                     </ul>
                                 </div>
                             </td>
@@ -307,7 +255,7 @@ export default function ProgrammePage() {
             </div>
         </div>
     </section>
-    
+
     {/*  Section 5: Programme Schedule CTA  */}
     <section className="w-full bg-gray-50 py-16 md:py-24 border-t border-gray-200">
         <div className="max-w-3xl mx-auto px-5 text-center">
@@ -332,7 +280,7 @@ export default function ProgrammePage() {
             </div>
         </div>
     </section>
-    
+
   </main>
     </>
   );
