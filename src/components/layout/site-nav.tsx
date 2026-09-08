@@ -16,6 +16,7 @@ const NAV_LINKS = [
     ]
   },
   { name: "Programme", href: "/programme" },
+  { name: "Speakers", href: "/speakers" },
 
   { 
     name: "Partners", 
