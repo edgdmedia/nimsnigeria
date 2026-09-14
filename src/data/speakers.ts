@@ -107,55 +107,83 @@ export const speakers: Speaker[] = [
   },
   {
     id: "2026-2",
+    name: "Sen. Kashim Shettima, GCON",
+    role: "Vice-President, Federal Republic of Nigeria",
+    image: "/images/Sen. Kashim shettima.png",
+    years: [2026]
+  },
+  {
+    id: "2026-3",
     name: "Distinguished Senator John Owan Enoh",
     role: "Minister of State for Industry",
     image: "/images/Senator John Owan Enoh.jpeg",
     years: [2026]
   },
   {
-    id: "2026-3",
+    id: "2026-4",
+    name: "Muhammad Maigari Dingyadi (PhD)",
+    role: "Minister of Labour and Employment",
+    image: "/images/MINISTER-OF-LABOUR-scaled-1-1638x2048.jpg",
+    years: [2026]
+  },
+  {
+    id: "2026-5",
+    name: "Comrade Ayodele Olawande Emmanuel",
+    role: "Minister of Youth",
+    image: "/images/WhatsApp-Image-2025-10-17-at-10.40.31.jpeg",
+    years: [2026]
+  },
+  {
+    id: "2026-6",
+    name: "Prince Shuaibu Abubakar Audu",
+    role: "Minister of Steel",
+    image: "/images/Prince Shuaibu Abubakar Audu.jpeg",
+    years: [2026]
+  },
+  {
+    id: "2026-7",
     name: "Hon Adamson Oluwatosin Ayinde",
     role: "Senior Special Assistant to the President on Industrial Training and Development",
     image: "/images/ssa2.png",
     years: [2026]
   },
   {
-    id: "2026-4",
+    id: "2026-8",
     name: "Dr. Afiz Oluwatoyin Ogun",
     role: "Director-General, Industrial Training Fund (ITF)",
     image: "/images/Dr. Afiz Oluwatoyin Ogun.jpg",
     years: [2026]
   },
   {
-    id: "2026-5",
+    id: "2026-9",
     name: "Dr. Olasupo Olusi",
     role: "Managing Director/CEO, Bank of Industry (BOI)",
     image: "/images/Dr. Olasupo Olusi.jpeg",
     years: [2026]
   },
   {
-    id: "2026-6",
+    id: "2026-10",
     name: "Dr. Ifeanyi Chukwunonso Okeke",
     role: "DG/CEO, Standards Organisation of Nigeria (SON)",
     image: "/images/Dr. Ifeanyi Chukwunonso Okeke.jpg",
     years: [2026]
   },
   {
-    id: "2026-7",
+    id: "2026-11",
     name: "Oluwaseun Faleye",
     role: "Managing Director/CEO, Nigeria Social Insurance Trust Fund (NSITF)",
     image: "/images/Oluwaseun Faleye.jpeg",
     years: [2026]
   },
   {
-    id: "2026-8",
+    id: "2026-12",
     name: "Mr. Charles Odii",
     role: "DG/CEO, Small & Medium Enterprises Development Agency (SMEDAN)",
     image: "/images/dr-charles-odii.jpeg",
     years: [2026]
   },
   {
-    id: "2026-9",
+    id: "2026-13",
     name: "Mr. Osanipin Oluwemimo Joseph",
     role: "Director General, National Automotive Design & Development Council (NADDC)",
     image: "/images/Mr. Osanipin Oluwemimo Joseph.jpeg",
