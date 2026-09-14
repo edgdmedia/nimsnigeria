@@ -111,12 +111,12 @@ export default function HomePage() {
                 </p>
             </div>
             <div className="w-full md:w-2/3 grid grid-cols-3 gap-6 md:gap-8 items-center justify-items-center opacity-70">
-                <img src="/images/logo-5-edited.png" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
-                <img src="/images/ggg-1.png" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
+                <img src="/images/logo-5-edited.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
+                <img src="/images/ggg-1.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
                 <img src="/images/download-1.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
                 <img src="/images/whatsap-image-2025-07-10-at-9-11-03-e2-80-afpm.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
-                <img src="/images/cropped-boi-logo-color-01-1536x381-1-1024x254.png" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
-                <img src="/images/cropped-cropped-nsitf-logo-300x297-1.png" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
+                <img src="/images/cropped-boi-logo-color-01-1536x381-1-1024x254.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
+                <img src="/images/cropped-cropped-nsitf-logo-300x297-1.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
             </div>
         </div>
     </div>
@@ -148,7 +148,7 @@ export default function HomePage() {
             <p className="font-sans text-gray-700 max-w-3xl mb-12">
                 The inaugural National Industrial Manpower Summit established NIMS as a national platform for industrial workforce development, bringing together key stakeholders from across Nigeria and around the world to shape the future of industrial skills and human capital.
             </p>
-            
+
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full mb-10">
                 <div className="bg-white rounded-[20px] p-6 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.1)] border border-gray-50 flex flex-col items-center justify-center">
                     <span className="font-heading font-bold text-4xl md:text-5xl text-primary mb-2"><CountUp end={2500} suffix="+" /></span>
@@ -167,7 +167,7 @@ export default function HomePage() {
                     <span className="font-sans text-gray-600 font-medium text-center leading-tight">Strategic MOUs Signed</span>
                 </div>
             </div>
-            
+
             <a className="bg-primary text-white font-sans font-medium text-sm md:text-base rounded-[10px] px-8 py-3 hover:bg-green-700 transition inline-block shadow-md hover:shadow-lg" href="./nims-2025.html">
                 NIMS 2025 Highlights
             </a>
@@ -216,22 +216,22 @@ export default function HomePage() {
         {/*  Right Col (Deliverables)  */}
         <div className="w-full lg:w-[60%] flex flex-col gap-6 pt-2">
             <h5 className="font-sans font-semibold text-lg text-gray-800 border-b border-gray-200 pb-2 mb-2">Expected deliverables include:</h5>
-            
+
             <div className="bg-white rounded-xl p-6 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.1)] border border-gray-100 border-l-4 border-l-primary">
                 <h6 className="font-heading font-semibold text-xl text-gray-900 mb-2">National Industrial Workforce Strategy</h6>
                 <p className="font-sans text-gray-600">A comprehensive 10-year roadmap for developing Nigeria's industrial talent.</p>
             </div>
-            
+
             <div className="bg-white rounded-xl p-6 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.1)] border border-gray-100 border-l-4 border-l-primary">
                 <h6 className="font-heading font-semibold text-xl text-gray-900 mb-2">Policy Recommendations</h6>
-                <p className="font-sans text-gray-600">Actionable recommendations to inform workforce development, TVET reform and industrial skills policy.</p>
+                <p className="font-sans text-gray-600">Actionable recommendations to inform workforce development, Technical & Vocational Education Training (TVET) reform and industrial skills policy.</p>
             </div>
-            
+
             <div className="bg-white rounded-xl p-6 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.1)] border border-gray-100 border-l-4 border-l-primary">
                 <h6 className="font-heading font-semibold text-xl text-gray-900 mb-2">Strategic Partnerships</h6>
                 <p className="font-sans text-gray-600">New collaborations between government, industry, academia and international development partners.</p>
             </div>
-            
+
             <p className="font-sans text-gray-500 italic mt-2">… and more</p>
         </div>
     </div>
@@ -241,7 +241,7 @@ export default function HomePage() {
         <div className="w-full md:w-[45%] flex justify-center">
             <img src="/images/INGENIOUS_697.webp" alt="Distinguished Speakers" className="w-full h-87.5 md:h-112.5 object-cover rounded-[20px] shadow-lg" />
         </div>
-        
+
         {/*  Right Col (Content)  */}
         <div className="w-full md:w-[55%] flex flex-col justify-center text-center md:text-left items-center md:items-start">
             <h2 className="font-heading font-semibold text-3xl md:text-4xl text-gray-900 mb-6">Distinguished Voices, Coming Soon</h2>
@@ -263,46 +263,46 @@ export default function HomePage() {
         <h2 className="text-center font-heading font-semibold text-3xl md:text-4xl text-gray-900 mb-6">Meet the Leaders Shaping Nigeria’s Industrial Future</h2>
         <div className="w-71.5 border-t border-black mb-6"></div>
         <h5 className="text-center font-sans text-lg md:text-xl text-gray-800 mb-12">From trailblazing entrepreneurs to global policy experts, NIMS 2025 brings together a powerhouse lineup of speakers.</h5>
-        
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 w-full">
             {/*  Speaker 1  */}
             <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/abba-abubakar-aliyu.png" alt="Abba Abubakar Aliyu" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
+                <img src="/images/abba-abubakar-aliyu.webp" alt="Abba Abubakar Aliyu" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
                 <div className="w-31.5 border-t border-black my-4"></div>
                 <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Abba Abubakar Aliyu</h6>
                 <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">MD/CEO, Rural Electrification Agency (REA)</p>
             </div>
             {/*  Speaker 2  */}
             <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/wale.png" alt="Wale Tinubu, CON" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
+                <img src="/images/wale.webp" alt="Wale Tinubu, CON" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
                 <div className="w-31.5 border-t border-black my-4"></div>
                 <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Wale Tinubu, CON</h6>
                 <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">Group Chief Executive, Oando PLC</p>
             </div>
             {/*  Speaker 3  */}
             <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/6.png" alt="Mr. Roosevelt Ogbonna FCA, CFA" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
+                <img src="/images/6.webp" alt="Mr. Roosevelt Ogbonna FCA, CFA" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
                 <div className="w-31.5 border-t border-black my-4"></div>
                 <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Mr. Roosevelt Ogbonna FCA, CFA</h6>
                 <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">MD/CEO, Access Bank Plc.</p>
             </div>
             {/*  Speaker 4  */}
             <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/zaaa.png" alt="Dr. Zacch Adedeji" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
+                <img src="/images/zaaa.webp" alt="Dr. Zacch Adedeji" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
                 <div className="w-31.5 border-t border-black my-4"></div>
                 <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Dr. Zacch Adedeji</h6>
                 <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">Executive Chairman, Federal Inland Revenue Service(FIRS)</p>
             </div>
             {/*  Speaker 5  */}
             <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/9.png" alt="Amb Nura Abba Rimi" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
+                <img src="/images/9.webp" alt="Amb Nura Abba Rimi" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
                 <div className="w-31.5 border-t border-black my-4"></div>
                 <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Amb Nura Abba Rimi</h6>
                 <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">Permanent Secretary, Federal Ministry of Industry, Trade and Investment, Federal Republic of Nigeria.</p>
             </div>
             {/*  Speaker 6  */}
             <div className="flex flex-col items-center bg-transparent md:bg-white p-5 rounded-[10px] md:shadow-sm md:hover:shadow-md transition-shadow">
-                <img src="/images/bambam.png" alt="Bamanga Usman Jada" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
+                <img src="/images/bambam.webp" alt="Bamanga Usman Jada" className="w-full max-w-75 aspect-square object-cover rounded-[10px] mb-4" />
                 <div className="w-31.5 border-t border-black my-4"></div>
                 <h6 className="text-center font-heading font-semibold text-lg md:text-xl text-primary">Bamanga Usman Jada</h6>
                 <p className="text-center font-sans text-[14px] font-medium text-[#278645] mt-1">Managing Director and Chief Executive, Oil and Gas Free Zones Authority Nigeria</p>

@@ -57,7 +57,7 @@ export function SiteNav() {
         }`}
       >
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/images/logi.png" alt="NIMS Logo" width={47} height={47} className="w-[47px] h-auto" />
+          <Image src="/images/logi.webp" alt="NIMS Logo" width={47} height={47} className="w-[47px] h-auto" />
           <span className="font-sans text-[14px] md:text-[20px] font-semibold text-primary ml-2">NIMS 2026</span>
         </Link>
 
