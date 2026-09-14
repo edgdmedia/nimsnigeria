@@ -131,12 +131,12 @@ export default function HomePage() {
                 </p>
             </div>
             <div className="w-full md:w-2/3 grid grid-cols-3 gap-6 md:gap-8 items-center justify-items-center opacity-70">
-                <img src="/images/logo-5-edited.png" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
-                <img src="/images/ggg-1.png" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
+                <img src="/images/logo-5-edited.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
+                <img src="/images/ggg-1.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
                 <img src="/images/download-1.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
                 <img src="/images/whatsap-image-2025-07-10-at-9-11-03-e2-80-afpm.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
-                <img src="/images/cropped-boi-logo-color-01-1536x381-1-1024x254.png" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
-                <img src="/images/cropped-cropped-nsitf-logo-300x297-1.png" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
+                <img src="/images/cropped-boi-logo-color-01-1536x381-1-1024x254.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
+                <img src="/images/cropped-cropped-nsitf-logo-300x297-1.webp" alt="Sponsor" className="h-10 md:h-12 object-contain hover:opacity-100 transition-opacity mix-blend-multiply grayscale hover:grayscale-0" />
             </div>
         </div>
     </div>

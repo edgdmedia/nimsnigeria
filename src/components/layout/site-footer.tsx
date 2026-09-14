@@ -13,7 +13,7 @@ export function SiteFooter() {
         <div className="flex flex-col">
           <div className="flex flex-row p-3 items-center">
             <a href="https://www.nimsnigeria.org" className="block">
-              <Image src="/images/logi.png" alt="NIMS Logo" width={135} height={135} className="w-25 md:w-[135px] h-auto transition-all duration-300" />
+              <Image src="/images/logi.webp" alt="NIMS Logo" width={135} height={135} className="w-25 md:w-[135px] h-auto transition-all duration-300" />
             </a>
             <h6 className="font-heading w-1/2 font-semibold tracking-[2.5px] text-[#FCFFFD] text-lg lg:text-[16px] mt-4 ml-4">
               National Industrial Manpower Summit, 2026
@@ -24,7 +24,7 @@ export function SiteFooter() {
               Powered by:
             </p>
             <div className="flex items-center gap-2 flex-wrap">
-              <Image src="/images/ggg-1.png" alt="Sponsor 1" width={150} height={50} className="max-w-[44%] h-auto" />
+              <Image src="/images/ggg-1.webp" alt="Sponsor 1" width={150} height={50} className="max-w-[44%] h-auto" />
               <Image src="/images/whatsap-image-2025-07-10-at-9-11-03-e2-80-afpm.webp" alt="Sponsor 2" width={150} height={50} className="max-w-[48%] h-auto" />
             </div>
           </div>
