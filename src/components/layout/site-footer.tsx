@@ -62,7 +62,7 @@ export function SiteFooter() {
             <li><Link href="/gallery" className="text-[#C9C9C9] font-heading text-[14px] font-medium py-1.5 hover:text-primary transition-colors">Gallery</Link></li>
             <li><Link href="/programme" className="text-[#C9C9C9] font-heading text-[14px] font-medium py-1.5 hover:text-primary transition-colors">Programme</Link></li>
             <li><Link href="/speakers" className="text-[#C9C9C9] font-heading text-[14px] font-medium py-1.5 hover:text-primary transition-colors">Speakers</Link></li>
-            <li><Link href="/partners" className="text-[#C9C9C9] font-heading text-[14px] font-medium py-1.5 hover:text-primary transition-colors">Partners</Link></li>
+            <li><Link href="/sponsors" className="text-[#C9C9C9] font-heading text-[14px] font-medium py-1.5 hover:text-primary transition-colors">Partners</Link></li>
           </ul>
         </div>
 

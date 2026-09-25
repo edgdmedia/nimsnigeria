@@ -22,7 +22,8 @@ const NAV_LINKS = [
     name: "Partners", 
     href: "#",
     children: [
-      { name: "Sponsors & Exhibitors", href: "/partners" },
+      { name: "Sponsors", href: "/sponsors" },
+      { name: "Exhibitors", href: "/exhibitors" },
     ]
   },
 ];
