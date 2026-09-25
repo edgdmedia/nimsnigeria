@@ -2,6 +2,14 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"main": ".open-next/worker.js",
 	"name": "nimsnigeria",
+	"account_id": "af273e5d58efe45fa36724c5a3e61052",
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "nims-registrations",
+			"database_id": "5c4ee66c-671c-4b32-9396-efd67b756da3"
+		}
+	],
 	"compatibility_date": "2026-07-26",
 	"compatibility_flags": [
 		"nodejs_compat",
