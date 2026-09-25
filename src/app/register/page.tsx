@@ -7,7 +7,7 @@ export default function RegisterPage() {
       <PageBanner
         title="Register for NIMS 2026"
         description={
-          <>15&ndash;16 October 2026 &middot; State House Banquet Hall, Presidential Villa, Abuja</>
+          <>15&ndash;Registration closes on 5th October 2026 </>
         }
       />
 

@@ -23,7 +23,7 @@ export default function AboutPage() {
                 NIMS is a national platform for collaboration, policy development and strategic partnerships that strengthen Nigeria's industrial workforce and position the country for sustainable economic transformation.
             </p>
         </div>
-        
+
         {/*  Right Side: Image  */}
         <div className="w-full md:w-[40%] flex justify-center">
             <div className="w-full max-w-100 h-125 rounded-[5px] overflow-hidden shadow-xl">
@@ -73,7 +73,7 @@ export default function AboutPage() {
             {/*  Background Image with Overlay  */}
             <div className="absolute inset-0 bg-[url('/images/pexels-thomas-parker-1272388137-24246926-scaled.webp')] bg-cover bg-top -z-20"></div>
             <div className="absolute inset-0 bg-primary opacity-85 -z-10 mix-blend-normal"></div>
-            
+
             {/*  Left Side (Vision)  */}
             <div className="w-full md:w-1/2 text-white md:pr-12 flex flex-col justify-center">
                 <h4 className="font-sans font-bold text-2xl md:text-3xl mb-4">Our Vision</h4>
@@ -82,7 +82,7 @@ export default function AboutPage() {
                     To establish Nigeria as Africa's hub for industrial talent and innovation, with a world-class workforce capable of driving sustainable economic growth and global competitiveness.
                 </p>
             </div>
-            
+
             {/*  Divider  */}
             <div className="hidden md:block w-px bg-white/30 my-4"></div>
             <div className="block md:hidden h-px w-full bg-white/30"></div>
@@ -119,7 +119,7 @@ export default function AboutPage() {
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300">
                         <svg className="w-8 h-8 text-primary group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
                     </div>
-                    <h5 className="font-sans font-bold text-lg text-gray-900">Advance TVET reform</h5>
+                    <h5 className="font-sans font-bold text-lg text-gray-900">Advance Technical & Vocational Education Training (TVET) reform</h5>
                 </div>
                 {/*  Card 3  */}
                 <div className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col items-center text-center group">
@@ -197,7 +197,7 @@ export default function AboutPage() {
                         Learn about this year's theme, programme and expected outcomes.
                     </p>
                 </a>
-                
+
                 {/* Card 2 */}
                 <a href="/nims-2025" className="group flex flex-col bg-white border border-gray-100 rounded-2xl p-8 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.1)] hover:shadow-[0_8px_30px_-10px_rgba(0,0,0,0.15)] hover:-translate-y-1 transition-all duration-300 text-left">
                     <h3 className="font-heading font-semibold text-xl text-gray-900 group-hover:text-primary transition-colors mb-3 flex items-center justify-between">
@@ -210,7 +210,7 @@ export default function AboutPage() {
                         Explore highlights, speakers, gallery and key outcomes from the inaugural summit.
                     </p>
                 </a>
-                
+
                 {/* Card 3 */}
                 <a href="/partners" className="group flex flex-col bg-white border border-gray-100 rounded-2xl p-8 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.1)] hover:shadow-[0_8px_30px_-10px_rgba(0,0,0,0.15)] hover:-translate-y-1 transition-all duration-300 text-left">
                     <h3 className="font-heading font-semibold text-xl text-gray-900 group-hover:text-primary transition-colors mb-3 flex items-center justify-between">

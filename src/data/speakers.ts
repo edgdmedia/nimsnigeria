@@ -4,6 +4,7 @@ export interface Speaker {
   role: string;
   image: string;
   years: number[];
+  tag?: string;
 }
 
 export const speakers: Speaker[] = [
@@ -106,10 +107,10 @@ export const speakers: Speaker[] = [
     years: [2026]
   },
   {
-    id: "2026-2",
-    name: "Sen. Kashim Shettima, GCON",
-    role: "Vice-President, Federal Republic of Nigeria",
-    image: "/images/sen-kashim-shettima.webp",
+    id: "2026-14",
+    name: "Dr. Jumoke Oduwole, MFR",
+    role: "Honourable Minister, Federal Ministry of Industry, Trade and Investment, Federal Republic of Nigeria",
+    image: "/images/dr-jumoke-oduwole.webp",
     years: [2026]
   },
   {
@@ -117,6 +118,43 @@ export const speakers: Speaker[] = [
     name: "Distinguished Senator John Owan Enoh",
     role: "Minister of State for Industry",
     image: "/images/distinguished-senator-john-owan-enoh.webp",
+    years: [2026]
+  },
+  {
+    id: "2026-7",
+    name: "Hon Adamson Oluwatosin Ayinde",
+    role: "Senior Special Assistant to the President on Industrial Training and Development",
+    image: "/images/hon-adamson-oluwatosin-ayinde.webp",
+    years: [2026],
+    tag: "Convener"
+  },
+  {
+    id: "2026-8",
+    name: "Dr. Afiz Oluwatoyin Ogun",
+    role: "Director-General, Industrial Training Fund (ITF)",
+    image: "/images/dr-afiz-oluwatoyin-ogun.webp",
+    years: [2026],
+    tag: "Co-Host"
+  },
+  {
+    id: "2026-15",
+    name: "Abdul Samad Rabiu",
+    role: "Founder, BUA Group",
+    image: "/images/alhaji-abdul-samad-isyaku-rabiu.webp",
+    years: [2026]
+  },
+  {
+    id: "2026-16",
+    name: "Cosmas Maduka",
+    role: "Founder, COSCHARIS",
+    image: "/images/cosmas-maduka.webp",
+    years: [2026]
+  },
+  {
+    id: "2026-17",
+    name: "Jude Anele",
+    role: "MD/CEO, Nova Bank Plc",
+    image: "/images/jude-anele.webp",
     years: [2026]
   },
   {
@@ -138,20 +176,6 @@ export const speakers: Speaker[] = [
     name: "Prince Shuaibu Abubakar Audu",
     role: "Minister of Steel",
     image: "/images/prince-shuaibu-abubakar-audu.webp",
-    years: [2026]
-  },
-  {
-    id: "2026-7",
-    name: "Hon Adamson Oluwatosin Ayinde",
-    role: "Senior Special Assistant to the President on Industrial Training and Development",
-    image: "/images/hon-adamson-oluwatosin-ayinde.webp",
-    years: [2026]
-  },
-  {
-    id: "2026-8",
-    name: "Dr. Afiz Oluwatoyin Ogun",
-    role: "Director-General, Industrial Training Fund (ITF)",
-    image: "/images/dr-afiz-oluwatoyin-ogun.webp",
     years: [2026]
   },
   {
