@@ -2,7 +2,7 @@ import Image from "next/image";
 import { PageBanner } from "@/components/layout/page-banner";
 import { speakers2026 } from "@/data/speakers";
 
-const KEYNOTE_ID = "2026-1";
+const KEYNOTE_ID = "tinubu";
 
 export default function SpeakersPage() {
   const keynote = speakers2026.find((speaker) => speaker.id === KEYNOTE_ID);
