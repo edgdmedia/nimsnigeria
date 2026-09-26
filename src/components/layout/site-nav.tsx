@@ -11,6 +11,7 @@ const NAV_LINKS = [
     href: "#",
     children: [
       { name: "About NIMS", href: "/about" },
+      { name: "Committees", href: "/committees" },
       { name: "NIMS 2025", href: "/nims-2025" },
       { name: "Gallery", href: "/gallery" },
     ]
