@@ -11,6 +11,7 @@ const NAV_LINKS = [
     href: "#",
     children: [
       { name: "About NIMS", href: "/about" },
+      { name: "Committees", href: "/committees" },
       { name: "NIMS 2025", href: "/nims-2025" },
       { name: "Gallery", href: "/gallery" },
     ]
@@ -22,7 +23,8 @@ const NAV_LINKS = [
     name: "Partners", 
     href: "#",
     children: [
-      { name: "Sponsors & Exhibitors", href: "/partners" },
+      { name: "Sponsors", href: "/sponsors" },
+      { name: "Exhibitors", href: "/exhibitors" },
     ]
   },
 ];

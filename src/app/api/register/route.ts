@@ -1,4 +1,6 @@
 import { getCloudflareContext } from "@opennextjs/cloudflare";
+import { sendMail } from "@/lib/email";
+import { buildRegistrationEmail } from "@/lib/registration-email";
 
 const REQUIRED_FIELDS = [
   "firstName",
@@ -33,12 +35,25 @@ export async function POST(request: Request) {
   }
 
   try {
-    const { env } = await getCloudflareContext();
-    await env.DB.prepare(
+    const { env, ctx } = await getCloudflareContext();
+    const { meta } = await env.DB.prepare(
       "INSERT INTO registrations (first_name, last_name, email, phone, company, job_title) VALUES (?, ?, ?, ?, ?, ?)"
     )
       .bind(values.firstName, values.lastName, values.email, values.phone, values.company, values.jobTitle)
       .run();
+
+    const mail = buildRegistrationEmail(values.firstName, values.email);
+    ctx.waitUntil(
+      sendMail(env, mail)
+        .then((provider) =>
+          env.DB.prepare("UPDATE registrations SET email_sent = 1, email_provider = ? WHERE id = ?")
+            .bind(provider, meta.last_row_id)
+            .run()
+        )
+        .catch((err) => {
+          console.error(`Failed to send registration email to ${values.email}:`, err);
+        })
+    );
   } catch (err) {
     console.error("Failed to save registration:", err);
     return Response.json(
