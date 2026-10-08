@@ -19,5 +19,6 @@ export const sponsors: Sponsor[] = [
   { name: "Moma", image: "/images/sponsors/moma.webp" },
   { name: "Nexim Bank", image: "/images/sponsors/nexim-bank.webp" },
   { name: "Nova Bank", image: "/images/sponsors/nova-bank.webp" },
+  { name: "NRS", image: "/images/sponsors/nrs.webp" },
   { name: "Tanitta", image: "/images/sponsors/tanitta.webp" }
 ];
