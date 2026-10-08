@@ -74,5 +74,15 @@ export const committees: Committee[] = [
       { name: "Hakeem Olugbode", image: "/images/committee/monitoring-evaluation/hakeem-olugbode.webp" },
       { name: "Olamide Lawal", image: "/images/committee/monitoring-evaluation/olamide-lawal.webp" }
     ]
+  },
+  {
+    id: "security",
+    name: "Security Committee",
+    description: "The team responsible for coordinating security planning and operations, overseeing access and movement protocols, and ensuring a safe and secure environment throughout the summit.",
+    members: [
+      { name: "Rukevwe Agbamu", role: "Chairman", image: "/images/committee/security/rukevwe-agbamu.webp" },
+      { name: "Mohammed Ahmed Rabiu", role: "Member", image: "/images/committee/security/mohammed-ahmed-rabiu.webp" },
+      { name: "Squadron Leader N.A. Obafemi Nathaniel", role: "Secretary" }
+    ]
   }
 ];
