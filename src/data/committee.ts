@@ -44,6 +44,7 @@ export const committees: Committee[] = [
     description: "The team responsible for speaker coordination, guest engagement and stakeholder liaison.",
     members: [
       { name: "Adebola Mutiat Taiwo", image: "/images/committee/speaker-guest-engagement/adebola-mutiat-taiwo.webp" },
+      { name: "Dr. Celsuspaul E. Ekweme", image: "/images/committee/speaker-guest-engagement/dr-celsuspaul-ekweme.webp" },
       { name: "Dr. Ganiyu Oluremi Sopehin", image: "/images/committee/speaker-guest-engagement/dr-ganiyu-oluremi-sopehin.webp" },
       { name: "Dr. Taiwo Bashir", image: "/images/committee/speaker-guest-engagement/dr-taiwo-bashir.webp" },
       { name: "Maryam Adamu", image: "/images/committee/speaker-guest-engagement/maryam-adamu.webp" },
@@ -61,6 +62,7 @@ export const committees: Committee[] = [
       { name: "Dr. Akinfalabi Sheu Ibrahim", image: "/images/committee/media-publicity/dr-akinfalabi-sheu-ibrahim.webp" },
       { name: "Dr. Sulaiman Kassim", image: "/images/committee/media-publicity/dr-sulaiman-kassim.webp" },
       { name: "Khalid Oshoke Ahmed", image: "/images/committee/media-publicity/khalid-oshoke-ahmed.webp" },
+      { name: "Olaide Aduragbemi Olanrewaju", image: "/images/committee/media-publicity/olaide-aduragbemi-olanrewaju.webp" },
       { name: "Oluseyi Nurudeen", image: "/images/committee/media-publicity/oluseyi-nurudeen.webp" }
     ]
   },
@@ -72,6 +74,7 @@ export const committees: Committee[] = [
       { name: "Dr Kemi Abayeh", image: "/images/committee/monitoring-evaluation/dr-kemi-abayeh.webp" },
       { name: "Dr. Abimbola James", image: "/images/committee/monitoring-evaluation/dr-abimbola-james.webp" },
       { name: "Hakeem Olugbode", image: "/images/committee/monitoring-evaluation/hakeem-olugbode.webp" },
+      { name: "Mr. Orok Effanga", image: "/images/committee/monitoring-evaluation/orok-effanga.webp" },
       { name: "Olamide Lawal", image: "/images/committee/monitoring-evaluation/olamide-lawal.webp" }
     ]
   },

@@ -1,4 +1,5 @@
 import { PageBanner } from "@/components/layout/page-banner";
+import { exhibitors } from "@/data/exhibitors";
 
 export default function ExhibitorsPage() {
   return (
@@ -46,6 +47,39 @@ export default function ExhibitorsPage() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      <section className="w-full bg-gray-50 py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-5">
+          <div className="text-center mb-14">
+            <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-4">Our Exhibitors</h2>
+            <div className="w-24 h-1 bg-secondary mx-auto mb-6"></div>
+            <p className="font-sans text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+              Leading organisations from across industry, finance and the services sector are exhibiting at NIMS 2026.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            {exhibitors.map((exhibitor) => (
+              <div key={exhibitor.name} className="bg-white rounded-2xl border border-gray-100 shadow-sm flex flex-col items-center justify-center aspect-[4/3] p-6 hover:shadow-md transition-shadow">
+                <div className="w-full h-20 flex items-center justify-center">
+                  {exhibitor.image ? (
+                    <img src={exhibitor.image} alt={`${exhibitor.name} logo`} className="max-h-full max-w-full object-contain" />
+                  ) : (
+                    <div className="w-full h-full bg-primary/10 rounded-xl flex items-center justify-center">
+                      <span className="font-heading font-bold text-lg text-primary text-center leading-tight px-2">{exhibitor.name}</span>
+                    </div>
+                  )}
+                </div>
+                <p className="font-sans text-sm text-gray-600 text-center mt-4">{exhibitor.name}</p>
+              </div>
+            ))}
+          </div>
+
+          <p className="font-sans text-base text-gray-500 italic text-center mt-10">
+            More exhibitors will be announced as preparations for NIMS 2026 continue.
+          </p>
         </div>
       </section>
 
