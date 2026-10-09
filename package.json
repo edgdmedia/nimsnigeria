@@ -13,7 +13,8 @@
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
-    "emails:backfill": "node --experimental-strip-types scripts/send-pending-emails.ts"
+    "emails:backfill": "node --experimental-strip-types scripts/send-pending-emails.ts",
+    "emails:invitations": "node --experimental-strip-types scripts/send-invitation-emails.ts"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.20.2",
