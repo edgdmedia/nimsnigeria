@@ -119,10 +119,11 @@ interface DbRow {
   id: number;
   email: string;
   first_name: string;
+  reg_no: string | null;
 }
 
 function loadDbEmails(): Map<string, DbRow[]> {
-  const [{ results }] = d1Query("SELECT id, lower(email) AS email, first_name FROM registrations");
+  const [{ results }] = d1Query("SELECT id, lower(email) AS email, first_name, reg_no FROM registrations ORDER BY id");
   const map = new Map<string, DbRow[]>();
   for (const r of results as unknown as DbRow[]) {
     const list = map.get(r.email) ?? [];
@@ -193,11 +194,15 @@ function sync(): void {
   const stmts: string[] = [];
   const skipped: string[] = [];
   for (const [email, rows] of byEmail) {
-    const dbRows = db.get(email);
-    if (!dbRows) { skipped.push(email); continue; }
-    for (let i = 0; i < rows.length; i++) {
-      const target = dbRows[i % dbRows.length];
-      stmts.push(`UPDATE registrations SET reg_no = ${sqlStr(rows[i].reg_no)} WHERE id = ${target.id};`);
+    const all = db.get(email) ?? [];
+    if (all.some((r) => r.reg_no)) { continue; }
+    const unnumbered = all;
+    if (unnumbered.length === 0) { continue; }
+    for (let i = 0; i < Math.min(rows.length, unnumbered.length); i++) {
+      stmts.push(`UPDATE registrations SET reg_no = ${sqlStr(rows[i].reg_no)} WHERE id = ${unnumbered[i].id};`);
+    }
+    if (rows.length > unnumbered.length) {
+      skipped.push(`${email} (${rows.slice(unnumbered.length).map((r) => r.reg_no).join(",")} extra numbers skipped)`);
     }
   }
   for (let i = 0; i < stmts.length; i += 100) {
