@@ -52,7 +52,7 @@ export const mailjetProvider: EmailProvider = {
       Messages?: Array<{ Status?: string; ErrorMessage?: string }>;
     };
     const result = data.Messages?.[0];
-    if (result && result.Status !== "sent") {
+    if (result && result.Status !== "sent" && result.Status !== "success") {
       throw new Error(`Mailjet rejected: ${result.ErrorMessage ?? result.Status}`);
     }
   },
