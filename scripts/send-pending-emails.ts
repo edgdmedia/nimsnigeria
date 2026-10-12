@@ -92,7 +92,7 @@ async function sendOne(to: string, mail: { subject: string; text: string; html: 
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: `${EMAIL_FROM_NAME} <no-reply@send.nimsnigeria.org>`,
+        from: `${EMAIL_FROM_NAME} <${process.env.RESEND_FROM ?? "no-reply@nimsnigeria.org"}>`,
         reply_to: EMAIL_REPLY_TO,
         to: [to],
         subject: mail.subject,
