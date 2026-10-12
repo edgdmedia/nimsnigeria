@@ -133,8 +133,12 @@ async function sendOne(to: string, mail: { subject: string; text: string; html: 
       const detail = await res.text().catch(() => "");
       throw new Error(`Mailjet ${res.status}: ${detail.slice(0, 200)}`);
     }
-    const data = (await res.json()) as { Messages?: Array<{ Status?: string; MessageID?: string }> };
-    return String(data.Messages?.[0]?.MessageID ?? "accepted");
+    const data = (await res.json()) as { Messages?: Array<{ Status?: string; MessageID?: string; ErrorMessage?: string }> };
+    const msg = data.Messages?.[0];
+    if (msg && msg.Status !== "sent" && msg.Status !== "success") {
+      throw new Error(`Mailjet rejected: ${msg.ErrorMessage ?? msg.Status}`);
+    }
+    return String(msg?.MessageID ?? "accepted");
   }
 
   if (PROVIDER === "brevo") {
