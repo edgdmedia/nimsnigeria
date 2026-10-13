@@ -14,6 +14,13 @@ const REQUIRED_FIELDS = [
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export async function POST(request: Request) {
+  return Response.json(
+    { error: "Registration for NIMS 2026 is now closed. For enquiries, contact registration@nimsnigeria.org." },
+    { status: 410 }
+  );
+
+  // Registration closed 13 Oct 2026 — see src/app/register/page.tsx for the
+  // visitor-facing notice. The handlers below are retained for a future edition.
   let body: Record<string, unknown>;
   try {
     body = await request.json();
